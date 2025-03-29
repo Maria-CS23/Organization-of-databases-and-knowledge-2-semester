@@ -1,809 +1,811 @@
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (1, 'Фізична особа', '2024-01-15');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (2, 'Юридична особа', '2024-02-20');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (3, 'Фізична особа', '2024-05-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (4, 'Фізична особа', '2023-04-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (5, 'Фізична особа', '2023-05-12');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (6, 'Фізична особа', '2023-06-15');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (7, 'Фізична особа', '2023-07-20');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (8, 'Фізична особа', '2023-08-22');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (9, 'Фізична особа', '2023-09-25');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (10, 'Фізична особа', '2023-10-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (11, 'Фізична особа', '2023-11-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (12, 'Фізична особа', '2023-12-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (13, 'Фізична особа', '2024-01-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (14, 'Фізична особа', '2024-01-20');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (15, 'Фізична особа', '2024-02-15');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (16, 'Фізична особа', '2024-02-28');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (17, 'Фізична особа', '2024-03-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (18, 'Фізична особа', '2024-03-22');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (19, 'Фізична особа', '2024-04-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (20, 'Фізична особа', '2024-04-18');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (21, 'Фізична особа', '2024-05-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (22, 'Фізична особа', '2024-05-14');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (23, 'Фізична особа', '2024-05-27');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (24, 'Фізична особа', '2024-06-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (25, 'Фізична особа', '2024-06-17');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (26, 'Фізична особа', '2024-06-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (27, 'Фізична особа', '2024-07-12');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (28, 'Фізична особа', '2024-07-25');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (29, 'Фізична особа', '2024-08-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (30, 'Фізична особа', '2024-08-18');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (31, 'Фізична особа', '2024-08-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (32, 'Фізична особа', '2024-09-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (33, 'Фізична особа', '2024-09-22');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (34, 'Фізична особа', '2024-10-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (35, 'Фізична особа', '2024-10-18');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (36, 'Фізична особа', '2024-10-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (37, 'Фізична особа', '2024-11-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (38, 'Фізична особа', '2024-11-22');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (39, 'Фізична особа', '2024-12-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (40, 'Фізична особа', '2024-12-15');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (41, 'Фізична особа', '2024-12-27');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (42, 'Фізична особа', '2025-01-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (43, 'Фізична особа', '2025-01-20');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (44, 'Фізична особа', '2025-02-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (45, 'Фізична особа', '2025-02-18');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (46, 'Фізична особа', '2025-03-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (47, 'Фізична особа', '2025-03-15');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (48, 'Фізична особа', '2025-03-28');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (49, 'Фізична особа', '2025-04-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (50, 'Фізична особа', '2025-04-22');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (51, 'Фізична особа', '2025-05-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (52, 'Фізична особа', '2025-05-14');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (53, 'Фізична особа', '2025-05-27');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (54, 'Фізична особа', '2025-06-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (55, 'Фізична особа', '2025-06-17');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (56, 'Фізична особа', '2025-06-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (57, 'Фізична особа', '2025-07-12');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (58, 'Фізична особа', '2025-07-25');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (59, 'Фізична особа', '2025-08-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (60, 'Фізична особа', '2025-08-18');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (61, 'Фізична особа', '2025-08-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (62, 'Фізична особа', '2025-09-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (63, 'Фізична особа', '2025-09-22');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (64, 'Фізична особа', '2025-10-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (65, 'Фізична особа', '2025-10-18');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (66, 'Фізична особа', '2025-10-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (67, 'Фізична особа', '2025-11-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (68, 'Фізична особа', '2025-11-22');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (69, 'Фізична особа', '2025-12-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (70, 'Фізична особа', '2025-12-15');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (71, 'Фізична особа', '2025-12-27');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (72, 'Фізична особа', '2024-01-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (73, 'Фізична особа', '2021-01-20');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (74, 'Фізична особа', '2019-02-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (75, 'Фізична особа', '2018-02-18');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (76, 'Фізична особа', '2016-03-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (77, 'Фізична особа', '2017-03-15');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (78, 'Фізична особа', '2019-03-28');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (79, 'Фізична особа', '2020-04-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (80, 'Фізична особа', '2021-04-22');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (81, 'Фізична особа', '2022-05-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (82, 'Фізична особа', '2023-05-14');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (83, 'Фізична особа', '2024-05-27');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (84, 'Фізична особа', '2026-06-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (85, 'Фізична особа', '2026-06-17');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (86, 'Фізична особа', '2026-06-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (87, 'Фізична особа', '2026-07-12');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (88, 'Фізична особа', '2026-07-25');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (89, 'Фізична особа', '2026-08-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (90, 'Фізична особа', '2026-08-18');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (91, 'Фізична особа', '2026-08-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (92, 'Фізична особа', '2026-09-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (93, 'Фізична особа', '2026-09-22');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (94, 'Фізична особа', '2026-10-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (95, 'Фізична особа', '2026-10-18');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (96, 'Фізична особа', '2026-10-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (97, 'Фізична особа', '2026-11-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (98, 'Фізична особа', '2026-11-22');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (99, 'Фізична особа', '2026-12-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (100, 'Фізична особа', '2026-12-15');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (101, 'Фізична особа', '2023-07-13');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (102, 'Юридична особа', '2023-01-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (103, 'Юридична особа', '2023-02-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (104, 'Юридична особа', '2023-03-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (105, 'Юридична особа', '2023-04-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (106, 'Юридична особа', '2023-05-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (107, 'Юридична особа', '2023-06-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (108, 'Юридична особа', '2023-07-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (109, 'Юридична особа', '2023-08-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (110, 'Юридична особа', '2023-09-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (111, 'Юридична особа', '2023-10-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (112, 'Юридична особа', '2023-11-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (113, 'Юридична особа', '2023-12-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (114, 'Юридична особа', '2024-01-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (115, 'Юридична особа', '2024-02-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (116, 'Юридична особа', '2024-03-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (117, 'Юридична особа', '2024-04-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (118, 'Юридична особа', '2024-05-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (119, 'Юридична особа', '2024-06-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (120, 'Юридична особа', '2024-07-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (121, 'Юридична особа', '2024-08-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (122, 'Юридична особа', '2023-09-20');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (123, 'Юридична особа', '2024-10-25');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (124, 'Юридична особа', '2025-11-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (125, 'Юридична особа', '2022-12-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (126, 'Юридична особа', '2021-01-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (127, 'Юридична особа', '2023-02-15');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (128, 'Юридична особа', '2024-03-20');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (129, 'Юридична особа', '2022-04-25');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (130, 'Юридична особа', '2022-05-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (131, 'Юридична особа', '2021-06-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (132, 'Юридична особа', '2023-07-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (133, 'Юридична особа', '2024-08-15');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (134, 'Юридична особа', '2021-09-20');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (135, 'Юридична особа', '2022-10-25');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (136, 'Юридична особа', '2021-11-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (137, 'Юридична особа', '2023-12-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (138, 'Юридична особа', '2024-01-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (139, 'Юридична особа', '2025-02-15');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (140, 'Юридична особа', '2022-03-20');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (141, 'Юридична особа', '2021-04-25');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (142, 'Юридична особа', '2023-05-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (143, 'Юридична особа', '2024-06-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (144, 'Юридична особа', '2020-07-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (145, 'Юридична особа', '2022-08-15');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (146, 'Юридична особа', '2021-09-20');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (147, 'Юридична особа', '2023-10-25');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (148, 'Юридична особа', '2024-11-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (149, 'Юридична особа', '2020-12-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (150, 'Юридична особа', '2022-01-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (151, 'Юридична особа', '2022-01-11');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (152, 'Юридична особа', '2022-01-12');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (153, 'Юридична особа', '2022-01-13');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (154, 'Юридична особа', '2022-01-14');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (155, 'Юридична особа', '2022-01-15');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (156, 'Юридична особа', '2022-01-16');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (157, 'Юридична особа', '2022-01-17');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (158, 'Юридична особа', '2022-01-18');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (159, 'Юридична особа', '2022-01-19');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (160, 'Юридична особа', '2022-01-20');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (161, 'Юридична особа', '2022-01-21');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (162, 'Юридична особа', '2022-01-22');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (163, 'Юридична особа', '2022-01-23');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (164, 'Юридична особа', '2022-01-24');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (165, 'Юридична особа', '2022-01-25');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (166, 'Юридична особа', '2022-01-26');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (167, 'Юридична особа', '2022-01-27');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (168, 'Юридична особа', '2022-01-28');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (169, 'Юридична особа', '2022-01-29');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (170, 'Юридична особа', '2022-01-30');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (171, 'Юридична особа', '2022-01-31');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (172, 'Юридична особа', '2022-02-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (173, 'Юридична особа', '2022-02-02');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (174, 'Юридична особа', '2022-02-03');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (175, 'Юридична особа', '2022-02-04');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (176, 'Юридична особа', '2022-02-05');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (177, 'Юридична особа', '2022-02-06');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (178, 'Юридична особа', '2022-02-07');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (179, 'Юридична особа', '2022-02-08');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (180, 'Юридична особа', '2022-02-09');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (181, 'Юридична особа', '2022-02-10');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (182, 'Юридична особа', '2022-02-11');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (183, 'Юридична особа', '2022-02-12');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (184, 'Юридична особа', '2022-02-13');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (185, 'Юридична особа', '2022-02-14');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (186, 'Юридична особа', '2022-02-15');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (187, 'Юридична особа', '2022-02-16');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (188, 'Юридична особа', '2022-02-17');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (189, 'Юридична особа', '2022-02-18');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (190, 'Юридична особа', '2022-02-19');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (191, 'Юридична особа', '2022-02-20');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (192, 'Юридична особа', '2022-02-21');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (193, 'Юридична особа', '2022-02-22');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (194, 'Юридична особа', '2022-02-23');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (195, 'Юридична особа', '2022-02-24');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (196, 'Юридична особа', '2022-02-25');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (197, 'Юридична особа', '2022-02-26');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (198, 'Юридична особа', '2022-02-27');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (199, 'Юридична особа', '2022-02-28');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (200, 'Юридична особа', '2022-03-01');
-INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (201, 'Юридична особа', '2022-03-02');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (1, N'Фізична особа', '2024-01-15');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (2, N'Юридична особа', '2024-02-20');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (3, N'Фізична особа', '2024-05-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (4, N'Фізична особа', '2023-04-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (5, N'Фізична особа', '2023-05-12');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (6, N'Фізична особа', '2023-06-15');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (7, N'Фізична особа', '2023-07-20');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (8, N'Фізична особа', '2023-08-22');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (9, N'Фізична особа', '2023-09-25');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (10, N'Фізична особа', '2023-10-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (11, N'Фізична особа', '2023-11-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (12, N'Фізична особа', '2023-12-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (13, N'Фізична особа', '2024-01-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (14, N'Фізична особа', '2024-01-20');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (15, N'Фізична особа', '2024-02-15');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (16, N'Фізична особа', '2024-02-28');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (17, N'Фізична особа', '2024-03-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (18, N'Фізична особа', '2024-03-22');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (19, N'Фізична особа', '2024-04-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (20, N'Фізична особа', '2024-04-18');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (21, N'Фізична особа', '2024-05-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (22, N'Фізична особа', '2024-05-14');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (23, N'Фізична особа', '2024-05-27');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (24, N'Фізична особа', '2024-06-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (25, N'Фізична особа', '2024-06-17');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (26, N'Фізична особа', '2024-06-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (27, N'Фізична особа', '2024-07-12');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (28, N'Фізична особа', '2024-07-25');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (29, N'Фізична особа', '2024-08-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (30, N'Фізична особа', '2024-08-18');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (31, N'Фізична особа', '2024-08-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (32, N'Фізична особа', '2024-09-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (33, N'Фізична особа', '2024-09-22');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (34, N'Фізична особа', '2024-10-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (35, N'Фізична особа', '2024-10-18');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (36, N'Фізична особа', '2024-10-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (37, N'Фізична особа', '2024-11-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (38, N'Фізична особа', '2024-11-22');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (39, N'Фізична особа', '2024-12-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (40, N'Фізична особа', '2024-12-15');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (41, N'Фізична особа', '2024-12-27');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (42, N'Фізична особа', '2025-01-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (43, N'Фізична особа', '2025-01-20');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (44, N'Фізична особа', '2025-02-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (45, N'Фізична особа', '2025-02-18');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (46, N'Фізична особа', '2025-03-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (47, N'Фізична особа', '2025-03-15');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (48, N'Фізична особа', '2025-03-28');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (49, N'Фізична особа', '2025-04-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (50, N'Фізична особа', '2025-04-22');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (51, N'Фізична особа', '2025-05-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (52, N'Фізична особа', '2025-05-14');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (53, N'Фізична особа', '2025-05-27');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (54, N'Фізична особа', '2025-06-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (55, N'Фізична особа', '2025-06-17');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (56, N'Фізична особа', '2025-06-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (57, N'Фізична особа', '2025-07-12');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (58, N'Фізична особа', '2025-07-25');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (59, N'Фізична особа', '2025-08-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (60, N'Фізична особа', '2025-08-18');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (61, N'Фізична особа', '2025-08-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (62, N'Фізична особа', '2025-09-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (63, N'Фізична особа', '2025-09-22');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (64, N'Фізична особа', '2025-10-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (65, N'Фізична особа', '2025-10-18');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (66, N'Фізична особа', '2025-10-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (67, N'Фізична особа', '2025-11-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (68, N'Фізична особа', '2025-11-22');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (69, N'Фізична особа', '2025-12-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (70, N'Фізична особа', '2025-12-15');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (71, N'Фізична особа', '2025-12-27');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (72, N'Фізична особа', '2024-01-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (73, N'Фізична особа', '2021-01-20');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (74, N'Фізична особа', '2019-02-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (75, N'Фізична особа', '2018-02-18');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (76, N'Фізична особа', '2016-03-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (77, N'Фізична особа', '2017-03-15');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (78, N'Фізична особа', '2019-03-28');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (79, N'Фізична особа', '2020-04-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (80, N'Фізична особа', '2021-04-22');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (81, N'Фізична особа', '2022-05-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (82, N'Фізична особа', '2023-05-14');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (83, N'Фізична особа', '2024-05-27');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (84, N'Фізична особа', '2026-06-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (85, N'Фізична особа', '2026-06-17');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (86, N'Фізична особа', '2026-06-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (87, N'Фізична особа', '2026-07-12');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (88, N'Фізична особа', '2026-07-25');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (89, N'Фізична особа', '2026-08-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (90, N'Фізична особа', '2026-08-18');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (91, N'Фізична особа', '2026-08-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (92, N'Фізична особа', '2026-09-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (93, N'Фізична особа', '2026-09-22');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (94, N'Фізична особа', '2026-10-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (95, N'Фізична особа', '2026-10-18');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (96, N'Фізична особа', '2026-10-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (97, N'Фізична особа', '2026-11-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (98, N'Фізична особа', '2026-11-22');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (99, N'Фізична особа', '2026-12-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (100, N'Фізична особа', '2026-12-15');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (101, N'Фізична особа', '2023-07-13');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (102, N'Юридична особа', '2023-01-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (103, N'Юридична особа', '2023-02-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (104, N'Юридична особа', '2023-03-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (105, N'Юридична особа', '2023-04-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (106, N'Юридична особа', '2023-05-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (107, N'Юридична особа', '2023-06-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (108, N'Юридична особа', '2023-07-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (109, N'Юридична особа', '2023-08-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (110, N'Юридична особа', '2023-09-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (111, N'Юридична особа', '2023-10-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (112, N'Юридична особа', '2023-11-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (113, N'Юридична особа', '2023-12-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (114, N'Юридична особа', '2024-01-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (115, N'Юридична особа', '2024-02-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (116, N'Юридична особа', '2024-03-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (117, N'Юридична особа', '2024-04-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (118, N'Юридична особа', '2024-05-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (119, N'Юридична особа', '2024-06-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (120, N'Юридична особа', '2024-07-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (121, N'Юридична особа', '2024-08-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (122, N'Юридична особа', '2023-09-20');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (123, N'Юридична особа', '2024-10-25');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (124, N'Юридична особа', '2025-11-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (125, N'Юридична особа', '2022-12-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (126, N'Юридична особа', '2021-01-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (127, N'Юридична особа', '2023-02-15');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (128, N'Юридична особа', '2024-03-20');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (129, N'Юридична особа', '2022-04-25');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (130, N'Юридична особа', '2022-05-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (131, N'Юридична особа', '2021-06-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (132, N'Юридична особа', '2023-07-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (133, N'Юридична особа', '2024-08-15');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (134, N'Юридична особа', '2021-09-20');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (135, N'Юридична особа', '2022-10-25');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (136, N'Юридична особа', '2021-11-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (137, N'Юридична особа', '2023-12-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (138, N'Юридична особа', '2024-01-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (139, N'Юридична особа', '2025-02-15');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (140, N'Юридична особа', '2022-03-20');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (141, N'Юридична особа', '2021-04-25');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (142, N'Юридична особа', '2023-05-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (143, N'Юридична особа', '2024-06-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (144, N'Юридична особа', '2020-07-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (145, N'Юридична особа', '2022-08-15');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (146, N'Юридична особа', '2021-09-20');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (147, N'Юридична особа', '2023-10-25');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (148, N'Юридична особа', '2024-11-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (149, N'Юридична особа', '2020-12-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (150, N'Юридична особа', '2022-01-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (151, N'Юридична особа', '2022-01-11');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (152, N'Юридична особа', '2022-01-12');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (153, N'Юридична особа', '2022-01-13');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (154, N'Юридична особа', '2022-01-14');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (155, N'Юридична особа', '2022-01-15');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (156, N'Юридична особа', '2022-01-16');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (157, N'Юридична особа', '2022-01-17');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (158, N'Юридична особа', '2022-01-18');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (159, N'Юридична особа', '2022-01-19');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (160, N'Юридична особа', '2022-01-20');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (161, N'Юридична особа', '2022-01-21');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (162, N'Юридична особа', '2022-01-22');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (163, N'Юридична особа', '2022-01-23');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (164, N'Юридична особа', '2022-01-24');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (165, N'Юридична особа', '2022-01-25');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (166, N'Юридична особа', '2022-01-26');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (167, N'Юридична особа', '2022-01-27');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (168, N'Юридична особа', '2022-01-28');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (169, N'Юридична особа', '2022-01-29');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (170, N'Юридична особа', '2022-01-30');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (171, N'Юридична особа', '2022-01-31');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (172, N'Юридична особа', '2022-02-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (173, N'Юридична особа', '2022-02-02');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (174, N'Юридична особа', '2022-02-03');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (175, N'Юридична особа', '2022-02-04');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (176, N'Юридична особа', '2022-02-05');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (177, N'Юридична особа', '2022-02-06');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (178, N'Юридична особа', '2022-02-07');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (179, N'Юридична особа', '2022-02-08');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (180, N'Юридична особа', '2022-02-09');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (181, N'Юридична особа', '2022-02-10');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (182, N'Юридична особа', '2022-02-11');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (183, N'Юридична особа', '2022-02-12');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (184, N'Юридична особа', '2022-02-13');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (185, N'Юридична особа', '2022-02-14');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (186, N'Юридична особа', '2022-02-15');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (187, N'Юридична особа', '2022-02-16');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (188, N'Юридична особа', '2022-02-17');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (189, N'Юридична особа', '2022-02-18');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (190, N'Юридична особа', '2022-02-19');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (191, N'Юридична особа', '2022-02-20');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (192, N'Юридична особа', '2022-02-21');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (193, N'Юридична особа', '2022-02-22');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (194, N'Юридична особа', '2022-02-23');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (195, N'Юридична особа', '2022-02-24');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (196, N'Юридична особа', '2022-02-25');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (197, N'Юридична особа', '2022-02-26');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (198, N'Юридична особа', '2022-02-27');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (199, N'Юридична особа', '2022-02-28');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (200, N'Юридична особа', '2022-03-01');
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (201, N'Юридична особа', '2022-03-02');
 
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (1, 'Іваненко Іван Іванович', 'Київ, вул. Хрещатик, 10', 380501234567);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (3, 'Петренко Олег Васильович', 'Одеса, вул. Дерибасівська, 15', 380671094537);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber)
-VALUES (4, 'Коваленко Андрій Миколайович', 'Харків, вул. Сумська, 20', 380662223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (5, 'Григоренко Марина Олегівна', 'Дніпро, пр. Дмитра Яворницького, 50', 380501112233);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (6, 'Ткачук Олег Вікторович', 'Запоріжжя, вул. Незалежності, 8', 380632345678);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (7, 'Лисенко Ольга Сергіївна', 'Вінниця, вул. Соборна, 30', 380502223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (8, 'Мельник Наталія Володимирівна', 'Полтава, вул. Шевченка, 12', 380931234569);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (9, 'Романюк Дмитро Іванович', 'Чернігів, вул. Миру, 25', 380673456789);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (10, 'Федорчук Анна Василівна', 'Черкаси, бул. Шевченка, 70', 380931112244);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (11, 'Кравченко Віктор Михайлович', 'Житомир, вул. Перемоги, 5', 380671223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (12, 'Онищенко Дарина Сергіївна', 'Суми, вул. Харківська, 17', 380931112255);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (13, 'Бондаренко Артем Павлович', 'Кропивницький, вул. Велика Перспективна, 30', 380502334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (14, 'Шевченко Юлія Анатоліївна', 'Миколаїв, пр. Центральний, 90', 380661122334);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (15, 'Дмитренко Іван Степанович', 'Ужгород, вул. Корзо, 22', 380993334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (16, 'Семенюк Вадим Олександрович', 'Луцьк, вул. Лесі Українки, 15', 380992223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (17, 'Зінченко Оксана Петрівна', 'Тернопіль, вул. Руська, 8', 380972334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (18, 'Мазур Олег Григорович', 'Чернівці, вул. Головна, 40', 380993456789);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (19, 'Рябченко Світлана Ігорівна', 'Івано-Франківськ, вул. Незалежності, 100', 380993445566);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (20, 'Тимошенко Катерина Василівна', 'Херсон, вул. Потьомкінська, 12', 380973556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (21, 'Корнієнко Андрій Євгенович', 'Кременчук, вул. Перемоги, 45', 380974445566);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (22, 'Мельничук Дмитро Володимирович', 'Біла Церква, вул. Ярослава Мудрого, 33', 380964334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (23, 'Павленко Ольга Дмитрівна', 'Бровари, вул. Гагаріна, 27', 380954223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (24, 'Гаврилюк Олексій Сергійович', 'Мукачево, вул. Ілони Зріні, 55', 380944112233);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (25, 'Даниленко Марія Вікторівна', 'Кам’янець-Подільський, вул. Соборна, 99', 380934556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (26, 'Коломієць Володимир Олексійович', 'Олександрія, вул. Декабристів, 5', 380924667788);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (27, 'Захаренко Наталія Петрівна', 'Бердянськ, вул. Приморська, 3', 380914556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (28, 'Мироненко Єгор Олегович', 'Ковель, вул. Брестська, 7', 380904445566);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (29, 'Савченко Максим Артемович', 'Червоноград, вул. Січових Стрільців, 88', 380894334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (30, 'Бойко Анастасія Олександрівна', 'Шостка, вул. Свободи, 21', 380884223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (31, 'Коваль Андрій Сергійович', 'Полтава, вул. Європейська, 10', 380501234578);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (32, 'Романенко Ольга Василівна', 'Вінниця, вул. Київська, 45', 380672223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (33, 'Литвин Віталій Ігорович', 'Рівне, вул. Соборна, 12', 380931556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (34, 'Гриценко Світлана Дмитрівна', 'Чернігів, вул. Шевченка, 78', 380662334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (35, 'Мороз Артем Олександрович', 'Кривий Ріг, вул. Металургів, 35', 380992556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (36, 'Сидоренко Катерина Павлівна', 'Мелітополь, вул. Гетьманська, 25', 380973334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (37, 'Ткаченко Вадим Васильович', 'Сєвєродонецьк, пр. Центральний, 55', 380993112244);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (38, 'Петренко Юлія Володимирівна', 'Краматорськ, вул. Паркова, 9', 380973556688);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (39, 'Бондаренко Володимир Петрович', 'Буча, вул. Лісова, 33', 380992223311);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (40, 'Козак Марина Іванівна', 'Фастів, вул. Героїв Небесної Сотні, 19', 380991556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (41, 'Олійник Андрій Григорович', 'Бориспіль, вул. Київський Шлях, 66', 380982334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (42, 'Кириленко Наталія Олегівна', 'Конотоп, вул. Батуринська, 10', 380971112233);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (43, 'Мельник Максим Сергійович', 'Канів, вул. Дніпровська, 48', 380963556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (44, 'Демченко Вікторія Іванівна', 'Прилуки, вул. Вокзальна, 22', 380992223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (45, 'Яковенко Денис Володимирович', 'Шепетівка, вул. Героїв Майдану, 15', 380973334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (46, 'Поліщук Ірина Анатоліївна', 'Коростень, вул. Франка, 8', 380972556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (47, 'Степаненко Артем Вікторович', 'Новоград-Волинський, вул. Соборності, 40', 380994334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (48, 'Мазуренко Олег Євгенович', 'Дубно, вул. Замкова, 100', 380993445566);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (49, 'Захарченко Світлана Петрівна', 'Золотоноша, вул. Шевченка, 12', 380983556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (50, 'Лисенко Олександр Дмитрович', 'Сміла, вул. Незалежності, 45', 380974445566);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (51, 'Кузьменко Ольга Вікторівна', 'Калуш, вул. Стуса, 33', 380964334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (52, 'Тищенко Віталій Петрович', 'Бережани, вул. Грушевського, 27', 380954223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (53, 'Дорошенко Наталія Ігорівна', 'Коломия, вул. Мазепи, 55', 380944112233);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (54, 'Семенюк Андрій Олексійович', 'Бахмут, вул. Леніна, 99', 380934556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (55, 'Гаврилюк Тетяна Володимирівна', 'Костянтинівка, вул. Центральна, 5', 380924667788);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (56, 'Данилюк Володимир Іванович', 'Покровськ, вул. Першотравнева, 3', 380914556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (57, 'Миронюк Марія Сергіївна', 'Ізмаїл, вул. Дунайська, 7', 380904445566);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (58, 'Бойко Євгенія Артемівна', 'Чортків, вул. Богдана Хмельницького, 88', 380894334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (59, 'Савченко Олексій Володимирович', 'Ладижин, вул. Промислова, 21', 380884223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (60, 'Петренко Оксана Василівна', 'Трускавець, вул. Дрогобицька, 10', 380873112233);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (61, 'Терещенко Максим Олегович', 'Умань, вул. Шевченка, 5', 380872334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (62, 'Ковальчук Дмитро Анатолійович', 'Вознесенськ, вул. Київська, 14', 380862223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (63, 'Рибалко Олена Сергіївна', 'Первомайськ, вул. Центральна, 8', 380852556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (64, 'Зінченко Володимир Павлович', 'Славутич, вул. Дружби, 10', 380841112233);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (65, 'Павленко Артем Юрійович', 'Жовті Води, вул. Садова, 19', 380831556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (66, 'Корнієнко Світлана Олександрівна', 'Лозова, вул. Вокзальна, 23', 380821334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (67, 'Федоренко Марина Олегівна', 'Чугуїв, вул. Харківська, 6', 380811556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (68, 'Шевченко Григорій Іванович', 'Васильків, вул. Незалежності, 11', 380801223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (69, 'Опанасенко Катерина Василівна', 'Каховка, вул. Перемоги, 45', 380791112233);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (70, 'Гончарук Віктор Сергійович', 'Нікополь, вул. Енергетиків, 7', 380781334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (71, 'Дудник Олексій Миколайович', 'Шостка, вул. Паркова, 16', 380771556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (72, 'Савицька Тетяна Ігорівна', 'Ірпінь, вул. Лісова, 9', 380761112233);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (73, 'Гаврилюк Андрій Павлович', 'Феодосія, вул. Героїв, 27', 380751334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (74, 'Семенова Дарина Володимирівна', 'Южне, вул. Море, 13', 380741223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (75, 'Коваленко Василь Григорович', 'Мирноград, вул. Центральна, 21', 380731556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (76, 'Тимошенко Оксана Петрівна', 'Дружківка, вул. Весела, 30', 380721334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (77, 'Мартиненко Іван Олександрович', 'Снігурівка, вул. Молодіжна, 5', 380711223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (78, 'Юрченко Світлана Віталіївна', 'Мостиська, вул. Головна, 12', 380701556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (79, 'Шаповал Олег Володимирович', 'Кілія, вул. Дунайська, 10', 380691112233);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (80, 'Лисенко Марина Сергіївна', 'Знам’янка, вул. Черкаська, 28', 380681334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (81, 'Романюк Ігор Вікторович', 'Рахів, вул. Гірська, 9', 380671556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (82, 'Зубко Олена Михайлівна', 'Бердичів, вул. Свободи, 11', 380661223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (83, 'Гордієнко Артем Дмитрович', 'Свалява, вул. Карпатська, 7', 380651112233);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (84, 'Гриценко Віталій Олександрович', 'Глухів, вул. Незалежності, 22', 380641334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (85, 'Білоус Ірина Олегівна', 'Пустомити, вул. Лесі Українки, 5', 380631223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (86, 'Коваль Олександр Юрійович', 'Борщів, вул. Замкова, 16', 380621556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (87, 'Лавренюк Дмитро Васильович', 'Сколе, вул. Франка, 4', 380611112233);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (88, 'Петрук Наталія Андріївна', 'Тячів, вул. Дружби, 19', 380601334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (89, 'Щербак Олексій Сергійович', 'Косів, вул. Верховинська, 10', 380591556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (90, 'Руденко Василь Григорович', 'Бучач, вул. Дністровська, 11', 380581223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (91, 'Савчук Володимир Іванович', 'Гадяч, вул. Полтавська, 14', 380571112233);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (92, 'Тарасенко Артем Павлович', 'Снятин, вул. Грушевського, 15', 380561334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (93, 'Пономаренко Світлана Віталіївна', 'Рені, вул. Одеська, 12', 380551223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (94, 'Дорошенко Ольга Володимирівна', 'Вилкове, вул. Лісова, 7', 380541556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (95, 'Курило Оксана Сергіївна', 'Кам’янець-Подільський, вул. Франка, 20', 380531112233);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (96, 'Бондаренко Сергій Олександрович', 'Кривий Ріг, вул. Металургів, 18', 380521334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (97, 'Мельник Анна Віталіївна', 'Мукачево, вул. Замкова, 22', 380511556677);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (98, 'Данилюк Віктор Ігорович', 'Біла Церква, вул. Шевченка, 8', 380501223344);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (99, 'Кравчук Ірина Сергіївна', 'Тернопіль, вул. Руська, 15', 380491112233);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (100, 'Олійник Павло Григорович', 'Житомир, вул. Перемоги, 30', 380481334455);
-INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber) 
-VALUES (101, 'Сидоренко Андрій Миколайович', 'Черкаси, вул. Дніпровська, 12', 380471556677);
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email)  
+VALUES (1, N'Іваненко Іван Іванович', N'Київ, вул. Хрещатик, 10', 380501234567, 'ivanenko@example.com'); 
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (3, N'Петренко Олег Васильович', N'Одеса, вул. Дерибасівська, 15', 380671094537, 'petrenko@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email)
+VALUES (4, N'Коваленко Андрій Миколайович', N'Харків, вул. Сумська, 20', 380662223344, 'kovalenko@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (5, N'Григоренко Марина Олегівна', N'Дніпро, пр. Дмитра Яворницького, 50', 380501112233, 'hryhorenko@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (6, N'Ткачук Олег Вікторович', N'Запоріжжя, вул. Незалежності, 8', 380632345678, 'tkachuk@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (7, N'Лисенко Ольга Сергіївна', N'Вінниця, вул. Соборна, 30', 380502223344, 'lysenko@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (8, N'Mельник Наталія Володимирівна', N'Полтава, вул. Шевченка, 12', 380931234569, 'melnyk@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (9, N'Романюк Дмитро Іванович', N'Чернігів, вул. Миру, 25', 380673456789, 'romaniuk@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (10, N'Федорчук Анна Василівна', N'Черкаси, бул. Шевченка, 70', 380931112244, 'fedorchuk@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (11, N'Кравченко Віктор Михайлович', N'Житомир, вул. Перемоги, 5', 380671223344, 'kravchenko@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (12, N'Онищенко Дарина Сергіївна', N'Суми, вул. Харківська, 17', 380931112255, 'onyshchenko@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (13, N'Бондаренко Артем Павлович', N'Кропивницький, вул. Велика Перспективна, 30', 380502334455, 'bondarenko@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (14, N'Шевченко Юлія Анатоліївна', N'Миколаїв, пр. Центральний, 90', 380661122334, 'shevchenko@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (15, N'Дмитренко Іван Степанович', N'Ужгород, вул. Корзо, 22', 380993334455, 'dmytrenko@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email)  
+VALUES (16, N'Семенюк Вадим Олександрович', N'Луцьк, вул. Лесі Українки, 15', 380992223344, 'semenyuk16@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (17, N'Зінченко Оксана Петрівна', N'Тернопіль, вул. Руська, 8', 380972334455, 'zinchenko17@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (18, N'Мазур Олег Григорович', N'Чернівці, вул. Головна, 40', 380993456789, 'mazur18@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (19, N'Рябченко Світлана Ігорівна', N'Івано-Франківськ, вул. Незалежності, 100', 380993445566, 'ryabchenko19@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (20, N'Тимошенко Катерина Василівна', N'Херсон, вул. Потьомкінська, 12', 380973556677, 'tymoshenko20@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (21, N'Корнієнко Андрій Євгенович', N'Кременчук, вул. Перемоги, 45', 380974445566, 'kornienko21@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (22, N'Мельничук Дмитро Володимирович', N'Біла Церква, вул. Ярослава Мудрого, 33', 380964334455, 'melnychuk22@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (23, N'Павленко Ольга Дмитрівна', N'Бровари, вул. Гагаріна, 27', 380954223344, 'pavlenko23@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (24, N'Гаврилюк Олексій Сергійович', N'Мукачево, вул. Ілони Зріні, 55', 380944112233, 'havryliuk24@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (25, N'Даниленко Марія Вікторівна', N'Кам’янець-Подільський, вул. Соборна, 99', 380934556677, 'danylenko25@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (26, N'Коломієць Володимир Олексійович', N'Олександрія, вул. Декабристів, 5', 380924667788, 'kolomiiets26@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (27, N'Захаренко Наталія Петрівна', N'Бердянськ, вул. Приморська, 3', 380914556677, 'zakharenko27@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (28, N'Мироненко Єгор Олегович', N'Ковель, вул. Брестська, 7', 380904445566, 'myronenko28@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (29, N'Савченко Максим Артемович', N'Червоноград, вул. Січових Стрільців, 88', 380894334455, 'savchenko29@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (30, N'Бойко Анастасія Олександрівна', N'Шостка, вул. Свободи, 21', 380884223344, 'boiko30@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (31, N'Коваль Андрій Сергійович', N'Полтава, вул. Європейська, 10', 380501234578, 'koval31@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (32, N'Романенко Ольга Василівна', N'Вінниця, вул. Київська, 45', 380672223344, 'romanenko32@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (33, N'Литвин Віталій Ігорович', N'Рівне, вул. Соборна, 12', 380931556677, 'lytvyn33@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (34, N'Гриценко Світлана Дмитрівна', N'Чернігів, вул. Шевченка, 78', 380662334455, 'hrytsenko34@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (35, N'Мороз Артем Олександрович', N'Кривий Ріг, вул. Металургів, 35', 380992556677, 'moroz35@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (36, N'Сидоренко Катерина Павлівна', N'Мелітополь, вул. Гетьманська, 25', 380973334455, 'syderenko36@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (37, N'Ткаченко Вадим Васильович', N'Сєвєродонецьк, пр. Центральний, 55', 380993112244, 'tkachenko37@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (38, N'Петренко Юлія Володимирівна', N'Краматорськ, вул. Паркова, 9', 380973556688, 'petrenko38@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (39, N'Бондаренко Володимир Петрович', N'Буча, вул. Лісова, 33', 380992223311, 'bondarenko39@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (40, N'Козак Марина Іванівна', N'Фастів, вул. Героїв Небесної Сотні, 19', 380991556677, 'kozak40@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (41, N'Олійник Андрій Григорович', N'Бориспіль, вул. Київський Шлях, 66', 380982334455, 'andriy.oliynyk41@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (42, N'Кириленко Наталія Олегівна', N'Конотоп, вул. Батуринська, 10', 380971112233, 'nataliya.kyrylenko42@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (43, N'Мельник Максим Сергійович', N'Канів, вул. Дніпровська, 48', 380963556677, 'maksym.melnyk43@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (44, N'Демченко Вікторія Іванівна', N'Прилуки, вул. Вокзальна, 22', 380992223344, 'viktoriya.demchenko44@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (45, N'Яковенко Денис Володимирович', N'Шепетівка, вул. Героїв Майдану, 15', 380973334455, 'denys.yakovenko45@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (46, N'Поліщук Ірина Анатоліївна', N'Коростень, вул. Франка, 8', 380972556677, 'iryna.polischuk46@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (47, N'Степаненко Артем Вікторович', N'Новоград-Волинський, вул. Соборності, 40', 380994334455, 'artem.stepanenko47@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (48, N'Мазуренко Олег Євгенович', N'Дубно, вул. Замкова, 100', 380993445566, 'oleg.mazurenko48@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (49, N'Захарченко Світлана Петрівна', N'Золотоноша, вул. Шевченка, 12', 380983556677, 'svitlana.zakharchenko49@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (50, N'Лисенко Олександр Дмитрович', N'Сміла, вул. Незалежності, 45', 380974445566, 'oleksandr.lysenko50@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (51, N'Кузьменко Ольга Вікторівна', N'Калуш, вул. Стуса, 33', 380964334455, 'olga.kuzmenko51@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (52, N'Тищенко Віталій Петрович', N'Бережани, вул. Грушевського, 27', 380954223344, 'vitaliy.tyshchenko52@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (53, N'Дорошенко Наталія Ігорівна', N'Коломия, вул. Мазепи, 55', 380944112233, 'natalia.doroshenko53@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (54, N'Семенюк Андрій Олексійович', N'Бахмут, вул. Леніна, 99', 380934556677, 'andriy.semenyuk54@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (55, N'Гаврилюк Тетяна Володимирівна', N'Костянтинівка, вул. Центральна, 5', 380924667788, 'tetyana.gavrylyuk55@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (56, N'Данилюк Володимир Іванович', N'Покровськ, вул. Першотравнева, 3', 380914556677, 'volodymyr.danylyuk56@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (57, N'Миронюк Марія Сергіївна', N'Ізмаїл, вул. Дунайська, 7', 380904445566, 'maria.myronyuk57@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (58, N'Бойко Євгенія Артемівна', N'Чортків, вул. Богдана Хмельницького, 88', 380894334455, 'yevheniya.boyko58@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (59, N'Савченко Олексій Володимирович', N'Ладижин, вул. Промислова, 21', 380884223344, 'oleksiy.savchenko59@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (60, N'Петренко Оксана Василівна', N'Трускавець, вул. Дрогобицька, 10', 380873112233, 'oksana.petrenko60@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (61, N'Терещенко Максим Олегович', N'Умань, вул. Шевченка, 5', 380872334455, 'maksym.tereshchenko61@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (62, N'Ковальчук Дмитро Анатолійович', N'Вознесенськ, вул. Київська, 14', 380862223344, 'dmytro.kovalchuk62@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (63, N'Рибалко Олена Сергіївна', N'Первомайськ, вул. Центральна, 8', 380852556677, 'olena.rybalko63@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (64, N'Зінченко Володимир Павлович', N'Славутич, вул. Дружби, 10', 380841112233, 'volodymyr.zinchenko64@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (65, N'Павленко Артем Юрійович', N'Жовті Води, вул. Садова, 19', 380831556677, 'artem.pavlenko65@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (66, N'Корнієнко Світлана Олександрівна', N'Лозова, вул. Вокзальна, 23', 380821334455, 'svitlana.korniyenko66@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (67, N'Федоренко Марина Олегівна', N'Чугуїв, вул. Харківська, 6', 380811556677, 'marina.fedorenko67@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (68, N'Шевченко Григорій Іванович', N'Васильків, вул. Незалежності, 11', 380801223344, 'hryhoriy.shevchenko68@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (69, N'Опанасенко Катерина Василівна', N'Каховка, вул. Перемоги, 45', 380791112233, 'kateryna.opanasenko69@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (70, N'Гончарук Віктор Сергійович', N'Нікополь, вул. Енергетиків, 7', 380781334455, 'viktor.goncharuk70@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (71, N'Дудник Олексій Миколайович', N'Шостка, вул. Паркова, 16', 380771556677, 'oleksiy.dudnyk71@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (72, N'Савицька Тетяна Ігорівна', N'Ірпінь, вул. Лісова, 9', 380761112233, 'tetyana.savytska72@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (73, N'Гаврилюк Андрій Павлович', N'Феодосія, вул. Героїв, 27', 380751334455, 'andriy.havrylyuk73@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (74, N'Семенова Дарина Володимирівна', N'Южне, вул. Море, 13', 380741223344, 'daryna.semenova74@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (75, N'Коваленко Василь Григорович', N'Мирноград, вул. Центральна, 21', 380731556677, 'vasyl.kovalenko75@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (76, N'Тимошенко Оксана Петрівна', N'Дружківка, вул. Весела, 30', 380721334455, 'oksana.tymoshenko76@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (77, N'Мартиненко Іван Олександрович', N'Снігурівка, вул. Молодіжна, 5', 380711223344, 'ivan.martyneko77@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (78, N'Юрченко Світлана Віталіївна', N'Мостиська, вул. Головна, 12', 380701556677, 'svitlana.yurchenko78@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (79, N'Шаповал Олег Володимирович', N'Кілія, вул. Дунайська, 10', 380691112233, 'oleg.shapoval79@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (80, N'Лисенко Марина Сергіївна', N'Знам’янка, вул. Черкаська, 28', 380681334455, 'marina.lysenko80@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (81, N'Романюк Ігор Вікторович', N'Рахів, вул. Гірська, 9', 380671556677, 'ihor.romanyuk81@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (82, N'Зубко Олена Михайлівна', N'Бердичів, вул. Свободи, 11', 380661223344, 'olena.zubko82@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (83, N'Гордієнко Артем Дмитрович', N'Свалява, вул. Карпатська, 7', 380651112233, 'artem.hordiienko83@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (84, N'Гриценко Віталій Олександрович', N'Глухів, вул. Незалежності, 22', 380641334455, 'vitaliy.hrytsenko84@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (85, N'Білоус Ірина Олегівна', N'Пустомити, вул. Лесі Українки, 5', 380631223344, 'iryna.bilous85@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (86, N'Коваль Олександр Юрійович', N'Борщів, вул. Замкова, 16', 380621556677, 'oleksandr.koval86@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (87, N'Лавренюк Дмитро Васильович', N'Сколе, вул. Франка, 4', 380611112233, 'dmytro.lavrenyuk87@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (88, N'Петрук Наталія Андріївна', N'Тячів, вул. Дружби, 19', 380601334455, 'nataliya.petruk88@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (89, N'Щербак Олексій Сергійович', N'Косів, вул. Верховинська, 10', 380591556677, 'oleksiy.shcherbak89@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (90, N'Руденко Василь Григорович', N'Бучач, вул. Дністровська, 11', 380581223344, 'vasyl.rudenko90@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (91, N'Савчук Володимир Іванович', N'Гадяч, вул. Полтавська, 14', 380571112233, 'volodymyr.savchuk91@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (92, N'Тарасенко Артем Павлович', N'Снятин, вул. Грушевського, 15', 380561334455, 'artem.tarasenko92@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (93, N'Пономаренко Світлана Віталіївна', N'Рені, вул. Одеська, 12', 380551223344, 'svitlana.ponomarenko93@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (94, N'Дорошенко Ольга Володимирівна', N'Вилкове, вул. Лісова, 7', 380541556677, 'olha.doroshenko94@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (95, N'Курило Оксана Сергіївна', N'Кам’янець-Подільський, вул. Франка, 20', 380531112233, 'oksana.kurylo95@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (96, N'Бондаренко Сергій Олександрович', N'Кривий Ріг, вул. Металургів, 18', 380521334455, 'serhiy.bondarenko96@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (97, N'Мельник Анна Віталіївна', N'Мукачево, вул. Замкова, 22', 380511556677, 'anna.melnyk97@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (98, N'Данилюк Віктор Ігорович', N'Біла Церква, вул. Шевченка, 8', 380501223344, 'viktor.danyliuk98@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (99, N'Кравчук Ірина Сергіївна', N'Тернопіль, вул. Руська, 15', 380491112233, 'iryna.kravchuk99@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (100, N'Олійник Павло Григорович', N'Житомир, вул. Перемоги, 30', 380481334455, 'pavlo.oliynyk100@example.com');
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email) 
+VALUES (101, N'Сидоренко Андрій Миколайович', N'Черкаси, вул. Дніпровська, 12', 380471556677, 'andriy.sydorenko101@example.com');
 
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (2, 'ТОВ "МобілТех"', 380444567890, 'Львів, вул. Замкова, 12', 1234567890);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (102, 'ТОВ "ТехноТрейд"', 380444567102, 'Київ, вул. Хрещатик, 10', 1234567102);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (103, 'ТОВ "ГаджетПоставка"', 380444567103, 'Львів, вул. Галицька, 22', 1234567103);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (104, 'ТОВ "Корпорація СмартТех"', 380444567104, 'Одеса, вул. Дерибасівська, 15', 1234567104);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (105, 'ТОВ "БізнесМобайл"', 380444567105, 'Дніпро, просп. Гагаріна, 5', 1234567105);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (106, 'ТОВ "Цифрові Рішення"', 380444567106, 'Харків, вул. Сумська, 7', 1234567106);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (107, 'ТОВ "СмартЛогістика"', 380444567107, 'Запоріжжя, вул. Центральна, 18', 1234567107);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (108, 'ТОВ "ГлобалМобайл"', 380444567108, 'Київ, вул. Володимирська, 31', 1234567108);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (109, 'ТОВ "ОптМобайл"', 380444567109, 'Львів, просп. Свободи, 1', 1234567109);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (110, 'ТОВ "ФонГруп"', 380444567110, 'Одеса, вул. Аркадія, 4', 1234567110);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (111, 'ТОВ "БізнесЗв’язок"', 380444567111, 'Дніпро, вул. Короленка, 12', 1234567111);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (112, 'ТОВ "ГаджетОпт"', 380444567112, 'Харків, просп. Науки, 27', 1234567112);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (113, 'ТОВ "МобайлКорп"', 380444567113, 'Запоріжжя, вул. Соборна, 9', 1234567113);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (114, 'ТОВ "ТопМобайлПоставка"', 380444567114, 'Київ, вул. Антоновича, 44', 1234567114);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (115, 'ТОВ "СмартОпт"', 380444567115, 'Львів, вул. Личаківська, 37', 1234567115);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (116, 'ТОВ "МобілКом"', 380444567116, 'Одеса, вул. Французький бульвар, 21', 1234567116);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (117, 'ТОВ "ТехноЛідер"', 380444567117, 'Дніпро, вул. Барикадна, 3', 1234567117);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (118, 'ТОВ "ФонСервіс"', 380444567118, 'Харків, вул. Полтавський Шлях, 56', 1234567118);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (119, 'ТОВ "ТелефонТрейд"', 380444567119, 'Запоріжжя, вул. Незалежності, 14', 1234567119);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (120, 'ТОВ "БізнесГаджет"', 380444567120, 'Київ, вул. Бандери, 19', 1234567120);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (121, 'ТОВ "МобіСтор"', 380444567121, 'Львів, вул. Зелена, 45', 1234567121);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (122, 'ТОВ "СмартГруп"', 380444567122, 'Київ, просп. Перемоги, 20', 1234567122);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (123, 'ТОВ "ГаджетЛенд"', 380444567123, 'Одеса, вул. Канатна, 10', 1234567123);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (124, 'ТОВ "МобайлСолюшн"', 380444567124, 'Дніпро, вул. Паторжинського, 6', 1234567124);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (125, 'ТОВ "БізнесТелеком"', 380444567125, 'Харків, вул. Академіка Павлова, 16', 1234567125);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (126, 'ТОВ "ЦифраТрейд"', 380444567126, 'Запоріжжя, вул. Перемоги, 23', 1234567126);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (127, 'ТОВ "Мобільні Рішення"', 380444567127, 'Львів, просп. Чорновола, 12', 1234567127);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (128, 'ТОВ "ГаджетОптСервіс"', 380444567128, 'Київ, вул. Лаврська, 5', 1234567128);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (129, 'ТОВ "СмартЗбут"', 380444567129, 'Одеса, просп. Шевченка, 31', 1234567129);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (130, 'ТОВ "ТелефонЛідер"', 380444567130, 'Дніпро, вул. Калинова, 8', 1234567130);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (131, 'ТОВ "ГлобалТелеком"', 380444567131, 'Харків, вул. Пушкінська, 14', 1234567131);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (132, 'ТОВ "СмартКом"', 380444567132, 'Запоріжжя, вул. Горького, 21', 1234567132);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (133, 'ТОВ "ТехноСвіт"', 380444567133, 'Львів, вул. Городоцька, 55', 1234567133);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (134, 'ТОВ "СмартДевайс"', 380444567134, 'Київ, просп. Лобановського, 17', 1234567134);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (135, 'ТОВ "ГаджетШоп"', 380444567135, 'Одеса, вул. Жуковського, 6', 1234567135);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (136, 'ТОВ "Цифровий Світ"', 380444567136, 'Дніпро, вул. Робоча, 33', 1234567136);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (137, 'ТОВ "ТопГаджет"', 380444567137, 'Харків, вул. Дарвіна, 28', 1234567137);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (138, 'ТОВ "БізнесМобіл"', 380444567138, 'Запоріжжя, вул. Лермонтова, 15', 1234567138);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (139, 'ТОВ "ТелекомПоставка"', 380444567139, 'Львів, вул. Богдана Хмельницького, 29', 1234567139);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (140, 'ТОВ "МобайлДистриб"', 380444567140, 'Київ, вул. Саксаганського, 40', 1234567140);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (141, 'ТОВ "ЦифроГаджет"', 380444567141, 'Одеса, вул. Катерининська, 13', 1234567141);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (142, 'ТОВ "ТехноГруп"', 380444567142, 'Дніпро, вул. Воскресенська, 9', 1234567142);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (143, 'ТОВ "ГаджетМобайл"', 380444567143, 'Харків, вул. Сумгаїтська, 19', 1234567143);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (144, 'ТОВ "СмартПлюс"', 380444567144, 'Запоріжжя, вул. Чкалова, 12', 1234567144);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (145, 'ТОВ "ФонДевайс"', 380444567145, 'Львів, вул. Лесі Українки, 7', 1234567145);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (146, 'ТОВ "ТопМобілТрейд"', 380444567146, 'Київ, вул. Шота Руставелі, 11', 1234567146);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (147, 'ТОВ "СмартОптГруп"', 380444567147, 'Одеса, вул. Мала Арнаутська, 8', 1234567147);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (148, 'ТОВ "ТелекомЛідер"', 380444567148, 'Дніпро, вул. Яворницького, 14', 1234567148);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (149, 'ТОВ "БізнесДевайс"', 380444567149, 'Харків, вул. Героїв Праці, 22', 1234567149);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (150, 'ТОВ "ТехноТелефон"', 380444567150, 'Запоріжжя, просп. Соборний, 35', 1234567150);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (151, 'ТОВ "МобіЛайн"', 380444567151, 'Київ, вул. Велика Васильківська, 15', 1234567151);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (152, 'ТОВ "СмартТехніка"', 380444567152, 'Львів, вул. Франка, 27', 1234567152);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (153, 'ТОВ "ГаджетМаркет"', 380444567153, 'Одеса, вул. Преображенська, 18', 1234567153);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (154, 'ТОВ "ТелефонПлюс"', 380444567154, 'Дніпро, вул. Троїцька, 4', 1234567154);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (155, 'ТОВ "МобайлОпт"', 380444567155, 'Харків, просп. Гагаріна, 30', 1234567155);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (156, 'ТОВ "ГаджетСервіс"', 380444567156, 'Запоріжжя, вул. Леніна, 12', 1234567156);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (157, 'ТОВ "СмартМобайл"', 380444567157, 'Київ, вул. Дегтярівська, 5', 1234567157);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (158, 'ТОВ "ТехноСвіт"', 380444567158, 'Львів, вул. Личаківська, 40', 1234567158);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (159, 'ТОВ "МобіОптТорг"', 380444567159, 'Одеса, вул. Дерибасівська, 8', 1234567159);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (160, 'ТОВ "ЦифроТех"', 380444567160, 'Дніпро, просп. Карла Маркса, 21', 1234567160);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (161, 'ТОВ "ГаджетРітейл"', 380444567161, 'Харків, вул. Сумська, 37', 1234567161);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (162, 'ТОВ "СмартГруп"', 380444567162, 'Запоріжжя, вул. Перемоги, 19', 1234567162);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (163, 'ТОВ "ТехноМобайл"', 380444567163, 'Київ, просп. Лесі Українки, 7', 1234567163);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (164, 'ТОВ "ЦифроСвіт"', 380444567164, 'Львів, вул. Коперника, 22', 1234567164);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (165, 'ТОВ "МобіТорг"', 380444567165, 'Одеса, вул. Єкатеринінська, 14', 1234567165);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (166, 'ТОВ "СмартСервіс"', 380444567166, 'Дніпро, вул. Центральна, 31', 1234567166);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (167, 'ТОВ "ГаджетТрейд"', 380444567167, 'Харків, вул. Полтавський Шлях, 25', 1234567167);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (168, 'ТОВ "ТехноГаджет"', 380444567168, 'Запоріжжя, вул. Гоголя, 11', 1234567168);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (169, 'ТОВ "Цифровий Партнер"', 380444567169, 'Київ, вул. Ярославів Вал, 9', 1234567169);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (170, 'ТОВ "СмартТелеком"', 380444567170, 'Львів, вул. Стрийська, 16', 1234567170);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (171, 'ТОВ "МобіГруп"', 380444567171, 'Одеса, вул. Пантелеймонівська, 6', 1234567171);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (172, 'ТОВ "ТелекомЛідер"', 380444567172, 'Дніпро, вул. Братів Трофімових, 7', 1234567172);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (173, 'ТОВ "ГаджетКом"', 380444567173, 'Харків, просп. Науки, 34', 1234567173);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (174, 'ТОВ "МобіСтар"', 380444567174, 'Запоріжжя, вул. Лобановського, 5', 1234567174);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (175, 'ТОВ "ТехноСвіт"', 380444567175, 'Київ, вул. Бориспільська, 21', 1234567175);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (176, 'ТОВ "СмартМаркет"', 380444567176, 'Львів, вул. Пекарська, 10', 1234567176);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (177, 'ТОВ "ЦифроЛюкс"', 380444567177, 'Одеса, вул. Канатна, 19', 1234567177);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (178, 'ТОВ "ГаджетПрайм"', 380444567178, 'Дніпро, вул. Європейська, 3', 1234567178);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (179, 'ТОВ "ТелефонДім"', 380444567179, 'Харків, вул. Культури, 12', 1234567179);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (180, 'ТОВ "МобіТехПартнер"', 380444567180, 'Запоріжжя, вул. Сєрова, 8', 1234567180);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (181, 'ТОВ "СмартСвіт"', 380444567181, 'Київ, вул. Хрещатик, 22', 1234567181);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (182, 'ТОВ "ГаджетОпт"', 380444567182, 'Львів, вул. Городоцька, 35', 1234567182);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (183, 'ТОВ "МобіЦентр"', 380444567183, 'Одеса, вул. Середньофонтанська, 15', 1234567183);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (184, 'ТОВ "ТехноТрейд"', 380444567184, 'Дніпро, вул. Воскресенська, 9', 1234567184);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (185, 'ТОВ "СмартЛідер"', 380444567185, 'Харків, вул. Пушкінська, 17', 1234567185);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (186, 'ТОВ "ЦифроМобайл"', 380444567186, 'Запоріжжя, просп. Соборний, 45', 1234567186);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (187, 'ТОВ "ГаджетСтор"', 380444567187, 'Київ, вул. Велика Житомирська, 5', 1234567187);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (188, 'ТОВ "МобілСервіс"', 380444567188, 'Львів, просп. Свободи, 20', 1234567188);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (189, 'ТОВ "СмартШоп"', 380444567189, 'Одеса, вул. Фонтанська дорога, 11', 1234567189);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (190, 'ТОВ "ГаджетЛюкс"', 380444567190, 'Дніпро, вул. Шевченка, 14', 1234567190);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (191, 'ТОВ "ЦифроТрейд"', 380444567191, 'Харків, просп. Ювілейний, 26', 1234567191);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (192, 'ТОВ "МобіМаг"', 380444567192, 'Запоріжжя, вул. Незалежності, 18', 1234567192);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (193, 'ТОВ "ТехноГруп"', 380444567193, 'Київ, вул. Лаврська, 3', 1234567193);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (194, 'ТОВ "ГаджетМаркет Плюс"', 380444567194, 'Львів, вул. Дорошенка, 28', 1234567194);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (195, 'ТОВ "СмартКомплект"', 380444567195, 'Одеса, вул. Чорноморська, 7', 1234567195);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (196, 'ТОВ "МобіГалактика"', 380444567196, 'Дніпро, вул. Старокозацька, 33', 1234567196);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (197, 'ТОВ "ЦифроТехніка"', 380444567197, 'Харків, вул. Богдана Хмельницького, 21', 1234567197);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (198, 'ТОВ "ГаджетСтиль"', 380444567198, 'Запоріжжя, вул. Анголенка, 9', 1234567198);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (199, 'ТОВ "ТехноСвіт Груп"', 380444567199, 'Київ, вул. Басейна, 12', 1234567199);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (200, 'ТОВ "СмартЛенд"', 380444567200, 'Львів, вул. Зелена, 42', 1234567200);
-INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID) 
-VALUES (201, 'ТОВ "ГаджетПрофі"', 380444567201, 'Одеса, вул. Рішельєвська, 8', 1234567201);
+
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (2, N'ТОВ "МобілТех"', 380444567890, N'Львів, вул. Замкова, 12', 1234567890, 'info@mobiltech.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (102, N'ТОВ "ТехноТрейд"', 380444567102, N'Київ, вул. Хрещатик, 10', 1234567102, 'info@technotrade.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (103, N'ТОВ "ГаджетПоставка"', 380444567103, N'Львів, вул. Галицька, 22', 1234567103, 'info@gadgetpostavka.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (104, N'ТОВ "Корпорація СмартТех"', 380444567104, N'Одеса, вул. Дерибасівська, 15', 1234567104, 'info@smarttech.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (105, N'ТОВ "БізнесМобайл"', 380444567105, N'Дніпро, просп. Гагаріна, 5', 1234567105, 'info@biznesmobile.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (106, N'ТОВ "Цифрові Рішення"', 380444567106, N'Харків, вул. Сумська, 7', 1234567106, 'info@digitalres.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (107, N'ТОВ "СмартЛогістика"', 380444567107, N'Запоріжжя, вул. Центральна, 18', 1234567107, 'info@smartlogistics.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (108, N'ТОВ "ГлобалМобайл"', 380444567108, N'Київ, вул. Володимирська, 31', 1234567108, 'info@globalmobile.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (109, N'ТОВ "ОптМобайл"', 380444567109, N'Львів, просп. Свободи, 1', 1234567109, 'info@optmobile.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (110, N'ТОВ "ФонГруп"', 380444567110, N'Одеса, вул. Аркадія, 4', 1234567110, 'info@phongroup.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (111, N'ТОВ "БізнесЗв’язок"', 380444567111, N'Дніпро, вул. Короленка, 12', 1234567111, 'info@bizneszvyazok.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (112, N'ТОВ "ГаджетОпт"', 380444567112, N'Харків, просп. Науки, 27', 1234567112, 'info@gadgetopt.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (113, N'ТОВ "МобайлКорп"', 380444567113, N'Запоріжжя, вул. Соборна, 9', 1234567113, 'info@mobilecorp.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (114, N'ТОВ "ТопМобайлПоставка"', 380444567114, N'Київ, вул. Антоновича, 44', 1234567114, 'info@topmobile.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (115, N'ТОВ "СмартОпт"', 380444567115, N'Львів, вул. Личаківська, 37', 1234567115, 'info@smartopt.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (116, N'ТОВ "МобілКом"', 380444567116, N'Одеса, вул. Французький бульвар, 21', 1234567116, 'info@mobilcom.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (117, N'ТОВ "ТехноЛідер"', 380444567117, N'Дніпро, вул. Барикадна, 3', 1234567117, 'info@technolider.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (118, N'ТОВ "ФонСервіс"', 380444567118, N'Харків, вул. Полтавський Шлях, 56', 1234567118, 'info@phonservice.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (119, N'ТОВ "ТелефонТрейд"', 380444567119, N'Запоріжжя, вул. Незалежності, 14', 1234567119, 'info@phonetrade.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (120, N'ТОВ "БізнесГаджет"', 380444567120, N'Київ, вул. Бандери, 19', 1234567120, 'info@biznesgadget.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (121, N'ТОВ "МобіСтор"', 380444567121, N'Львів, вул. Зелена, 45', 1234567121, 'info@mobistore.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (122, N'ТОВ "СмартГруп"', 380444567122, N'Київ, просп. Перемоги, 20', 1234567122, 'info@smartgroup.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (123, N'ТОВ "ГаджетЛенд"', 380444567123, N'Одеса, вул. Канатна, 10', 1234567123, 'info@gadgetland.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (124, N'ТОВ "МобайлСолюшн"', 380444567124, N'Дніпро, вул. Паторжинського, 6', 1234567124, 'info@mobilesolution.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (125, N'ТОВ "БізнесТелеком"', 380444567125, N'Харків, вул. Академіка Павлова, 16', 1234567125, 'info@biznestelecom.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (126, N'ТОВ "ЦифраТрейд"', 380444567126, N'Запоріжжя, вул. Перемоги, 23', 1234567126, 'info@cyfratrade.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (127, N'ТОВ "Мобільні Рішення"', 380444567127, N'Львів, просп. Чорновола, 12', 1234567127, 'info@mobileresh.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (128, N'ТОВ "ГаджетОптСервіс"', 380444567128, N'Київ, вул. Лаврська, 5', 1234567128, 'info@gadgetoptserv.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (129, N'ТОВ "СмартЗбут"', 380444567129, N'Одеса, просп. Шевченка, 31', 1234567129, 'info@smartzbut.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (130, N'ТОВ "ТелефонЛідер"', 380444567130, N'Дніпро, вул. Калинова, 8', 1234567130, 'info@phonelider.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (131, N'ТОВ "ГлобалТелеком"', 380444567131, N'Харків, вул. Пушкінська, 14', 1234567131, 'info@globaltelecom.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (132, N'ТОВ "СмартКом"', 380444567132, N'Запоріжжя, вул. Горького, 21', 1234567132, 'info@smartcom.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (133, N'ТОВ "ТехноСвіт"', 380444567133, N'Львів, вул. Городоцька, 55', 1234567133, 'info@technosvit.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (134, N'ТОВ "СмартДевайс"', 380444567134, N'Київ, просп. Лобановського, 17', 1234567134, 'info@smartdevice.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (135, N'ТОВ "ГаджетШоп"', 380444567135, N'Одеса, вул. Жуковського, 6', 1234567135, 'info@gadgetshop.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (136, N'ТОВ "Цифровий Світ"', 380444567136, N'Дніпро, вул. Робоча, 33', 1234567136, 'info@cyfrsvit.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (137, N'ТОВ "ТопГаджет"', 380444567137, N'Харків, вул. Дарвіна, 28', 1234567137, 'info@topgadget.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (138, N'ТОВ "БізнесМобіл"', 380444567138, N'Запоріжжя, вул. Лермонтова, 15', 1234567138, 'info@businessmobil.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (139, N'ТОВ "ТелекомПоставка"', 380444567139, N'Львів, вул. Богдана Хмельницького, 29', 1234567139, 'info@telecompostavka.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (140, N'ТОВ "МобайлДистриб"', 380444567140, N'Київ, вул. Саксаганського, 40', 1234567140, 'info@mobiledist.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (141, N'ТОВ "ЦифроГаджет"', 380444567141, N'Одеса, вул. Катерининська, 13', 1234567141, 'info@cyfroGadget.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (142, N'ТОВ "ТехноГруп"', 380444567142, N'Дніпро, вул. Воскресенська, 9', 1234567142, 'info@technogroup.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (143, N'ТОВ "ГаджетМобайл"', 380444567143, N'Харків, вул. Сумгаїтська, 19', 1234567143, 'info@gadgetmobile.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (144, N'ТОВ "СмартПлюс"', 380444567144, N'Запоріжжя, вул. Чкалова, 12', 1234567144, 'info@smartplus.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (145, N'ТОВ "ФонДевайс"', 380444567145, N'Львів, вул. Лесі Українки, 7', 1234567145, 'info@fondevice.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (146, N'ТОВ "ТопМобілТрейд"', 380444567146, N'Київ, вул. Шота Руставелі, 11', 1234567146, 'info@topmobiltrade.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (147, N'ТОВ "СмартОптГруп"', 380444567147, N'Одеса, вул. Мала Арнаутська, 8', 1234567147, 'info@smartoptgroup.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (148, N'ТОВ "ТелекомЛідер"', 380444567148, N'Дніпро, вул. Яворницького, 14', 1234567148, 'info@telecomlider.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (149, N'ТОВ "БізнесДевайс"', 380444567149, N'Харків, вул. Героїв Праці, 22', 1234567149, 'info@businessdevice.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (150, N'ТОВ "ТехноТелефон"', 380444567150, N'Запоріжжя, просп. Соборний, 35', 1234567150, 'info@technophone.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (151, N'ТОВ "МобіЛайн"', 380444567151, N'Київ, вул. Велика Васильківська, 15', 1234567151, 'info@mobiline.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (152, N'ТОВ "СмартТехніка"', 380444567152, N'Львів, вул. Франка, 27', 1234567152, 'info@smarttehnika.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (153, N'ТОВ "ГаджетМаркет"', 380444567153, N'Одеса, вул. Преображенська, 18', 1234567153, 'info@gadgetmarket.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (154, N'ТОВ "ТелефонПлюс"', 380444567154, N'Дніпро, вул. Троїцька, 4', 1234567154, 'info@telefonplus.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (155, N'ТОВ "МобайлОпт"', 380444567155, N'Харків, просп. Гагаріна, 30', 1234567155, 'info@mobileopt.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (156, N'ТОВ "ГаджетСервіс"', 380444567156, N'Запоріжжя, вул. Леніна, 12', 1234567156, 'info@gadgetservice.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (157, N'ТОВ "СмартМобайл"', 380444567157, N'Київ, вул. Дегтярівська, 5', 1234567157, 'info@smartmobile.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (158, N'ТОВ "ТехноСвіт"', 380444567158, N'Львів, вул. Личаківська, 40', 1234567158, 'info@technosvit.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (159, N'ТОВ "МобіОптТорг"', 380444567159, N'Одеса, вул. Дерибасівська, 8', 1234567159, 'info@moboptorg.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (160, N'ТОВ "ЦифроТех"', 380444567160, N'Дніпро, просп. Карла Маркса, 21', 1234567160, 'info@cyfrotech.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (161, N'ТОВ "ГаджетРітейл"', 380444567161, N'Харків, вул. Сумська, 37', 1234567161, 'info@gadgetretail.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (162, N'ТОВ "СмартГруп"', 380444567162, N'Запоріжжя, вул. Перемоги, 19', 1234567162, 'info@smartgroup.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (163, N'ТОВ "ТехноМобайл"', 380444567163, N'Київ, просп. Лесі Українки, 7', 1234567163, 'info@technomobile.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (164, N'ТОВ "ЦифроСвіт"', 380444567164, N'Львів, вул. Коперника, 22', 1234567164, 'info@cyfrosvit.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (165, N'ТОВ "МобіТорг"', 380444567165, N'Одеса, вул. Єкатеринінська, 14', 1234567165, 'info@mobitorg.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (166, N'ТОВ "СмартСервіс"', 380444567166, N'Дніпро, вул. Центральна, 31', 1234567166, 'info@smartservice.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (167, N'ТОВ "ГаджетТрейд"', 380444567167, N'Харків, вул. Полтавський Шлях, 25', 1234567167, 'info@gadgettrade.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (168, N'ТОВ "ТехноГаджет"', 380444567168, N'Запоріжжя, вул. Гоголя, 11', 1234567168, 'info@technogadget.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (169, N'ТОВ "Цифровий Партнер"', 380444567169, N'Київ, вул. Ярославів Вал, 9', 1234567169, 'info@digitalpartner.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (170, N'ТОВ "СмартТелеком"', 380444567170, N'Львів, вул. Стрийська, 16', 1234567170, 'info@smarttelecom.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (171, N'ТОВ "МобіГруп"', 380444567171, N'Одеса, вул. Пантелеймонівська, 6', 1234567171, 'info@mobigroup.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (172, N'ТОВ "ТелекомЛідер"', 380444567172, N'Дніпро, вул. Братів Трофімових, 7', 1234567172, 'info@telecomlider.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (173, N'ТОВ "ГаджетКом"', 380444567173, N'Харків, просп. Науки, 34', 1234567173, 'info@gadgetcom.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (174, N'ТОВ "МобіСтар"', 380444567174, N'Запоріжжя, вул. Лобановського, 5', 1234567174, 'info@mobistar.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (175, N'ТОВ "ТехноСвіт"', 380444567175, N'Київ, вул. Бориспільська, 21', 1234567175, 'info@technosvit.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (176, N'ТОВ "СмартМаркет"', 380444567176, N'Львів, вул. Пекарська, 10', 1234567176, 'info@smartmarket.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (177, N'ТОВ "ЦифроЛюкс"', 380444567177, N'Одеса, вул. Канатна, 19', 1234567177, 'info@cyfrolyuks.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (178, N'ТОВ "ГаджетПрайм"', 380444567178, N'Дніпро, вул. Європейська, 3', 1234567178, 'info@gadgetprime.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (179, N'ТОВ "ТелефонДім"', 380444567179, N'Харків, вул. Культури, 12', 1234567179, 'info@telefondim.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (180, N'ТОВ "МобіТехПартнер"', 380444567180, N'Запоріжжя, вул. Сєрова, 8', 1234567180, 'info@mobitehpartner.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (181, N'ТОВ "СмартСвіт"', 380444567181, N'Київ, вул. Хрещатик, 22', 1234567181, 'info@smartsvit.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (182, N'ТОВ "ГаджетОпт"', 380444567182, N'Львів, вул. Городоцька, 35', 1234567182, 'info@gadgetopt.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (183, N'ТОВ "МобіЦентр"', 380444567183, N'Одеса, вул. Середньофонтанська, 15', 1234567183, 'info@mobicentr.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (184, N'ТОВ "ТехноТрейд"', 380444567184, N'Дніпро, вул. Воскресенська, 9', 1234567184, 'info@technotrade.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (185, N'ТОВ "СмартЛідер"', 380444567185, N'Харків, вул. Пушкінська, 17', 1234567185, 'info@smartlider.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (186, N'ТОВ "ЦифроМобайл"', 380444567186, N'Запоріжжя, просп. Соборний, 45', 1234567186, 'info@cyfromobile.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (187, N'ТОВ "ГаджетСтор"', 380444567187, N'Київ, вул. Велика Житомирська, 5', 1234567187, 'info@gadgetstore.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (188, N'ТОВ "МобілСервіс"', 380444567188, N'Львів, просп. Свободи, 20', 1234567188, 'info@mobiservice.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (189, N'ТОВ "СмартШоп"', 380444567189, N'Одеса, вул. Фонтанська дорога, 11', 1234567189, 'info@smartshop.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (190, N'ТОВ "ГаджетЛюкс"', 380444567190, N'Дніпро, вул. Шевченка, 14', 1234567190, 'info@gadgetlux.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (191, N'ТОВ "ЦифроТрейд"', 380444567191, N'Харків, просп. Ювілейний, 26', 1234567191, 'info@cyfrottrade.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (192, N'ТОВ "МобіМаг"', 380444567192, N'Запоріжжя, вул. Незалежності, 18', 1234567192, 'info@mobimag.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (193, N'ТОВ "ТехноГруп"', 380444567193, N'Київ, вул. Лаврська, 3', 1234567193, 'info@technogroup.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (194, N'ТОВ "ГаджетМаркет Плюс"', 380444567194, N'Львів, вул. Дорошенка, 28', 1234567194, 'info@gadgetmarketplus.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (195, N'ТОВ "СмартКомплект"', 380444567195, N'Одеса, вул. Чорноморська, 7', 1234567195, 'info@smartcomplect.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (196, N'ТОВ "МобіГалактика"', 380444567196, N'Дніпро, вул. Старокозацька, 33', 1234567196, 'info@mobigalaktika.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (197, N'ТОВ "ЦифроТехніка"', 380444567197, N'Харків, вул. Богдана Хмельницького, 21', 1234567197, 'info@cyfrotehnika.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (198, N'ТОВ "ГаджетСтиль"', 380444567198, N'Запоріжжя, вул. Анголенка, 9', 1234567198, 'info@gadgetstyle.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (199, N'ТОВ "ТехноСвіт Груп"', 380444567199, N'Київ, вул. Басейна, 12', 1234567199, 'info@technosvitgroup.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (200, N'ТОВ "СмартЛенд"', 380444567200, N'Львів, вул. Зелена, 42', 1234567200, 'info@smartland.com');
+INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
+VALUES (201, N'ТОВ "ГаджетПрофі"', 380444567201, N'Одеса, вул. Рішельєвська, 8', 1234567201, 'info@gadgetprofi.com');
+
 
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (1, 'Apple', 'iPhone 14', '128GB, Black', 35000, 'В наявності');
+VALUES (1, 'Apple', 'iPhone 14', '128GB, Black', 35000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (2, 'Samsung', 'Galaxy S23', '256GB, Silver', 30000, 'В наявності');
+VALUES (2, 'Samsung', 'Galaxy S23', '256GB, Silver', 30000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (3, 'Xiaomi', 'Redmi Note 12', '64GB, Blue', 15000, 'В наявності');
+VALUES (3, 'Xiaomi', 'Redmi Note 12', '64GB, Blue', 15000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (4, 'Samsung', 'Galaxy S23', '256GB, Phantom Black', 32000, 'В наявності');
+VALUES (4, 'Samsung', 'Galaxy S23', '256GB, Phantom Black', 32000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (5, 'Xiaomi', 'Redmi Note 12', '128GB, Blue', 12000, 'В наявності');
+VALUES (5, 'Xiaomi', 'Redmi Note 12', '128GB, Blue', 12000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (6, 'Apple', 'iPhone 13', '128GB, Starlight', 30000, 'В наявності');
+VALUES (6, 'Apple', 'iPhone 13', '128GB, Starlight', 30000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (7, 'OnePlus', '10 Pro', '256GB, Emerald Forest', 28000, 'В наявності');
+VALUES (7, 'OnePlus', '10 Pro', '256GB, Emerald Forest', 28000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (8, 'Google', 'Pixel 7', '128GB, Snow', 27000, 'В наявності');
+VALUES (8, 'Google', 'Pixel 7', '128GB, Snow', 27000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (9, 'Realme', 'GT Neo 3', '256GB, Nitro Blue', 22000, 'В наявності');
+VALUES (9, 'Realme', 'GT Neo 3', '256GB, Nitro Blue', 22000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (10, 'Samsung', 'Galaxy A54', '128GB, Lime', 17000, 'Немає в наявності');
+VALUES (10, 'Samsung', 'Galaxy A54', '128GB, Lime', 17000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (11, 'Xiaomi', 'Poco X5 Pro', '256GB, Yellow', 16000, 'В наявності');
+VALUES (11, 'Xiaomi', 'Poco X5 Pro', '256GB, Yellow', 16000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (12, 'Apple', 'iPhone 12', '64GB, Purple', 25000, 'В наявності');
+VALUES (12, 'Apple', 'iPhone 12', '64GB, Purple', 25000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (13, 'Samsung', 'Galaxy S22', '128GB, Green', 29000, 'В наявності');
+VALUES (13, 'Samsung', 'Galaxy S22', '128GB, Green', 29000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (14, 'Google', 'Pixel 6a', '128GB, Charcoal', 19000, 'В наявності');
+VALUES (14, 'Google', 'Pixel 6a', '128GB, Charcoal', 19000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (15, 'OnePlus', 'Nord 2T', '128GB, Gray Shadow', 18000, 'В наявності');
+VALUES (15, 'OnePlus', 'Nord 2T', '128GB, Gray Shadow', 18000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (16, 'Realme', '10 Pro', '256GB, Dark Matter', 15000, 'Немає в наявності');
+VALUES (16, 'Realme', '10 Pro', '256GB, Dark Matter', 15000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (17, 'Xiaomi', 'Mi 11 Ultra', '512GB, Ceramic Black', 35000, 'В наявності');
+VALUES (17, 'Xiaomi', 'Mi 11 Ultra', '512GB, Ceramic Black', 35000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (18, 'Apple', 'iPhone SE (2022)', '64GB, Red', 20000, 'В наявності');
+VALUES (18, 'Apple', 'iPhone SE (2022)', '64GB, Red', 20000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (19, 'Samsung', 'Galaxy Z Flip 4', '256GB, Bora Purple', 40000, 'В наявності');
+VALUES (19, 'Samsung', 'Galaxy Z Flip 4', '256GB, Bora Purple', 40000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (20, 'Google', 'Pixel 7 Pro', '512GB, Hazel', 37000, 'В наявності');
+VALUES (20, 'Google', 'Pixel 7 Pro', '512GB, Hazel', 37000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (21, 'Xiaomi', 'Redmi Note 11 Pro', '128GB, Graphite Gray', 14000, 'В наявності');
+VALUES (21, 'Xiaomi', 'Redmi Note 11 Pro', '128GB, Graphite Gray', 14000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (22, 'Realme', '9i', '128GB, Prism Blue', 13000, 'Немає в наявності');
+VALUES (22, 'Realme', '9i', '128GB, Prism Blue', 13000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (23, 'OnePlus', '9R', '256GB, Carbon Black', 24000, 'В наявності');
+VALUES (23, 'OnePlus', '9R', '256GB, Carbon Black', 24000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (24, 'Apple', 'iPhone 11', '128GB, Green', 27000, 'В наявності');
+VALUES (24, 'Apple', 'iPhone 11', '128GB, Green', 27000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (25, 'Samsung', 'Galaxy M53', '128GB, Blue', 19000, 'В наявності');
+VALUES (25, 'Samsung', 'Galaxy M53', '128GB, Blue', 19000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (26, 'Xiaomi', 'Poco F4 GT', '256GB, Stealth Black', 23000, 'В наявності');
+VALUES (26, 'Xiaomi', 'Poco F4 GT', '256GB, Stealth Black', 23000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (27, 'Realme', 'Narzo 50', '128GB, Speed Blue', 11000, 'В наявності');
+VALUES (27, 'Realme', 'Narzo 50', '128GB, Speed Blue', 11000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (28, 'Google', 'Pixel 5a', '128GB, Mostly Black', 16000, 'В наявності');
+VALUES (28, 'Google', 'Pixel 5a', '128GB, Mostly Black', 16000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (29, 'OnePlus', '8T', '256GB, Lunar Silver', 21000, 'В наявності');
+VALUES (29, 'OnePlus', '8T', '256GB, Lunar Silver', 21000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (30, 'Apple', 'iPhone XR', '64GB, White', 22000, 'В наявності');
+VALUES (30, 'Apple', 'iPhone XR', '64GB, White', 22000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (31, 'Samsung', 'Galaxy S21', '128GB, Phantom White', 25000, 'В наявності');
+VALUES (31, 'Samsung', 'Galaxy S21', '128GB, Phantom White', 25000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (32, 'Xiaomi', 'Redmi 10', '64GB, Carbon Gray', 9000, 'Немає в наявності');
+VALUES (32, 'Xiaomi', 'Redmi 10', '64GB, Carbon Gray', 9000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (33, 'Apple', 'iPhone 15', '256GB, Midnight', 40000, 'В наявності');
+VALUES (33, 'Apple', 'iPhone 15', '256GB, Midnight', 40000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (34, 'Google', 'Pixel 6', '128GB, Kinda Coral', 28000, 'Немає в наявності');
+VALUES (34, 'Google', 'Pixel 6', '128GB, Kinda Coral', 28000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (35, 'OnePlus', 'Nord CE 2', '128GB, Bahama Blue', 17000, 'В наявності');
+VALUES (35, 'OnePlus', 'Nord CE 2', '128GB, Bahama Blue', 17000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (36, 'Realme', 'GT Master', '256GB, Voyager Grey', 20000, 'В наявності');
+VALUES (36, 'Realme', 'GT Master', '256GB, Voyager Grey', 20000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (37, 'Samsung', 'Galaxy Z Fold 4', '512GB, Beige', 60000, 'В наявності');
+VALUES (37, 'Samsung', 'Galaxy Z Fold 4', '512GB, Beige', 60000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (38, 'Xiaomi', 'Poco X4 GT', '256GB, Green', 16000, 'Немає в наявності');
+VALUES (38, 'Xiaomi', 'Poco X4 GT', '256GB, Green', 16000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (39, 'Apple', 'iPhone 13 Pro', '512GB, Sierra Blue', 55000, 'В наявності');
+VALUES (39, 'Apple', 'iPhone 13 Pro', '512GB, Sierra Blue', 55000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (40, 'Google', 'Pixel 4a', '128GB, Just Black', 14000, 'Немає в наявності');
+VALUES (40, 'Google', 'Pixel 4a', '128GB, Just Black', 14000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (41, 'Samsung', 'Galaxy A72', '128GB, Awesome Violet', 21000, 'В наявності');
+VALUES (41, 'Samsung', 'Galaxy A72', '128GB, Awesome Violet', 21000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (42, 'OnePlus', '8 Pro', '256GB, Ultramarine Blue', 26000, 'Немає в наявності');
+VALUES (42, 'OnePlus', '8 Pro', '256GB, Ultramarine Blue', 26000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (43, 'Xiaomi', 'Mi 10T', '128GB, Cosmic Black', 18000, 'В наявності');
+VALUES (43, 'Xiaomi', 'Mi 10T', '128GB, Cosmic Black', 18000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (44, 'Realme', '8 Pro', '128GB, Infinite Black', 13000, 'Немає в наявності');
+VALUES (44, 'Realme', '8 Pro', '128GB, Infinite Black', 13000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (45, 'Apple', 'iPhone 14 Pro', '1TB, Deep Purple', 70000, 'В наявності');
+VALUES (45, 'Apple', 'iPhone 14 Pro', '1TB, Deep Purple', 70000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (46, 'Samsung', 'Galaxy Note 20', '256GB, Mystic Bronze', 34000, 'Немає в наявності');
+VALUES (46, 'Samsung', 'Galaxy Note 20', '256GB, Mystic Bronze', 34000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (47, 'Google', 'Pixel 3', '64GB, Clearly White', 10000, 'Немає в наявності');
+VALUES (47, 'Google', 'Pixel 3', '64GB, Clearly White', 10000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (48, 'OnePlus', '7T', '128GB, Frosted Silver', 15000, 'В наявності');
+VALUES (48, 'OnePlus', '7T', '128GB, Frosted Silver', 15000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (49, 'Xiaomi', 'Redmi 9', '64GB, Ocean Green', 8000, 'Немає в наявності');
+VALUES (49, 'Xiaomi', 'Redmi 9', '64GB, Ocean Green', 8000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (50, 'Realme', '7i', '128GB, Aurora Green', 12000, 'В наявності');
+VALUES (50, 'Realme', '7i', '128GB, Aurora Green', 12000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (51, 'Apple', 'iPhone XS', '256GB, Space Gray', 22000, 'Немає в наявності');
+VALUES (51, 'Apple', 'iPhone XS', '256GB, Space Gray', 22000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (52, 'Samsung', 'Galaxy S10', '128GB, Prism White', 18000, 'В наявності');
+VALUES (52, 'Samsung', 'Galaxy S10', '128GB, Prism White', 18000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (53, 'Google', 'Pixel 2 XL', '128GB, Black & White', 9000, 'Немає в наявності');
+VALUES (53, 'Google', 'Pixel 2 XL', '128GB, Black & White', 9000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (54, 'OnePlus', '6T', '256GB, Thunder Purple', 13000, 'В наявності');
+VALUES (54, 'OnePlus', '6T', '256GB, Thunder Purple', 13000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (55, 'Xiaomi', 'Redmi Note 9', '128GB, Midnight Grey', 10000, 'Немає в наявності');
+VALUES (55, 'Xiaomi', 'Redmi Note 9', '128GB, Midnight Grey', 10000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (56, 'Realme', '6 Pro', '128GB, Lightning Blue', 14000, 'В наявності');
+VALUES (56, 'Realme', '6 Pro', '128GB, Lightning Blue', 14000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (57, 'Apple', 'iPhone 8 Plus', '64GB, Gold', 16000, 'Немає в наявності');
+VALUES (57, 'Apple', 'iPhone 8 Plus', '64GB, Gold', 16000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (58, 'Samsung', 'Galaxy A32', '128GB, Awesome Black', 15000, 'В наявності');
+VALUES (58, 'Samsung', 'Galaxy A32', '128GB, Awesome Black', 15000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (59, 'Google', 'Pixel 1', '64GB, Very Silver', 7000, 'Немає в наявності');
+VALUES (59, 'Google', 'Pixel 1', '64GB, Very Silver', 7000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (60, 'OnePlus', '5T', '128GB, Lava Red', 11000, 'В наявності');
+VALUES (60, 'OnePlus', '5T', '128GB, Lava Red', 11000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (61, 'Xiaomi', 'Redmi Note 11', '128GB, Graphite Gray', 12000, 'В наявності');
+VALUES (61, 'Xiaomi', 'Redmi Note 11', '128GB, Graphite Gray', 12000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (62, 'Apple', 'iPhone SE (2022)', '64GB, Starlight', 18000, 'Немає в наявності');
+VALUES (62, 'Apple', 'iPhone SE (2022)', '64GB, Starlight', 18000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (63, 'Samsung', 'Galaxy Z Flip 4', '256GB, Bora Purple', 45000, 'В наявності');
+VALUES (63, 'Samsung', 'Galaxy Z Flip 4', '256GB, Bora Purple', 45000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (64, 'Google', 'Pixel 7', '128GB, Lemongrass', 32000, 'Немає в наявності');
+VALUES (64, 'Google', 'Pixel 7', '128GB, Lemongrass', 32000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (65, 'OnePlus', '10 Pro', '256GB, Volcanic Black', 37000, 'В наявності');
+VALUES (65, 'OnePlus', '10 Pro', '256GB, Volcanic Black', 37000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (66, 'Realme', 'Narzo 50', '128GB, Speed Blue', 14000, 'В наявності');
+VALUES (66, 'Realme', 'Narzo 50', '128GB, Speed Blue', 14000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (67, 'Xiaomi', 'Mi 11 Ultra', '512GB, Ceramic White', 55000, 'Немає в наявності');
+VALUES (67, 'Xiaomi', 'Mi 11 Ultra', '512GB, Ceramic White', 55000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (68, 'Apple', 'iPhone 12 Mini', '128GB, Green', 26000, 'В наявності');
+VALUES (68, 'Apple', 'iPhone 12 Mini', '128GB, Green', 26000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (69, 'Samsung', 'Galaxy M52', '128GB, Blazing Black', 15000, 'Немає в наявності');
+VALUES (69, 'Samsung', 'Galaxy M52', '128GB, Blazing Black', 15000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (70, 'Google', 'Pixel 5', '128GB, Sorta Sage', 28000, 'В наявності');
+VALUES (70, 'Google', 'Pixel 5', '128GB, Sorta Sage', 28000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (71, 'OnePlus', 'Nord 2', '128GB, Blue Haze', 20000, 'Немає в наявності');
+VALUES (71, 'OnePlus', 'Nord 2', '128GB, Blue Haze', 20000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (72, 'Realme', 'GT Neo 3', '256GB, Nitro Blue', 30000, 'В наявності');
+VALUES (72, 'Realme', 'GT Neo 3', '256GB, Nitro Blue', 30000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (73, 'Xiaomi', 'Poco F4', '128GB, Night Black', 23000, 'В наявності');
+VALUES (73, 'Xiaomi', 'Poco F4', '128GB, Night Black', 23000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (74, 'Apple', 'iPhone XR', '128GB, Coral', 21000, 'Немає в наявності');
+VALUES (74, 'Apple', 'iPhone XR', '128GB, Coral', 21000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (75, 'Samsung', 'Galaxy A53', '256GB, Awesome Peach', 18000, 'В наявності');
+VALUES (75, 'Samsung', 'Galaxy A53', '256GB, Awesome Peach', 18000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (76, 'Google', 'Pixel 6a', '128GB, Chalk', 25000, 'Немає в наявності');
+VALUES (76, 'Google', 'Pixel 6a', '128GB, Chalk', 25000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (77, 'OnePlus', '9 Pro', '256GB, Morning Mist', 41000, 'В наявності');
+VALUES (77, 'OnePlus', '9 Pro', '256GB, Morning Mist', 41000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (78, 'Realme', '8', '128GB, Cyber Silver', 14000, 'Немає в наявності');
+VALUES (78, 'Realme', '8', '128GB, Cyber Silver', 14000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (79, 'Xiaomi', 'Redmi K50', '128GB, Dimensity Edition', 27000, 'В наявності');
+VALUES (79, 'Xiaomi', 'Redmi K50', '128GB, Dimensity Edition', 27000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (80, 'Apple', 'iPhone 11 Pro Max', '512GB, Midnight Green', 60000, 'Немає в наявності');
+VALUES (80, 'Apple', 'iPhone 11 Pro Max', '512GB, Midnight Green', 60000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (81, 'Samsung', 'Galaxy S22 Ultra', '1TB, Burgundy', 80000, 'В наявності');
+VALUES (81, 'Samsung', 'Galaxy S22 Ultra', '1TB, Burgundy', 80000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (82, 'Google', 'Pixel 4', '64GB, Clearly White', 19000, 'Немає в наявності');
+VALUES (82, 'Google', 'Pixel 4', '64GB, Clearly White', 19000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (83, 'OnePlus', '7', '128GB, Mirror Gray', 17000, 'В наявності');
+VALUES (83, 'OnePlus', '7', '128GB, Mirror Gray', 17000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (84, 'Realme', 'C25', '64GB, Water Blue', 11000, 'Немає в наявності');
+VALUES (84, 'Realme', 'C25', '64GB, Water Blue', 11000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (85, 'Xiaomi', 'Black Shark 4', '256GB, Shadow Black', 29000, 'В наявності');
+VALUES (85, 'Xiaomi', 'Black Shark 4', '256GB, Shadow Black', 29000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (86, 'Apple', 'iPhone 13', '256GB, Midnight', 39000, 'В наявності');
+VALUES (86, 'Apple', 'iPhone 13', '256GB, Midnight', 39000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (87, 'Samsung', 'Galaxy A73', '128GB, Mint', 21000, 'Немає в наявності');
+VALUES (87, 'Samsung', 'Galaxy A73', '128GB, Mint', 21000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (88, 'Google', 'Pixel 6 Pro', '512GB, Cloudy White', 50000, 'В наявності');
+VALUES (88, 'Google', 'Pixel 6 Pro', '512GB, Cloudy White', 50000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (89, 'OnePlus', '8T', '256GB, Aquamarine Green', 32000, 'Немає в наявності');
+VALUES (89, 'OnePlus', '8T', '256GB, Aquamarine Green', 32000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (90, 'Realme', '9 Pro+', '128GB, Sunrise Blue', 26000, 'В наявності');
+VALUES (90, 'Realme', '9 Pro+', '128GB, Sunrise Blue', 26000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (91, 'Xiaomi', 'Mi 10T Pro', '256GB, Lunar Silver', 28000, 'Немає в наявності');
+VALUES (91, 'Xiaomi', 'Mi 10T Pro', '256GB, Lunar Silver', 28000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (92, 'Apple', 'iPhone 11', '128GB, Red', 27000, 'В наявності');
+VALUES (92, 'Apple', 'iPhone 11', '128GB, Red', 27000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (93, 'Samsung', 'Galaxy Note 20 Ultra', '512GB, Mystic Bronze', 60000, 'Немає в наявності');
+VALUES (93, 'Samsung', 'Galaxy Note 20 Ultra', '512GB, Mystic Bronze', 60000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (94, 'Google', 'Pixel 3 XL', '128GB, Not Pink', 17000, 'В наявності');
+VALUES (94, 'Google', 'Pixel 3 XL', '128GB, Not Pink', 17000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (95, 'OnePlus', 'Nord CE 2', '128GB, Gray Mirror', 22000, 'Немає в наявності');
+VALUES (95, 'OnePlus', 'Nord CE 2', '128GB, Gray Mirror', 22000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (96, 'Realme', 'GT 2 Pro', '512GB, Paper White', 33000, 'В наявності');
+VALUES (96, 'Realme', 'GT 2 Pro', '512GB, Paper White', 33000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (97, 'Xiaomi', 'Redmi 10', '128GB, Pebble White', 13000, 'Немає в наявності');
+VALUES (97, 'Xiaomi', 'Redmi 10', '128GB, Pebble White', 13000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (98, 'Apple', 'iPhone XS Max', '512GB, Space Gray', 45000, 'В наявності');
+VALUES (98, 'Apple', 'iPhone XS Max', '512GB, Space Gray', 45000, N'В наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (99, 'Samsung', 'Galaxy S21 FE', '256GB, Olive', 34000, 'Немає в наявності');
+VALUES (99, 'Samsung', 'Galaxy S21 FE', '256GB, Olive', 34000, N'Немає в наявності');
 INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability) 
-VALUES (100, 'Google', 'Pixel 4a', '128GB, Just Black', 20000, 'В наявності');
+VALUES (100, 'Google', 'Pixel 4a', '128GB, Just Black', 20000, N'В наявності');
 
 INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
 VALUES (1, 1, '2024-03-01', NULL, 35000);

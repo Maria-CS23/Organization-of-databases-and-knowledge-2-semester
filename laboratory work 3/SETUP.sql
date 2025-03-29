@@ -1,16 +1,16 @@
 CREATE TABLE Client (
     ClientID INT PRIMARY KEY,
-    Type VARCHAR(20) NOT NULL,
+    Type NVARCHAR(20) NOT NULL,
     RegistrationDate DATE NOT NULL
 );
 
 CREATE TABLE Phone (
     PhoneID INT PRIMARY KEY,
-    Manufacturer VARCHAR(50) NOT NULL,
-    Model VARCHAR(50) NOT NULL,
-    Specifications VARCHAR(200)NOT NULL,
+    Manufacturer NVARCHAR(50) NOT NULL,
+    Model NVARCHAR(50) NOT NULL,
+    Specifications NVARCHAR(200)NOT NULL,
     Price DECIMAL(10, 2) NOT NULL,
-    Availability VARCHAR(20) NOT NULL
+    Availability NVARCHAR(20) NOT NULL
 );
 
 CREATE TABLE Orders (
@@ -33,24 +33,23 @@ CREATE TABLE OrderLine (
 
 CREATE TABLE Individual (
     ClientID INT PRIMARY KEY,
-    FullName VARCHAR(100) NOT NULL,
-    Address VARCHAR(200) NOT NULL,
+    FullName NVARCHAR(100) NOT NULL,
+    Address NVARCHAR(200) NOT NULL,
     PhoneNumber BIGINT NOT NULL,
     FOREIGN KEY (ClientID) REFERENCES Client(ClientID)
 );
 
 CREATE TABLE LegalEntity (
     ClientID INT PRIMARY KEY,
-    CompanyName VARCHAR(100) NOT NULL,
+    CompanyName NVARCHAR(100) NOT NULL,
     PhoneNumber BIGINT NOT NULL,
-    Address VARCHAR(200) NOT NULL,
+    Address NVARCHAR(200) NOT NULL,
     TaxID INT NOT NULL UNIQUE,
     FOREIGN KEY (ClientID) REFERENCES Client(ClientID)
 );
 
-
-ALTER TABLE Phone ADD WarrantyPeriod INT NOT NULL DEFAULT 12;
-
 ALTER TABLE Orders ALTER COLUMN OrderAmount DECIMAL(10,2);
 
-ALTER TABLE Client ADD Email VARCHAR(100) NULL;
+ALTER TABLE Individual ADD Email NVARCHAR(100) NULL;
+
+ALTER TABLE LegalEntity ADD Email NVARCHAR(100) NULL;
