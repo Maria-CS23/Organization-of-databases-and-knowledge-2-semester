@@ -100,3 +100,29 @@ ORDER BY CompanyName ASC;
 
 SELECT * FROM Individual
 ORDER BY FullName ASC;
+
+
+-- Використання булевих та реляційних операторів
+SELECT C.ClientID, C.Type, C.RegistrationDate
+FROM Client C
+WHERE C.RegistrationDate > '2022-08-15'
+AND (EXISTS (SELECT 1 FROM Individual I WHERE I.ClientID = C.ClientID) OR EXISTS (SELECT 1 FROM LegalEntity L WHERE L.ClientID = C.ClientID));
+
+SELECT PhoneID, Manufacturer, Model, Price, Availability
+FROM Phone
+WHERE Price > 67900 AND Availability = 'В наявності';
+
+SELECT o.OrderID, o.OrderDate, o.CompletionDate, o.OrderAmount
+FROM Orders o
+WHERE o.CompletionDate > '2025-02-28' AND o.OrderAmount >= 19000;
+
+SELECT PhoneID, Manufacturer, Model, Price
+FROM Phone
+WHERE Manufacturer <> 'Xiaomi';
+
+SELECT Orders.OrderID, Client.Type, Orders.OrderAmount, Phone.Manufacturer, Phone.Model
+FROM Orders
+JOIN Client ON Orders.ClientID = Client.ClientID
+JOIN OrderLine ON Orders.OrderID = OrderLine.OrderID
+JOIN Phone ON OrderLine.PhoneID = Phone.PhoneID
+WHERE Client.Type = 'Юридична особа' AND Orders.OrderAmount > 195800;
