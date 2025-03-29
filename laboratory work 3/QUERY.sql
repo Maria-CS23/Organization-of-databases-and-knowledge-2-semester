@@ -166,5 +166,3 @@ LEFT JOIN Individual i ON c.ClientID = i.ClientID
 LEFT JOIN LegalEntity l ON c.ClientID = l.ClientID
 GROUP BY c.ClientID, i.FullName, l.CompanyName
 ORDER BY TotalSpent DESC;
-
-
