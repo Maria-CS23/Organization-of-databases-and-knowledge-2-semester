@@ -166,3 +166,47 @@ LEFT JOIN Individual i ON c.ClientID = i.ClientID
 LEFT JOIN LegalEntity l ON c.ClientID = l.ClientID
 GROUP BY c.ClientID, i.FullName, l.CompanyName
 ORDER BY TotalSpent DESC;
+
+-- Застосування оператора GROUP BY та умови HAVING у поєднанні з JOIN
+SELECT p.Manufacturer, p.Model, SUM(ol.Quantity) AS TotalSold
+FROM OrderLine ol
+JOIN Phone p ON ol.PhoneID = p.PhoneID
+GROUP BY p.Manufacturer, p.Model
+HAVING SUM(ol.Quantity) > 12;
+
+SELECT le.CompanyName, COUNT(o.OrderID) AS OrderCount
+FROM Orders o
+JOIN LegalEntity le ON o.ClientID = le.ClientID
+GROUP BY le.CompanyName
+HAVING COUNT(o.OrderID) >= 2;
+
+SELECT p.Manufacturer, SUM(ol.Quantity) AS TotalSold
+FROM OrderLine ol
+JOIN Phone p ON ol.PhoneID = p.PhoneID
+GROUP BY p.Manufacturer
+HAVING SUM(ol.Quantity) > 45;
+
+SELECT p.Manufacturer, p.Model, p.Price, COUNT(ol.LineID) AS OrderCount
+FROM OrderLine ol
+JOIN Phone p ON ol.PhoneID = p.PhoneID
+GROUP BY p.Manufacturer, p.Model, p.Price
+HAVING p.Price > 55000;
+
+SELECT YEAR(o.OrderDate) AS OrderYear, 
+       MONTH(o.OrderDate) AS OrderMonth, 
+       AVG(ol.Quantity) AS AvgPhonesPerOrder
+FROM Orders o
+JOIN OrderLine ol ON o.OrderID = ol.OrderID
+WHERE YEAR(o.OrderDate) = 2025
+GROUP BY YEAR(o.OrderDate), MONTH(o.OrderDate)
+HAVING AVG(ol.Quantity) > 2;
+
+
+
+
+
+
+
+
+
+
