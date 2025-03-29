@@ -126,3 +126,45 @@ JOIN Client ON Orders.ClientID = Client.ClientID
 JOIN OrderLine ON Orders.OrderID = OrderLine.OrderID
 JOIN Phone ON OrderLine.PhoneID = Phone.PhoneID
 WHERE Client.Type = 'Юридична особа' AND Orders.OrderAmount > 195800;
+
+
+-- Розширене використання оператора JOIN у складних запитах
+SELECT o.OrderID, o.OrderDate, c.ClientID, i.FullName, l.CompanyName, p.Manufacturer, p.Model, ol.Quantity, p.Specifications, p.Price
+FROM Orders o
+INNER JOIN Client c ON o.ClientID = c.ClientID
+LEFT JOIN Individual i ON c.ClientID = i.ClientID
+LEFT JOIN LegalEntity l ON c.ClientID = l.ClientID
+INNER JOIN OrderLine ol ON o.OrderID = ol.OrderID
+INNER JOIN Phone p ON ol.PhoneID = p.PhoneID;
+
+SELECT c.ClientID, i.FullName, l.CompanyName, o.OrderID, o.OrderDate
+FROM Client c
+FULL JOIN Orders o ON c.ClientID = o.ClientID
+LEFT JOIN Individual i ON c.ClientID = i.ClientID
+LEFT JOIN LegalEntity l ON c.ClientID = l.ClientID;
+
+SELECT c.ClientID, i.FullName, l.CompanyName, p.Manufacturer, p.Model, ol.Quantity
+FROM Client c
+LEFT JOIN Individual i ON c.ClientID = i.ClientID
+LEFT JOIN LegalEntity l ON c.ClientID = l.ClientID
+LEFT JOIN Orders o ON c.ClientID = o.ClientID
+LEFT JOIN OrderLine ol ON o.OrderID = ol.OrderID
+LEFT JOIN Phone p ON ol.PhoneID = p.PhoneID;
+
+SELECT ol.OrderID, p.PhoneID, p.Manufacturer, p.Model, p.Availability, ol.Quantity
+FROM OrderLine ol
+LEFT JOIN Phone p ON ol.PhoneID = p.PhoneID
+LEFT JOIN Orders o ON ol.OrderID = o.OrderID;
+
+SELECT c.ClientID, 
+       i.FullName AS IndividualName, 
+       l.CompanyName AS LegalEntityName, 
+       SUM(o.OrderAmount) AS TotalSpent
+FROM Client c
+JOIN Orders o ON c.ClientID = o.ClientID
+LEFT JOIN Individual i ON c.ClientID = i.ClientID
+LEFT JOIN LegalEntity l ON c.ClientID = l.ClientID
+GROUP BY c.ClientID, i.FullName, l.CompanyName
+ORDER BY TotalSpent DESC;
+
+
