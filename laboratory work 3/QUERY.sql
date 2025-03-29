@@ -201,10 +201,40 @@ WHERE YEAR(o.OrderDate) = 2025
 GROUP BY YEAR(o.OrderDate), MONTH(o.OrderDate)
 HAVING AVG(ol.Quantity) > 2;
 
+-- Завдання 12
+SELECT i.FullName, i.Address, SUM(ol.Quantity) AS TotalPhonesOrdered
+FROM Individual i
+JOIN Client c ON i.ClientID = c.ClientID
+JOIN Orders o ON c.ClientID = o.ClientID
+JOIN OrderLine ol ON o.OrderID = ol.OrderID
+GROUP BY i.FullName, i.Address;
 
 
+SELECT p.Manufacturer, p.Model, p.Price, p.Availability
+FROM Phone p
+WHERE p.Availability = 'В наявності';
 
+SELECT c.ClientID,
+    CASE 
+        WHEN i.ClientID IS NOT NULL THEN i.FullName
+        ELSE le.CompanyName 
+    END AS ClientName,
+    o.OrderID,
+    o.OrderDate,
+    o.CompletionDate,
+    o.OrderAmount
+FROM Orders o
+JOIN Client c ON o.ClientID = c.ClientID
+LEFT JOIN Individual i ON c.ClientID = i.ClientID
+LEFT JOIN LegalEntity le ON c.ClientID = le.ClientID;
 
+SELECT le.CompanyName, p.Model, SUM(ol.Quantity) AS TotalQuantityOrdered
+FROM LegalEntity le
+JOIN Client c ON le.ClientID = c.ClientID
+JOIN Orders o ON c.ClientID = o.ClientID
+JOIN OrderLine ol ON o.OrderID = ol.OrderID
+JOIN Phone p ON ol.PhoneID = p.PhoneID
+GROUP BY le.CompanyName, p.Model;
 
 
 
