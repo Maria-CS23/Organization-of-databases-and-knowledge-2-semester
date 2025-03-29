@@ -81,6 +81,22 @@ UPDATE Phone SET Price = 45990 WHERE PhoneID = 7;
 UPDATE Phone SET Model = 'Redmi Note 13' WHERE PhoneID = 5;
 
 
+-- Формування запитів із використанням сортування даних (ORDER BY)
+SELECT * FROM Client
+ORDER BY RegistrationDate DESC;
 
+SELECT * FROM Phone
+ORDER BY Price ASC;
 
+SELECT * FROM Orders
+ORDER BY OrderDate ASC;
 
+SELECT * FROM Orders
+WHERE OrderAmount > 1000
+ORDER BY OrderAmount DESC;
+
+SELECT * FROM LegalEntity
+ORDER BY CompanyName ASC;
+
+SELECT * FROM Individual
+ORDER BY FullName ASC;
