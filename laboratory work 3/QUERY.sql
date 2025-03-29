@@ -67,17 +67,18 @@ FROM Phone P
 WHERE EXISTS (SELECT 1 FROM OrderLine OL WHERE OL.PhoneID = P.PhoneID);
 
 
+-- Формування запитів із каскадними діями
+DELETE FROM Client WHERE ClientID = 1;
 
+DELETE FROM Orders WHERE OrderID = 3;
 
+DELETE FROM Phone WHERE PhoneID = 1;
 
+UPDATE OrderLine SET Quantity = 5 WHERE LineID = 2;
 
+UPDATE Phone SET Price = 45990 WHERE PhoneID = 7;
 
-
-
-
-
-
-
+UPDATE Phone SET Model = 'Redmi Note 13' WHERE PhoneID = 5;
 
 
 
