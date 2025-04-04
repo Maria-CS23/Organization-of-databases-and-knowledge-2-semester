@@ -11,3 +11,9 @@ SELECT 'Individual', COUNT(*) FROM Individual
 UNION ALL
 SELECT 'LegalEntity', COUNT(*) FROM LegalEntity;
 
+--  запити з використанням інших агрегатних функцій
+SELECT SUM(OrderAmount) AS TotalRevenue FROM Orders;
+
+SELECT AVG(Price) AS AveragePhonePrice FROM Phone;
+
+SELECT MAX(Price) AS MaxPrice, MIN(Price) AS MinPrice FROM Phone;
