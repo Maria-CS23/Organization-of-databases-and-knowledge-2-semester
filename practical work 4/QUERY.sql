@@ -43,3 +43,20 @@ FROM LegalEntity;
 SELECT Manufacturer, Model,
     CONCAT(Manufacturer, ' ', Model) AS FullName
 FROM Phone;
+
+-- 3 запити з використанням функцій для обробки дати
+SELECT OrderID, OrderDate, CompletionDate,
+    DATEDIFF(DAY, OrderDate, CompletionDate) AS DurationInDays
+FROM Orders
+WHERE CompletionDate IS NOT NULL;
+
+SELECT ClientID, RegistrationDate,
+    MONTH(RegistrationDate) AS RegistrationMonth
+FROM Client;
+
+SELECT OrderID, OrderDate,
+    CASE 
+        WHEN DATEDIFF(DAY, OrderDate, GETDATE()) <= 30 THEN 'Нещодавнє'
+        ELSE 'Старе'
+    END AS OrderStatus
+FROM Orders;
