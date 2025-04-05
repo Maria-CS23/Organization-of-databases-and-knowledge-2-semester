@@ -30,3 +30,16 @@ FROM Orders;
 SELECT Manufacturer, Model, Specifications, Price,
     LAG(Price) OVER (PARTITION BY Manufacturer ORDER BY Model) AS PreviousModelPrice
 FROM Phone;
+
+-- 3 запити з використанням рядкових функцій
+SELECT ClientID, FullName,
+    LEN(FullName) AS NameLength
+FROM Individual;
+
+SELECT CompanyName,
+    UPPER(CompanyName) AS UpperCompanyName
+FROM LegalEntity;
+
+SELECT Manufacturer, Model,
+    CONCAT(Manufacturer, ' ', Model) AS FullName
+FROM Phone;
