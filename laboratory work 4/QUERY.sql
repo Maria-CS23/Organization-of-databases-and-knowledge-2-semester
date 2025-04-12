@@ -1,4 +1,4 @@
--- Лабораторна робота 2
+-- Laboratory work 2
 -- Формування запитів із застосуванням умов відбору (WHERE)
 SELECT ClientID, Type, RegistrationDate FROM Client
 WHERE RegistrationDate > '2024-05-01';
@@ -321,7 +321,7 @@ JOIN OrderLine ol ON o.OrderID = ol.OrderID
 JOIN Phone p ON ol.PhoneID = p.PhoneID
 WHERE p.Model = 'Galaxy S23';
 
--- Лабораторна робота 3
+-- Laboratory work 3
 -- Формування запитів із використанням багатотабличних дій
 SELECT 
     O.OrderID,

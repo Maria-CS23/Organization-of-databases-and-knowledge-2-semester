@@ -1296,23 +1296,23 @@ VALUES (389, N'ТОВ "Телефон Еліт"', '380445445679', N'Харків, вул. Данилевського
 INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
 VALUES (390, N'ТОВ "МобіСтиль"', '380445456780', N'Київ, вул. Вишгородська, 31', '12456789012', 'info@mobistyle.com');
 INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
-VALUES (421, N'ТОВ "МобілТех"', '380444567890', N'Львів, вул. Замкова, 12', '1234567890', 'info@mobiltech.com');
+VALUES (421, N'ТОВ "МобілТех"', '380444567890', N'Львів, вул. Замкова, 12', '123456789065', 'info@mobiltech.com');
 INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
-VALUES (422, N'ПП "СмартДевайс"', '380445551234', N'Київ, вул. Січових Стрільців, 35', '2234567890', 'contact@smartdevice.ua');
+VALUES (422, N'ПП "СмартДевайс"', '380445551234', N'Київ, вул. Січових Стрільців, 35', '2234567154890', 'contact@smartdevice.ua');
 INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
-VALUES (423, N'ТОВ "ГаджетТрейд"', '380442227788', N'Одеса, вул. Дерибасівська, 5', '3234567890', 'sales@gadgettrade.com');
+VALUES (423, N'ТОВ "ГаджетТрейд"', '380442227788', N'Одеса, вул. Дерибасівська, 5', '3234545167890', 'sales@gadgettrade.com');
 INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
-VALUES (424, N'ТОВ "ТехноПартнер"', '380443334455', N'Харків, пр-т Науки, 50', '4234567890', 'info@technopartner.ua');
+VALUES (424, N'ТОВ "ТехноПартнер"', '380443334455', N'Харків, пр-т Науки, 50', '4234512367890', 'info@technopartner.ua');
 INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
-VALUES (425, N'ПП "БізнесГаджет"', '380446667788', N'Дніпро, вул. Центральна, 20', '5234567890', 'office@bizgadget.com');
+VALUES (425, N'ПП "БізнесГаджет"', '380446667788', N'Дніпро, вул. Центральна, 20', '1905234567890', 'office@bizgadget.com');
 INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
-VALUES (426, N'ТОВ "СмартСолюшнс"', '380445556677', N'Запоріжжя, вул. Перемоги, 8', '6234567890', 'info@smartsolutions.ua');
+VALUES (426, N'ТОВ "СмартСолюшнс"', '380445556677', N'Запоріжжя, вул. Перемоги, 8', '62186434567890', 'info@smartsolutions.ua');
 INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
-VALUES (427, N'ТОВ "УкрМобайл"', '380447778899', N'Київ, вул. Грушевського, 2', '7234567890', 'contact@ukrmobile.com');
+VALUES (427, N'ТОВ "УкрМобайл"', '380447778899', N'Київ, вул. Грушевського, 2', '7234567853190', 'contact@ukrmobile.com');
 INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
-VALUES (428, N'ПП "ДевайсМаркет"', '380449991122', N'Луцьк, вул. Волі, 17', '8234567890', 'support@devicemarket.ua');
+VALUES (428, N'ПП "ДевайсМаркет"', '380449991122', N'Луцьк, вул. Волі, 17', '82345677654890', 'support@devicemarket.ua');
 INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
-VALUES (429, N'ТОВ "ЕлектронІнвест"', '380441112233', N'Рівне, вул. Київська, 45', '9234567890', 'info@electroinvest.com');
+VALUES (429, N'ТОВ "ЕлектронІнвест"', '380441112233', N'Рівне, вул. Київська, 45', '92341234567890', 'info@electroinvest.com');
 INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
 VALUES (430, N'ТОВ "АйТіТрейд"', '380444445566', N'Чернівці, вул. Головна, 101', '1334567890', 'office@ittrade.ua');
 INSERT INTO LegalEntity (ClientID, CompanyName, PhoneNumber, Address, TaxID, Email) 
