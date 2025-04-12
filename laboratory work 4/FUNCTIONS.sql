@@ -75,3 +75,64 @@ RETURN (
     FROM Orders o
     WHERE o.ClientID = @ClientID
 );
+
+-- Завдання 5
+
+CREATE FUNCTION dbo.GetAvailablePhonesBelowPrice(@MaxPrice DECIMAL(10,2))
+RETURNS @Result TABLE (
+    PhoneID INT,
+    Manufacturer NVARCHAR(50),
+    Model NVARCHAR(50),
+    Price DECIMAL(10,2)
+)
+AS
+BEGIN
+    INSERT INTO @Result
+    SELECT PhoneID, Manufacturer, Model, Price
+    FROM Phone
+    WHERE Price < @MaxPrice AND Availability = 'В наявності'
+
+    RETURN
+END
+
+
+CREATE FUNCTION dbo.GetAvailablePhonesWithCategory()
+RETURNS @Result TABLE (
+    PhoneID INT, Manufacturer NVARCHAR(50),
+    Model NVARCHAR(50), Price DECIMAL(10,2),
+    Category NVARCHAR(20)
+)
+AS
+BEGIN
+    INSERT INTO @Result
+    SELECT 
+        PhoneID, Manufacturer, Model, Price,
+        CASE 
+            WHEN Price >= 15000 THEN 'Дорогий'
+            ELSE 'Бюджетний'
+        END AS Category
+    FROM Phone
+    WHERE Availability = 'В наявності'
+
+    RETURN
+END
+
+
+CREATE FUNCTION dbo.GetFrequentClients()
+RETURNS @Result TABLE (
+    ClientID INT,
+    TotalOrders INT
+)
+AS
+BEGIN
+    INSERT INTO @Result
+    SELECT 
+        ClientID,
+        COUNT(*) AS TotalOrders
+    FROM Orders
+    GROUP BY ClientID
+    HAVING COUNT(*) > 1
+
+    RETURN
+END
+

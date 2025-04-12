@@ -16,3 +16,15 @@ SELECT * FROM dbo.GetOrderTotalAmount();
 SELECT * FROM dbo.GetPhonesMoreExpensiveThan(45000.00);
 
 SELECT * FROM dbo.GetOrdersByClient(122);
+
+-- Завдання 5
+
+SELECT * FROM dbo.GetAvailablePhonesBelowPrice(23000.00);
+
+SELECT * FROM dbo.GetAvailablePhonesWithCategory();
+
+SELECT c.ClientID, c.Type, fc.TotalOrders
+FROM Client c
+JOIN dbo.GetFrequentClients() fc ON c.ClientID = fc.ClientID;
+
+
