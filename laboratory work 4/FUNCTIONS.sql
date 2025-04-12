@@ -136,3 +136,88 @@ BEGIN
     RETURN
 END
 
+-- Завдання 6
+
+CREATE FUNCTION dbo.GetTop3Clients()
+RETURNS TABLE
+AS
+RETURN (
+    SELECT TOP 3 
+        c.ClientID,
+        CASE 
+            WHEN i.FullName IS NOT NULL THEN i.FullName
+            WHEN l.CompanyName IS NOT NULL THEN l.CompanyName
+            ELSE 'Unknown'
+        END AS ClientName,
+        c.Type,
+        SUM(o.OrderAmount) AS TotalAmount
+    FROM Client c
+    JOIN Orders o ON c.ClientID = o.ClientID
+    LEFT JOIN Individual i ON c.ClientID = i.ClientID
+    LEFT JOIN LegalEntity l ON c.ClientID = l.ClientID
+    GROUP BY c.ClientID, i.FullName, l.CompanyName, c.Type
+    ORDER BY TotalAmount DESC
+);
+
+
+CREATE FUNCTION dbo.GetPhoneSalesByManufacturer()
+RETURNS TABLE
+AS
+RETURN (
+    SELECT 
+        p.Manufacturer,
+        SUM(ol.Quantity) AS TotalSold
+    FROM Phone p
+    JOIN OrderLine ol ON p.PhoneID = ol.PhoneID
+    GROUP BY p.Manufacturer 
+);
+
+
+CREATE FUNCTION dbo.GetPhonesWithoutOrders()
+RETURNS TABLE
+AS
+RETURN (
+    SELECT p.PhoneID, p.Manufacturer, p.Model
+    FROM Phone p
+    LEFT JOIN OrderLine ol ON p.PhoneID = ol.PhoneID
+    WHERE ol.PhoneID IS NULL
+);
+
+
+CREATE FUNCTION dbo.GetDaysSinceLastOrder(@ClientID INT)
+RETURNS INT
+AS
+BEGIN
+    DECLARE @Days INT;
+    SELECT @Days = DATEDIFF(DAY, MAX(OrderDate), GETDATE())
+    FROM Orders
+    WHERE ClientID = @ClientID;
+
+    RETURN @Days;
+END;
+
+
+CREATE FUNCTION dbo.GetPhoneByMonth()
+RETURNS @Result TABLE (
+    YearMonth NVARCHAR(7),
+    PhoneID INT,
+    Manufacturer NVARCHAR(50),
+    Model NVARCHAR(50),
+    TotalSold INT
+)
+AS
+BEGIN
+    INSERT INTO @Result
+    SELECT 
+        FORMAT(o.OrderDate, 'yyyy-MM') AS YearMonth,
+        p.PhoneID,
+        p.Manufacturer,
+        p.Model,
+        SUM(ol.Quantity) AS TotalSold
+    FROM Orders o
+    JOIN OrderLine ol ON o.OrderID = ol.OrderID
+    JOIN Phone p ON ol.PhoneID = p.PhoneID
+    GROUP BY FORMAT(o.OrderDate, 'yyyy-MM'), p.PhoneID, p.Manufacturer, p.Model
+
+    RETURN;
+END;

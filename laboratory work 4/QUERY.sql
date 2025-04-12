@@ -27,4 +27,14 @@ SELECT c.ClientID, c.Type, fc.TotalOrders
 FROM Client c
 JOIN dbo.GetFrequentClients() fc ON c.ClientID = fc.ClientID;
 
+-- Завдання 6
 
+SELECT * FROM dbo.GetTop3Clients();
+
+SELECT * FROM dbo.GetPhoneSalesByManufacturer();
+
+SELECT * FROM dbo.GetPhonesWithoutOrders();
+
+SELECT dbo.GetDaysSinceLastOrder(182) AS DaysSinceLastOrder;
+
+SELECT * FROM dbo.GetPhoneByMonth();
