@@ -8,3 +8,11 @@ FROM Client;
 
 SELECT OrderID, OrderDate, CompletionDate, dbo.GetOrderStatus(CompletionDate) AS Status
 FROM Orders;
+
+-- Завдання 4
+
+SELECT * FROM dbo.GetOrderTotalAmount();
+
+SELECT * FROM dbo.GetPhonesMoreExpensiveThan(45000.00);
+
+SELECT * FROM dbo.GetOrdersByClient(122);

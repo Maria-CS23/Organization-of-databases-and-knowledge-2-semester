@@ -34,3 +34,44 @@ BEGIN
     END
 END
 
+-- Завдання 4
+
+CREATE FUNCTION dbo.GetOrderTotalAmount()
+RETURNS TABLE
+AS
+RETURN (
+    SELECT 
+        ol.OrderID,
+        SUM(p.Price * ol.Quantity) AS TotalAmount
+    FROM OrderLine ol
+    JOIN Phone p ON ol.PhoneID = p.PhoneID
+    GROUP BY ol.OrderID
+);
+
+
+CREATE FUNCTION dbo.GetPhonesMoreExpensiveThan(@MinPrice DECIMAL(10,2))
+RETURNS TABLE
+AS
+RETURN (
+    SELECT 
+        PhoneID,
+        Manufacturer,
+        Model,
+        Price
+    FROM Phone
+    WHERE Price > @MinPrice
+);
+
+
+CREATE FUNCTION dbo.GetOrdersByClient(@ClientID INT)
+RETURNS TABLE
+AS
+RETURN (
+    SELECT 
+        o.OrderID,
+        o.OrderDate,
+        o.CompletionDate,
+        o.OrderAmount
+    FROM Orders o
+    WHERE o.ClientID = @ClientID
+);
