@@ -38,3 +38,49 @@ SELECT * FROM dbo.GetPhonesWithoutOrders();
 SELECT dbo.GetDaysSinceLastOrder(182) AS DaysSinceLastOrder;
 
 SELECT * FROM dbo.GetPhoneByMonth();
+
+-- Завдання 9
+
+SELECT TOP 3 
+    c.ClientID,
+    c.Type,
+    SUM(o.OrderAmount) AS TotalSpent
+FROM Orders o
+JOIN Client c ON o.ClientID = c.ClientID
+GROUP BY c.ClientID, c.Type
+ORDER BY TotalSpent DESC;
+
+
+SELECT 
+    p.Manufacturer,
+    SUM(ol.Quantity) AS TotalSold
+FROM OrderLine ol
+JOIN Phone p ON ol.PhoneID = p.PhoneID
+GROUP BY p.Manufacturer;
+
+
+SELECT p.PhoneID, p.Model
+FROM Phone p
+LEFT JOIN OrderLine ol ON p.PhoneID = ol.PhoneID
+WHERE ol.PhoneID IS NULL;
+
+
+SELECT 
+    c.ClientID,
+    DATEDIFF(DAY, MAX(o.OrderDate), GETDATE()) AS DaysSinceLastOrder
+FROM Orders o
+JOIN Client c ON o.ClientID = c.ClientID
+GROUP BY c.ClientID;
+
+
+SELECT 
+    FORMAT(o.OrderDate, 'yyyy-MM') AS YearMonth,
+    p.PhoneID,
+    p.Manufacturer,
+    p.Model,
+    SUM(ol.Quantity) AS TotalSold
+FROM Orders o
+JOIN OrderLine ol ON o.OrderID = ol.OrderID
+JOIN Phone p ON ol.PhoneID = p.PhoneID
+GROUP BY FORMAT(o.OrderDate, 'yyyy-MM'), p.PhoneID, p.Manufacturer, p.Model
+ORDER BY YearMonth DESC, TotalSold DESC;
