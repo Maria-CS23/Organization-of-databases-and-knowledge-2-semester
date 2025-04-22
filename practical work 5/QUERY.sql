@@ -33,3 +33,11 @@ FROM Individual i
 JOIN Orders o ON i.ClientID = o.ClientID
 ORDER BY o.OrderAmount DESC;
 
+-- Завдання 5
+CREATE CLUSTERED INDEX IX_Client_RegistrationDate ON Client(RegistrationDate);
+
+-- Завдання 6
+CREATE NONCLUSTERED INDEX IX_Orders_AmountDate ON Orders(OrderAmount, OrderDate);
+
+-- Завдання 7
+CREATE UNIQUE INDEX IX_Individual_Email_Unique ON Individual(Email);
