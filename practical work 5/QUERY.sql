@@ -41,3 +41,12 @@ CREATE NONCLUSTERED INDEX IX_Orders_AmountDate ON Orders(OrderAmount, OrderDate)
 
 -- Завдання 7
 CREATE UNIQUE INDEX IX_Individual_Email_Unique ON Individual(Email);
+
+-- Завдання 8
+SELECT OrderID, OrderAmount, OrderDate FROM Orders WHERE ClientID = 157;
+
+CREATE NONCLUSTERED INDEX IX_Orders_ClientID_Include
+ON Orders(ClientID)
+INCLUDE(OrderID, OrderAmount, OrderDate);
+
+SELECT OrderID, OrderAmount, OrderDate FROM Orders WHERE ClientID = 157;
