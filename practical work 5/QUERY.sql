@@ -9,7 +9,11 @@ SELECT 'OrderLine', COUNT(*) FROM OrderLine
 UNION ALL
 SELECT 'Individual', COUNT(*) FROM Individual
 UNION ALL
-SELECT 'LegalEntity', COUNT(*) FROM LegalEntity;
+SELECT 'LegalEntity', COUNT(*) FROM LegalEntity
+UNION ALL
+SELECT 'Payment', COUNT(*) FROM Payment
+UNION ALL
+SELECT 'Delivery', COUNT(*) FROM Delivery;
 
 -- Завдання 3
 SELECT * FROM Client
@@ -17,9 +21,11 @@ WHERE RegistrationDate > '2022-01-01'
 ORDER BY RegistrationDate;
 
 -- Завдання 4
-SELECT o.OrderID, c.Type, o.OrderAmount 
+SELECT o.OrderID, c.Type, o.OrderAmount, p.PaymentMethod, d.DeliveryStatus
 FROM Orders o
 JOIN Client c ON o.ClientID = c.ClientID
+JOIN Payment p ON o.OrderID = p.OrderID
+JOIN Delivery d ON o.OrderID = d.OrderID
 WHERE o.OrderDate >= '2024-01-01'
 ORDER BY o.OrderAmount DESC;
 
@@ -37,7 +43,7 @@ ORDER BY o.OrderAmount DESC;
 CREATE CLUSTERED INDEX IX_Client_RegistrationDate ON Client(RegistrationDate);
 
 -- Завдання 6
-CREATE NONCLUSTERED INDEX IX_Orders_AmountDate ON Orders(OrderAmount, OrderDate);
+CREATE NONCLUSTERED INDEX IX_Delivery_StatusMethod ON Delivery(DeliveryStatus, DeliveryMethod);
 
 -- Завдання 7
 CREATE UNIQUE INDEX IX_Individual_Email_Unique ON Individual(Email);
@@ -68,10 +74,10 @@ WHERE i.name IS NOT NULL
 ORDER BY avg_fragmentation_in_percent DESC;
 
 -- Завдання 11
-ALTER INDEX IX_Client_RegistrationDate ON Client REORGANIZE;
+ALTER INDEX IX_Delivery_StatusMethod ON Delivery REORGANIZE;
 
 -- Завдання 12
-ALTER INDEX IX_Client_RegistrationDate ON Client REBUILD;
+ALTER INDEX IX_Delivery_StatusMethod ON Delivery REBUILD;
 
 -- Завдання 13
 CREATE NONCLUSTERED INDEX IX_Client_Type ON Client(Type);
