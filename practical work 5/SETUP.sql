@@ -17,8 +17,9 @@ CREATE TABLE Orders (
     OrderID INT,
     ClientID INT NOT NULL,
     OrderDate DATE NOT NULL,
-    CompletionDate DATE NULL,
-    OrderAmount INT NOT NULL
+    CompletionDate DATE,
+    OrderAmount INT NOT NULL,
+	OrderStatus NVARCHAR(50) NOT NULL
 );
 
 CREATE TABLE OrderLine (
@@ -41,6 +42,24 @@ CREATE TABLE LegalEntity (
     PhoneNumber VARCHAR(20) NOT NULL,
     Address NVARCHAR(200) NOT NULL,
     TaxID VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE Payment (
+    PaymentID INT,
+    OrderID INT NOT NULL,
+    PaymentDate DATE,
+    PaymentMethod NVARCHAR(50) NOT NULL,
+    PaymentStatus NVARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Delivery (
+    DeliveryID INT,
+    OrderID INT NOT NULL,
+    DeliveryAddress NVARCHAR(200) NOT NULL,
+    DeliveryMethod NVARCHAR(50) NOT NULL,
+    DeliveryStatus NVARCHAR(50) NOT NULL,
+    DispatchDate DATE,
+    DeliveryDate DATE
 );
 
 
