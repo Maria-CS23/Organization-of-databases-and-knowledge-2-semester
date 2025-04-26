@@ -1763,432 +1763,432 @@ VALUES (200, 'Nubia', 'Z60 Ultra', '512GB, Silver Mirror', 35999, N'Немає в наяв
 
 
 
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (1, 1, '2024-02-01', NULL, 35000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (2, 3, '2024-02-05', '2024-02-10', 15000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (3, 5, '2024-02-07', '2024-02-12', 81000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (4, 8, '2024-02-10', '2024-02-13', 80000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (5, 21, '2024-02-12', '2024-02-15', 90000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (6, 8, '2024-02-12', '2024-02-16', 70000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (7, 32, '2024-02-18', '2024-02-22', 46000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (8, 45, '2024-02-18', '2024-02-20', 17000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (9, 98, '2024-02-20', '2024-02-24', 24000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (10, 76, '2024-03-07', '2024-03-11', 70000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (11, 14, '2024-03-15', '2024-03-20', 72000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (12, 59, '2024-03-16', '2024-03-19', 25000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount)
-VALUES (13, 113, '2024-08-18', '2024-08-22', 420000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (14, 87, '2024-09-01', '2024-09-05', 74000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (15, 133, '2024-10-10', '2024-10-14', 243000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (16, 72, '2024-10-15', '2024-10-19', 27000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (17, 156, '2024-11-01', '2024-11-05', 104000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (18, 102, '2024-12-10', '2024-12-14', 252000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (19, 118, '2025-01-01', '2025-01-04', 506000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (20, 167, '2025-01-25', '2025-01-30', 150000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (21, 30, '2025-02-01', '2025-02-05', 42000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (22, 142, '2025-03-15', '2025-03-19', 756000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (23, 57, '2025-04-03', '2025-04-07', 20000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (24, 49, '2025-04-15', '2025-04-18', 35000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (25, 193, '2025-04-10', '2025-04-13', 1700000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (26, 140, '2025-03-01', '2025-03-06', 640000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (27, 168, '2025-01-09', '2025-01-12', 492000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (28, 82, '2025-02-20', '2025-02-23', 15000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (29, 19, '2025-04-05', '2025-04-09', 33000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (30, 53, '2025-03-12', '2025-03-15', 45000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (31, 109, '2025-01-01', '2025-01-05', 270000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (32, 65, '2025-04-07', '2025-04-10', 60000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (33, 181, '2025-02-01', '2025-02-04', 1176000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (34, 167, '2025-03-12', '2025-03-16', 2496000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (35, 95, '2025-03-05', '2025-03-08', 17000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (36, 142, '2025-03-13', '2025-03-17', 408000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (37, 148, '2024-01-02', '2024-01-06', 350000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (38, 20, '2024-01-08', '2024-01-12', 17000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (39, 159, '2024-01-15', '2024-01-19', 1125000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (40, 117, '2024-02-01', '2024-02-04', 345000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (41, 58, '2024-03-01', '2024-03-04', 39000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (42, 180, '2024-04-10', '2024-04-14', 1600000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (43, 126, '2024-05-05', '2024-05-09', 98000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (44, 91, '2024-06-07', '2024-06-11', 14000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (45, 174, '2024-06-18', '2024-06-21', 286000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (46, 140, '2024-07-10', '2024-07-14', 369000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (47, 138, '2024-08-01', '2024-08-04', 374000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (48, 82, '2024-08-15', '2024-08-19', 54000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (49, 71, '2024-09-05', '2024-09-09', 16000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (50, 177, '2024-10-02', '2024-10-06', 2720000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (51, 160, '2024-10-10', '2024-10-14', 342000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (52, 34, '2024-11-01', '2024-11-05', 56000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (53, 174, '2024-11-12', '2024-11-15', 33000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (54, 101, '2024-12-01', '2024-12-04', 33000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (55, 149, '2024-12-10', '2024-12-13', 20000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (56, 62, '2024-01-05', '2024-01-09', 40000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (57, 133, '2024-01-15', '2024-01-18', 575000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (58, 110, '2024-02-02', '2024-02-06', 27000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (59, 64, '2024-02-20', '2024-02-24', 345000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (60, 91, '2024-03-03', '2024-03-07', 23000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (61, 54, '2024-03-15', '2024-03-19', 42000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (62, 145, '2024-04-01', '2024-04-04', 18000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (63, 128, '2024-04-10', '2024-04-13', 120000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (64, 181, '2024-05-05', '2024-05-09', 29000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (65, 173, '2024-05-12', '2024-05-15', 13000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (66, 123, '2024-06-01', '2024-06-04', 26000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (67, 150, '2024-06-10', '2024-06-13', 28000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (68, 17, '2024-07-03', '2024-07-06', 11000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (69, 156, '2024-07-12', '2024-07-16', 30000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (70, 110, '2024-08-01', '2024-08-04', 840000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (71, 170, '2024-08-10', '2024-08-14', 440000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (72, 102, '2024-09-05', '2024-09-09', 105000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (73, 61, '2024-09-15', '2024-09-19', 27000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (74, 154, '2024-10-01', '2024-10-04', 120000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (75, 141, '2024-10-12', '2024-10-15', 231000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (76, 88, '2024-11-01', '2024-11-05', 41000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (77, 173, '2024-11-10', '2024-11-14', 184000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (78, 118, '2024-12-01', '2024-12-04', 360000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (79, 122, '2024-12-12', '2024-12-15', 28000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (80, 66, '2024-01-01', '2024-01-05', 40000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (81, 139, '2024-01-10', '2024-01-13', 345000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (82, 93, '2024-02-01', '2024-02-05', 32000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (83, 144, '2024-02-12', '2024-02-16', 22000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (84, 182, '2024-03-01', '2024-03-05', 180000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (85, 183, '2024-03-12', '2024-03-15', 54000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (86, 126, '2024-04-01', '2024-04-05', 17000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (87, 107, '2024-04-10', '2024-04-14', 275000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (88, 92, '2024-05-01', '2024-05-05', 810000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (89, 150, '2024-05-10', '2024-05-14', 22000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (90, 115, '2024-06-01', '2024-06-04', 100000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (91, 105, '2024-06-12', '2024-06-15', 18000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (92, 157, '2024-07-01', '2024-07-04', 99000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (93, 175, '2024-07-10', '2024-07-13', 18000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (94, 111, '2024-08-01', '2024-08-05', 14000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (95, 95, '2024-08-12', '2024-08-15', 105000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (96, 109, '2024-09-01', '2024-09-04', 76000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (97, 141, '2024-09-12', '2024-09-15', 720000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (98, 138, '2024-10-01', '2024-10-05', 105000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (99, 162, '2024-10-15', '2024-11-19', 108000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (100, 157, '2024-11-01', '2024-11-05', 650000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (101, 153, '2025-03-01', '2025-03-05', 720000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (102, 145, '2025-03-02', '2025-03-07', 105000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (103, 139, '2025-03-03', '2025-03-08', 108000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (104, 133, '2025-03-04', '2025-03-09', 80000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (105, 129, '2025-03-05', '2025-03-10', 110000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (106, 127, '2025-03-06', '2025-03-11', 60000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (107, 123, '2025-03-07', '2025-03-12', 135000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (108, 119, '2025-03-08', '2025-03-13', 200000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (109, 115, '2025-03-09', '2025-03-14', 95000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (110, 111, '2025-03-10', '2025-03-15', 78000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (111, 107, '2025-03-11', '2025-03-16', 85000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (112, 103, '2025-03-12', '2025-03-17', 115000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (113, 99, '2025-03-13', '2025-03-18', 90000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (114, 95, '2025-03-14', '2025-03-19', 120000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (115, 91, '2025-03-15', '2025-03-20', 140000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (116, 87, '2025-03-16', '2025-03-21', 110000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (117, 83, '2025-03-17', '2025-03-22', 105000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (118, 79, '2025-03-18', '2025-03-23', 95000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (119, 75, '2025-03-19', '2025-03-24', 125000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (120, 71, '2025-03-20', '2025-03-25', 85000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (121, 67, '2025-03-21', '2025-03-26', 95000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (122, 63, '2025-03-22', '2025-03-27', 100000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (123, 59, '2025-03-23', '2025-03-28', 78000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (124, 55, '2025-03-24', '2025-03-29', 93000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (125, 51, '2025-03-25', '2025-03-30', 105000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (126, 223, '2025-03-26', '2025-03-31', 150000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (127, 145, '2025-03-27', '2025-04-01', 125000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (128, 67, '2025-03-28', '2025-04-02', 110000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (129, 58, '2025-03-29', '2025-04-03', 98000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (130, 182, '2025-03-30', '2025-04-04', 115000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (131, 300, '2025-03-31', '2025-04-05', 105000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (132, 215, '2025-04-01', NULL, 85000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (133, 45, '2025-04-02', '2025-04-07', 120000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (134, 350, '2025-04-03', '2025-04-08', 135000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (135, 215, '2025-04-04', '2025-04-09', 95000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (136, 92, '2025-04-05', '2025-04-10', 110000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (137, 37, '2025-04-06', '2025-04-11', 100000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (138, 18, '2025-04-07', '2025-04-12', 85000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (139, 130, '2025-04-08', '2025-04-13', 140000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (140, 390, '2025-04-09', NULL, 125000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (141, 75, '2025-04-10', '2025-04-15', 135000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (142, 18, '2025-04-11', '2025-04-16', 90000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (143, 61, '2025-04-12', '2025-04-17', 115000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (144, 50, '2025-04-13', '2025-04-18', 125000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (145, 102, '2025-04-14', '2025-04-19', 130000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (146, 276, '2025-04-02', '2025-04-07', 140000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (147, 189, '2025-04-03', '2025-04-08', 115000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (148, 65, '2025-04-04', '2025-04-09', 130000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (149, 303, '2025-04-05', '2025-04-10', 125000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (150, 142, '2025-04-06', '2025-04-11', 140000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (151, 57, '2025-04-07', '2025-04-12', 150000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (152, 276, '2025-04-08', '2025-04-13', 100000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (153, 21, '2025-04-09', '2025-04-14', 110000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (154, 10, '2025-04-10', '2025-04-15', 120000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (155, 123, '2025-04-11', NULL, 125000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (156, 111, '2025-04-12', '2025-04-17', 135000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (157, 88, '2025-04-13', '2025-04-18', 150000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (158, 195, '2025-04-14', '2025-04-19', 140000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (159, 220, '2025-04-15', '2025-04-20', 130000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (160, 50, '2025-04-16', '2025-04-21', 125000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (161, 273, '2025-04-17', '2025-04-22', 135000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (162, 161, '2025-04-18', '2025-04-23', 150000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (163, 83, '2025-04-19', '2025-04-24', 140000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (164, 301, '2025-04-20', '2025-04-25', 125000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (165, 56, '2025-04-21', '2025-04-26', 100000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (166, 178, '2025-04-22', '2025-04-27', 120000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (167, 92, '2025-04-23', '2025-04-28', 110000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (168, 156, '2025-04-02', '2025-04-07', 130000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (169, 273, '2025-04-03', '2025-04-08', 125000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (170, 42, '2025-04-04', '2025-04-09', 120000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (171, 231, '2025-03-05', '2025-03-10', 140000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (172, 312, '2025-03-06', '2025-03-11', 150000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (173, 51, '2025-03-07', '2025-03-12', 135000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (174, 117, '2025-03-08', '2025-03-13', 140000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (175, 181, '2025-03-09', '2025-03-14', 150000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (176, 248, '2025-03-10', '2025-03-15', 125000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (177, 138, '2025-03-11', '2025-03-16', 120000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (178, 211, '2025-03-12', '2025-03-17', 130000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (179, 91, '2025-04-13', NULL, 140000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (180, 116, '2025-03-14', '2025-03-19', 145000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (181, 79, '2025-03-15', '2025-03-20', 130000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (182, 65, '2025-03-16', '2025-03-21', 125000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (183, 122, '2025-03-17', '2025-03-22', 115000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (184, 193, '2025-03-18', '2025-03-23', 140000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (185, 149, '2025-03-19', '2025-03-24', 130000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (186, 276, '2025-03-20', '2025-03-25', 150000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (187, 111, '2025-03-21', '2025-03-26', 135000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (188, 82, '2025-04-22', NULL, 120000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (189, 54, '2025-04-23', NULL, 110000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (190, 139, '2025-04-24', NULL, 125000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (191, 421, '2025-04-24', '2025-04-28', 12999);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (192, 397, '2025-04-25', '2025-04-30', 15750);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (193, 444, '2025-04-26', '2025-04-29', 87909);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (194, 435, '2025-04-27', '2025-05-02', 21999);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (195, 392, '2025-04-28', '2025-05-01', 17500);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (196, 405, '2025-04-29', '2025-05-05', 11200);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (197, 442, '2025-04-30', '2025-05-04', 19800);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (198, 431, '2025-05-01', '2025-05-06', 9500);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (199, 447, '2025-05-02', '2025-05-07', 146500);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (200, 414, '2025-05-03', '2025-05-06', 21000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (201, 398, '2025-05-04', '2025-05-08', 17330);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (202, 439, '2025-05-05', '2025-05-09', 13200);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (203, 451, '2025-05-06', '2025-05-10', 9999);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (204, 393, '2025-05-07', '2025-05-13', 25000);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (205, 424, '2025-05-08', '2025-05-10', 11700);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (206, 409, '2025-05-09', '2025-05-15', 18700);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (207, 417, '2025-05-10', '2025-05-14', 20200);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (208, 443, '2025-05-11', '2025-05-13', 9900);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (209, 401, '2025-05-12', '2025-05-18', 22999);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (210, 395, '2025-05-13', '2025-05-17', 141600);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (211, 432, '2025-05-14', '2025-05-16', 10500);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (212, 410, '2025-05-15', '2025-05-19', 15990);
-INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount) 
-VALUES (213, 418, '2025-05-16', '2025-05-21', 121000);
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus)  
+VALUES (1, 1, '2024-02-01', NULL, 35000, N'В обробці');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (2, 3, '2024-02-05', '2024-02-10', 15000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (3, 5, '2024-02-07', '2024-02-12', 81000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (4, 8, '2024-02-10', '2024-02-13', 80000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (5, 21, '2024-02-12', '2024-02-15', 90000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (6, 8, '2024-02-12', '2024-02-16', 70000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (7, 32, '2024-02-18', '2024-02-22', 46000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (8, 45, '2024-02-18', '2024-02-20', 17000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (9, 98, '2024-02-20', '2024-02-24', 24000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (10, 76, '2024-03-07', '2024-03-11', 70000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (11, 14, '2024-03-15', '2024-03-20', 72000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (12, 59, '2024-03-16', '2024-03-19', 25000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus)
+VALUES (13, 113, '2024-08-18', '2024-08-22', 420000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (14, 87, '2024-09-01', '2024-09-05', 74000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (15, 133, '2024-10-10', '2024-10-14', 243000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (16, 72, '2024-10-15', '2024-10-19', 27000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (17, 156, '2024-11-01', '2024-11-05', 104000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (18, 102, '2024-12-10', '2024-12-14', 252000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (19, 118, '2025-01-01', '2025-01-04', 506000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (20, 167, '2025-01-25', '2025-01-30', 150000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (21, 30, '2025-02-01', '2025-02-05', 42000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (22, 142, '2025-03-15', '2025-03-19', 756000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (23, 57, '2025-04-03', '2025-04-07', 20000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (24, 49, '2025-04-15', '2025-04-18', 35000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (25, 193, '2025-04-10', '2025-04-13', 1700000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (26, 140, '2025-03-01', '2025-03-06', 640000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (27, 168, '2025-01-09', '2025-01-12', 492000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (28, 82, '2025-02-20', '2025-02-23', 15000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (29, 19, '2025-04-05', '2025-04-09', 33000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (30, 53, '2025-03-12', '2025-03-15', 45000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (31, 109, '2025-01-01', '2025-01-05', 270000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (32, 65, '2025-04-07', '2025-04-10', 60000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (33, 181, '2025-02-01', '2025-02-04', 1176000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (34, 167, '2025-03-12', '2025-03-16', 2496000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (35, 95, '2025-03-05', '2025-03-08', 17000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (36, 142, '2025-03-13', '2025-03-17', 408000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (37, 148, '2024-01-02', '2024-01-06', 350000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (38, 20, '2024-01-08', '2024-01-12', 17000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (39, 159, '2024-01-15', '2024-01-19', 1125000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (40, 117, '2024-02-01', '2024-02-04', 345000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (41, 58, '2024-03-01', '2024-03-04', 39000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (42, 180, '2024-04-10', '2024-04-14', 1600000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (43, 126, '2024-05-05', '2024-05-09', 98000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (44, 91, '2024-06-07', '2024-06-11', 14000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (45, 174, '2024-06-18', '2024-06-21', 286000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (46, 140, '2024-07-10', '2024-07-14', 369000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (47, 138, '2024-08-01', '2024-08-04', 374000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (48, 82, '2024-08-15', '2024-08-19', 54000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (49, 71, '2024-09-05', '2024-09-09', 16000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (50, 177, '2024-10-02', '2024-10-06', 2720000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (51, 160, '2024-10-10', '2024-10-14', 342000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (52, 34, '2024-11-01', '2024-11-05', 56000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (53, 174, '2024-11-12', '2024-11-15', 33000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (54, 101, '2024-12-01', '2024-12-04', 33000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (55, 149, '2024-12-10', '2024-12-13', 20000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (56, 62, '2024-01-05', '2024-01-09', 40000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (57, 133, '2024-01-15', '2024-01-18', 575000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (58, 110, '2024-02-02', '2024-02-06', 27000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (59, 64, '2024-02-20', '2024-02-24', 345000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (60, 91, '2024-03-03', '2024-03-07', 23000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (61, 54, '2024-03-15', '2024-03-19', 42000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (62, 145, '2024-04-01', '2024-04-04', 18000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (63, 128, '2024-04-10', '2024-04-13', 120000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (64, 181, '2024-05-05', '2024-05-09', 29000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (65, 173, '2024-05-12', '2024-05-15', 13000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (66, 123, '2024-06-01', '2024-06-04', 26000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (67, 150, '2024-06-10', '2024-06-13', 28000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (68, 17, '2024-07-03', '2024-07-06', 11000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (69, 156, '2024-07-12', '2024-07-16', 30000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (70, 110, '2024-08-01', '2024-08-04', 840000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (71, 170, '2024-08-10', '2024-08-14', 440000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (72, 102, '2024-09-05', '2024-09-09', 105000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (73, 61, '2024-09-15', '2024-09-19', 27000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (74, 154, '2024-10-01', '2024-10-04', 120000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (75, 141, '2024-10-12', '2024-10-15', 231000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (76, 88, '2024-11-01', '2024-11-05', 41000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (77, 173, '2024-11-10', '2024-11-14', 184000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (78, 118, '2024-12-01', '2024-12-04', 360000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (79, 122, '2024-12-12', '2024-12-15', 28000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (80, 66, '2024-01-01', '2024-01-05', 40000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (81, 139, '2024-01-10', '2024-01-13', 345000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (82, 93, '2024-02-01', '2024-02-05', 32000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (83, 144, '2024-02-12', '2024-02-16', 22000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (84, 182, '2024-03-01', '2024-03-05', 180000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (85, 183, '2024-03-12', '2024-03-15', 54000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (86, 126, '2024-04-01', '2024-04-05', 17000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (87, 107, '2024-04-10', '2024-04-14', 275000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (88, 92, '2024-05-01', '2024-05-05', 810000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (89, 150, '2024-05-10', '2024-05-14', 22000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (90, 115, '2024-06-01', '2024-06-04', 100000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (91, 105, '2024-06-12', '2024-06-15', 18000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (92, 157, '2024-07-01', '2024-07-04', 99000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (93, 175, '2024-07-10', '2024-07-13', 18000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (94, 111, '2024-08-01', '2024-08-05', 14000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (95, 95, '2024-08-12', '2024-08-15', 105000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (96, 109, '2024-09-01', '2024-09-04', 76000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (97, 141, '2024-09-12', '2024-09-15', 720000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (98, 138, '2024-10-01', '2024-10-05', 105000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (99, 162, '2024-10-15', '2024-11-19', 108000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (100, 157, '2024-11-01', '2024-11-05', 650000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (101, 153, '2025-03-01', '2025-03-05', 720000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (102, 145, '2025-03-02', '2025-03-07', 105000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (103, 139, '2025-03-03', '2025-03-08', 108000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (104, 133, '2025-03-04', '2025-03-09', 80000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (105, 129, '2025-03-05', '2025-03-10', 110000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (106, 127, '2025-03-06', '2025-03-11', 60000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (107, 123, '2025-03-07', '2025-03-12', 135000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (108, 119, '2025-03-08', '2025-03-13', 200000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (109, 115, '2025-03-09', '2025-03-14', 95000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (110, 111, '2025-03-10', '2025-03-15', 78000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (111, 107, '2025-03-11', '2025-03-16', 85000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (112, 103, '2025-03-12', '2025-03-17', 115000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (113, 99, '2025-03-13', '2025-03-18', 90000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (114, 95, '2025-03-14', '2025-03-19', 120000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (115, 91, '2025-03-15', '2025-03-20', 140000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (116, 87, '2025-03-16', '2025-03-21', 110000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (117, 83, '2025-03-17', '2025-03-22', 105000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (118, 79, '2025-03-18', '2025-03-23', 95000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (119, 75, '2025-03-19', '2025-03-24', 125000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (120, 71, '2025-03-20', '2025-03-25', 85000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (121, 67, '2025-03-21', '2025-03-26', 95000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (122, 63, '2025-03-22', '2025-03-27', 100000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (123, 59, '2025-03-23', '2025-03-28', 78000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (124, 55, '2025-03-24', '2025-03-29', 93000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (125, 51, '2025-03-25', '2025-03-30', 105000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (126, 223, '2025-03-26', '2025-03-31', 150000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (127, 145, '2025-03-27', '2025-04-01', 125000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (128, 67, '2025-03-28', '2025-04-02', 110000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (129, 58, '2025-03-29', '2025-04-03', 98000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (130, 182, '2025-03-30', '2025-04-04', 115000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (131, 300, '2025-03-31', '2025-04-05', 105000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (132, 215, '2025-04-01', NULL, 85000, N'В обробці');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (133, 45, '2025-04-02', '2025-04-07', 120000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (134, 350, '2025-04-03', '2025-04-08', 135000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (135, 215, '2025-04-04', '2025-04-09', 95000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (136, 92, '2025-04-05', '2025-04-10', 110000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (137, 37, '2025-04-06', '2025-04-11', 100000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (138, 18, '2025-04-07', '2025-04-12', 85000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (139, 130, '2025-04-08', '2025-04-13', 140000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (140, 390, '2025-04-09', NULL, 125000, N'В обробці');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (141, 75, '2025-04-10', '2025-04-15', 135000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (142, 18, '2025-04-11', '2025-04-16', 90000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (143, 61, '2025-04-12', '2025-04-17', 115000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (144, 50, '2025-04-13', '2025-04-18', 125000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (145, 102, '2025-04-14', '2025-04-19', 130000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (146, 276, '2025-04-02', '2025-04-07', 140000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (147, 189, '2025-04-03', '2025-04-08', 115000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (148, 65, '2025-04-04', '2025-04-09', 130000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (149, 303, '2025-04-05', '2025-04-10', 125000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (150, 142, '2025-04-06', '2025-04-11', 140000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (151, 57, '2025-04-07', '2025-04-12', 150000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (152, 276, '2025-04-08', '2025-04-13', 100000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (153, 21, '2025-04-09', '2025-04-14', 110000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (154, 10, '2025-04-10', '2025-04-15', 120000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (155, 123, '2025-04-11', NULL, 125000, N'В обробці');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (156, 111, '2025-04-12', '2025-04-17', 135000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (157, 88, '2025-04-13', '2025-04-18', 150000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (158, 195, '2025-04-14', '2025-04-19', 140000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (159, 220, '2025-04-15', '2025-04-20', 130000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (160, 50, '2025-04-16', '2025-04-21', 125000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (161, 273, '2025-04-17', '2025-04-22', 135000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (162, 161, '2025-04-18', '2025-04-23', 150000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (163, 83, '2025-04-19', '2025-04-24', 140000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (164, 301, '2025-04-20', '2025-04-25', 125000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (165, 56, '2025-04-21', '2025-04-26', 100000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (166, 178, '2025-04-22', '2025-04-27', 120000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (167, 92, '2025-04-23', '2025-04-28', 110000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (168, 156, '2025-04-02', '2025-04-07', 130000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (169, 273, '2025-04-03', '2025-04-08', 125000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (170, 42, '2025-04-04', '2025-04-09', 120000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (171, 231, '2025-03-05', '2025-03-10', 140000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (172, 312, '2025-03-06', '2025-03-11', 150000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (173, 51, '2025-03-07', '2025-03-12', 135000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (174, 117, '2025-03-08', '2025-03-13', 140000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (175, 181, '2025-03-09', '2025-03-14', 150000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (176, 248, '2025-03-10', '2025-03-15', 125000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (177, 138, '2025-03-11', '2025-03-16', 120000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (178, 211, '2025-03-12', '2025-03-17', 130000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (179, 91, '2025-04-13', NULL, 140000, N'В обробці');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (180, 116, '2025-03-14', '2025-03-19', 145000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (181, 79, '2025-03-15', '2025-03-20', 130000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (182, 65, '2025-03-16', '2025-03-21', 125000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (183, 122, '2025-03-17', '2025-03-22', 115000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (184, 193, '2025-03-18', '2025-03-23', 140000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (185, 149, '2025-03-19', '2025-03-24', 130000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (186, 276, '2025-03-20', '2025-03-25', 150000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (187, 111, '2025-03-21', '2025-03-26', 135000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (188, 82, '2025-04-22', NULL, 120000, N'В обробці');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (189, 54, '2025-04-23', NULL, 110000, N'В обробці');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (190, 139, '2025-04-24', NULL, 125000, N'В обробці');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (191, 421, '2025-04-24', '2025-04-28', 12999, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (192, 397, '2025-04-25', '2025-04-30', 15750, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (193, 444, '2025-04-26', '2025-04-29', 87909, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (194, 435, '2025-04-27', '2025-05-02', 21999, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (195, 392, '2025-04-28', '2025-05-01', 17500, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (196, 405, '2025-04-29', '2025-05-05', 11200, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (197, 442, '2025-04-30', '2025-05-04', 19800, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (198, 431, '2025-05-01', '2025-05-06', 9500, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (199, 447, '2025-05-02', '2025-05-07', 146500, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (200, 414, '2025-05-03', '2025-05-06', 21000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (201, 398, '2025-05-04', '2025-05-08', 17330, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (202, 439, '2025-05-05', '2025-05-09', 13200, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (203, 451, '2025-05-06', '2025-05-10', 9999, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (204, 393, '2025-05-07', '2025-05-13', 25000, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (205, 424, '2025-05-08', '2025-05-10', 11700, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (206, 409, '2025-05-09', '2025-05-15', 18700, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (207, 417, '2025-05-10', '2025-05-14', 20200, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (208, 443, '2025-05-11', '2025-05-13', 9900, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (209, 401, '2025-05-12', '2025-05-18', 22999, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (210, 395, '2025-05-13', '2025-05-17', 141600, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (211, 432, '2025-05-14', '2025-05-16', 10500, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (212, 410, '2025-05-15', '2025-05-19', 15990, N'Завершено');
+INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus) 
+VALUES (213, 418, '2025-05-16', '2025-05-21', 121000, N'Завершено');
 
 
 
@@ -2620,6 +2620,438 @@ INSERT INTO OrderLine (LineID, OrderID, PhoneID, Quantity)
 VALUES (213, 213, 195, 1);
 
 
+INSERT INTO Payment (PaymentID, OrderID, PaymentDate, PaymentMethod, PaymentStatus) VALUES 
+(1, 1, NULL, N'Післяплата', N'Очікується оплата'),
+(2, 2, '2024-02-05', N'Карта', N'Оплачено'),
+(3, 3, '2024-02-06', N'Переказ', N'Оплачено'),
+(4, 4, '2024-02-07', N'Apple Pay', N'Оплачено'),
+(5, 5, '2024-02-08', N'Google Pay', N'Оплачено'),
+(6, 6, '2024-02-09', N'Післяплата', N'Оплачено'),
+(7, 7, '2024-02-10', N'Карта', N'Оплачено'),
+(8, 8, '2024-02-11', N'Переказ', N'Оплачено'),
+(9, 9, '2024-02-12', N'Apple Pay', N'Оплачено'),
+(10, 10, '2024-02-13', N'Google Pay', N'Оплачено'),
+(11, 11, '2024-02-14', N'Післяплата', N'Оплачено'),
+(12, 12, '2024-02-15', N'Карта', N'Оплачено'),
+(13, 13, '2024-02-16', N'Переказ', N'Оплачено'),
+(14, 14, '2024-02-17', N'Apple Pay', N'Оплачено'),
+(15, 15, '2024-02-18', N'Google Pay', N'Оплачено'),
+(16, 16, '2024-02-19', N'Післяплата', N'Оплачено'),
+(17, 17, '2024-02-20', N'Карта', N'Оплачено'),
+(18, 18, '2024-02-21', N'Переказ', N'Оплачено'),
+(19, 19, '2024-02-22', N'Apple Pay', N'Оплачено'),
+(20, 20, '2024-02-23', N'Google Pay', N'Оплачено'),
+(21, 21, '2024-02-24', N'Післяплата', N'Оплачено'),
+(22, 22, '2024-02-25', N'Карта', N'Оплачено'),
+(23, 23, '2024-02-26', N'Переказ', N'Оплачено'),
+(24, 24, '2024-02-27', N'Apple Pay', N'Оплачено'),
+(25, 25, '2024-02-28', N'Google Pay', N'Оплачено'),
+(26, 26, '2024-02-29', N'Післяплата', N'Оплачено'),
+(27, 27, '2024-03-01', N'Карта', N'Оплачено'),
+(28, 28, '2024-03-02', N'Переказ', N'Оплачено'),
+(29, 29, '2024-03-03', N'Apple Pay', N'Оплачено'),
+(30, 30, '2024-03-04', N'Google Pay', N'Оплачено'),
+(31, 31, '2024-03-05', N'Післяплата', N'Оплачено'),
+(32, 32, '2024-03-06', N'Карта', N'Оплачено'),
+(33, 33, '2024-03-07', N'Переказ', N'Оплачено'),
+(34, 34, '2024-03-08', N'Apple Pay', N'Оплачено'),
+(35, 35, '2024-03-09', N'Google Pay', N'Оплачено'),
+(36, 36, '2024-03-10', N'Післяплата', N'Оплачено'),
+(37, 37, '2024-03-11', N'Карта', N'Оплачено'),
+(38, 38, '2024-03-12', N'Переказ', N'Оплачено'),
+(39, 39, '2024-03-13', N'Apple Pay', N'Оплачено'),
+(40, 40, '2024-03-14', N'Google Pay', N'Оплачено'),
+(41, 41, '2024-03-15', N'Післяплата', N'Оплачено'),
+(42, 42, '2024-03-16', N'Карта', N'Оплачено'),
+(43, 43, '2024-03-17', N'Переказ', N'Оплачено'),
+(44, 44, '2024-03-18', N'Apple Pay', N'Оплачено'),
+(45, 45, '2024-03-19', N'Google Pay', N'Оплачено'),
+(46, 46, '2024-03-20', N'Післяплата', N'Оплачено'),
+(47, 47, '2024-03-21', N'Карта', N'Оплачено'),
+(48, 48, '2024-03-22', N'Переказ', N'Оплачено'),
+(49, 49, '2024-03-23', N'Apple Pay', N'Оплачено'),
+(50, 50, '2024-03-24', N'Google Pay', N'Оплачено'),
+(51, 51, '2024-03-25', N'Післяплата', N'Оплачено'),
+(52, 52, '2024-03-26', N'Карта', N'Оплачено'),
+(53, 53, '2024-03-27', N'Переказ', N'Оплачено'),
+(54, 54, '2024-03-28', N'Apple Pay', N'Оплачено'),
+(55, 55, '2024-03-29', N'Google Pay', N'Оплачено'),
+(56, 56, '2024-03-30', N'Післяплата', N'Оплачено'),
+(57, 57, '2024-03-31', N'Карта', N'Оплачено'),
+(58, 58, '2024-04-01', N'Переказ', N'Оплачено'),
+(59, 59, '2024-04-02', N'Apple Pay', N'Оплачено'),
+(60, 60, '2024-04-03', N'Google Pay', N'Оплачено'),
+(61, 61, '2024-04-04', N'Післяплата', N'Оплачено'),
+(62, 62, '2024-04-05', N'Карта', N'Оплачено'),
+(63, 63, '2024-04-06', N'Переказ', N'Оплачено'),
+(64, 64, '2024-04-07', N'Apple Pay', N'Оплачено'),
+(65, 65, '2024-04-08', N'Google Pay', N'Оплачено'),
+(66, 66, '2024-04-09', N'Післяплата', N'Оплачено'),
+(67, 67, '2024-04-10', N'Карта', N'Оплачено'),
+(68, 68, '2024-04-11', N'Переказ', N'Оплачено'),
+(69, 69, '2024-04-12', N'Apple Pay', N'Оплачено'),
+(70, 70, '2024-04-13', N'Google Pay', N'Оплачено'),
+(71, 71, '2024-04-14', N'Післяплата', N'Оплачено'),
+(72, 72, '2024-04-15', N'Карта', N'Оплачено'),
+(73, 73, '2024-04-16', N'Переказ', N'Оплачено'),
+(74, 74, '2024-04-17', N'Apple Pay', N'Оплачено'),
+(75, 75, '2024-04-18', N'Google Pay', N'Оплачено'),
+(76, 76, '2024-04-19', N'Післяплата', N'Оплачено'),
+(77, 77, '2024-04-20', N'Карта', N'Оплачено'),
+(78, 78, '2024-04-21', N'Переказ', N'Оплачено'),
+(79, 79, '2024-04-22', N'Apple Pay', N'Оплачено'),
+(80, 80, '2024-04-23', N'Google Pay', N'Оплачено'),
+(81, 81, '2024-04-24', N'Післяплата', N'Оплачено'),
+(82, 82, '2024-04-25', N'Карта', N'Оплачено'),
+(83, 83, '2024-04-26', N'Переказ', N'Оплачено'),
+(84, 84, '2024-04-27', N'Apple Pay', N'Оплачено'),
+(85, 85, '2024-04-28', N'Google Pay', N'Оплачено'),
+(86, 86, '2024-04-29', N'Післяплата', N'Оплачено'),
+(87, 87, '2024-04-30', N'Карта', N'Оплачено'),
+(88, 88, '2024-05-01', N'Переказ', N'Оплачено'),
+(89, 89, '2024-05-02', N'Apple Pay', N'Оплачено'),
+(90, 90, '2024-05-03', N'Google Pay', N'Оплачено'),
+(91, 91, '2024-05-04', N'Післяплата', N'Оплачено'),
+(92, 92, '2024-05-05', N'Карта', N'Оплачено'),
+(93, 93, '2024-05-06', N'Переказ', N'Оплачено'),
+(94, 94, '2024-05-07', N'Apple Pay', N'Оплачено'),
+(95, 95, '2024-05-08', N'Google Pay', N'Оплачено'),
+(96, 96, '2024-05-09', N'Післяплата', N'Оплачено'),
+(97, 97, '2024-05-10', N'Карта', N'Оплачено'),
+(98, 98, '2024-05-11', N'Переказ', N'Оплачено'),
+(99, 99, '2024-05-12', N'Apple Pay', N'Оплачено'),
+(100, 100, '2024-05-13', N'Google Pay', N'Оплачено'),
+(101, 101, '2024-05-14', N'Післяплата', N'Оплачено'),
+(102, 102, '2024-05-15', N'Карта', N'Оплачено'),
+(103, 103, '2024-05-16', N'Переказ', N'Оплачено'),
+(104, 104, '2024-05-17', N'Apple Pay', N'Оплачено'),
+(105, 105, '2024-05-18', N'Google Pay', N'Оплачено'),
+(106, 106, '2024-05-19', N'Післяплата', N'Оплачено'),
+(107, 107, '2024-05-20', N'Карта', N'Оплачено'),
+(108, 108, '2024-05-21', N'Переказ', N'Оплачено'),
+(109, 109, '2024-05-22', N'Apple Pay', N'Оплачено'),
+(110, 110, '2024-05-23', N'Google Pay', N'Оплачено'),
+(111, 111, '2024-05-24', N'Післяплата', N'Оплачено'),
+(112, 112, '2024-05-25', N'Карта', N'Оплачено'),
+(113, 113, '2024-05-26', N'Переказ', N'Оплачено'),
+(114, 114, '2024-05-27', N'Apple Pay', N'Оплачено'),
+(115, 115, '2024-05-28', N'Google Pay', N'Оплачено'),
+(116, 116, '2024-05-29', N'Післяплата', N'Оплачено'),
+(117, 117, '2024-05-30', N'Карта', N'Оплачено'),
+(118, 118, '2024-05-31', N'Переказ', N'Оплачено'),
+(119, 119, '2024-06-01', N'Apple Pay', N'Оплачено'),
+(120, 120, '2024-06-02', N'Google Pay', N'Оплачено'),
+(121, 121, '2024-06-03', N'Післяплата', N'Оплачено'),
+(122, 122, '2024-06-04', N'Карта', N'Оплачено'),
+(123, 123, '2024-06-05', N'Переказ', N'Оплачено'),
+(124, 124, '2024-06-06', N'Apple Pay', N'Оплачено'),
+(125, 125, '2024-06-07', N'Google Pay', N'Оплачено'),
+(126, 126, '2024-06-08', N'Післяплата', N'Оплачено'),
+(127, 127, '2024-06-09', N'Карта', N'Оплачено'),
+(128, 128, '2024-06-10', N'Переказ', N'Оплачено'),
+(129, 129, '2024-06-11', N'Apple Pay', N'Оплачено'),
+(130, 130, '2024-06-12', N'Google Pay', N'Оплачено'),
+(131, 131, '2024-06-13', N'Післяплата', N'Оплачено'),
+(132, 132, NULL, N'Післяплата', N'Очікується оплата'),
+(133, 133, '2024-06-14', N'Карта', N'Оплачено'),
+(134, 134, '2024-06-15', N'Переказ', N'Оплачено'),
+(135, 135, '2024-06-16', N'Apple Pay', N'Оплачено'),
+(136, 136, '2024-06-17', N'Google Pay', N'Оплачено'),
+(137, 137, '2024-06-18', N'Післяплата', N'Оплачено'),
+(138, 138, '2024-06-19', N'Карта', N'Оплачено'),
+(139, 139, '2024-06-20', N'Переказ', N'Оплачено'),
+(140, 140, '2024-06-21', N'Apple Pay', N'Оплачено'),
+(141, 141, '2024-06-22', N'Google Pay', N'Оплачено'),
+(142, 142, '2024-06-23', N'Післяплата', N'Оплачено'),
+(143, 143, '2024-06-24', N'Карта', N'Оплачено'),
+(144, 144, '2024-06-25', N'Переказ', N'Оплачено'),
+(145, 145, '2024-06-26', N'Apple Pay', N'Оплачено'),
+(146, 146, '2024-06-27', N'Google Pay', N'Оплачено'),
+(147, 147, '2024-06-28', N'Післяплата', N'Оплачено'),
+(148, 148, '2024-06-29', N'Карта', N'Оплачено'),
+(149, 149, '2024-06-30', N'Переказ', N'Оплачено'),
+(150, 150, '2024-07-01', N'Apple Pay', N'Оплачено'),
+(151, 151, '2024-07-02', N'Google Pay', N'Оплачено'),
+(152, 152, '2024-07-03', N'Післяплата', N'Оплачено'),
+(153, 153, '2024-07-04', N'Карта', N'Оплачено'),
+(154, 154, '2024-07-05', N'Переказ', N'Оплачено'),
+(155, 155, '2024-07-06', N'Apple Pay', N'Оплачено'),
+(156, 156, '2024-07-07', N'Google Pay', N'Оплачено'),
+(157, 157, '2024-07-08', N'Післяплата', N'Оплачено'),
+(158, 158, '2024-07-09', N'Карта', N'Оплачено'),
+(159, 159, '2024-07-10', N'Переказ', N'Оплачено'),
+(160, 160, '2024-07-11', N'Apple Pay', N'Оплачено'),
+(161, 161, '2024-07-12', N'Google Pay', N'Оплачено'),
+(162, 162, '2024-07-13', N'Післяплата', N'Оплачено'),
+(163, 163, '2024-07-14', N'Карта', N'Оплачено'),
+(164, 164, '2024-07-15', N'Переказ', N'Оплачено'),
+(165, 165, '2024-07-16', N'Apple Pay', N'Оплачено'),
+(166, 166, '2024-07-17', N'Google Pay', N'Оплачено'),
+(167, 167, '2024-07-18', N'Післяплата', N'Оплачено'),
+(168, 168, '2024-07-19', N'Карта', N'Оплачено'),
+(169, 169, '2024-07-20', N'Переказ', N'Оплачено'),
+(170, 170, '2024-07-21', N'Apple Pay', N'Оплачено'),
+(171, 171, '2024-07-22', N'Google Pay', N'Оплачено'),
+(172, 172, '2024-07-23', N'Післяплата', N'Оплачено'),
+(173, 173, '2024-07-24', N'Карта', N'Оплачено'),
+(174, 174, '2024-07-25', N'Переказ', N'Оплачено'),
+(175, 175, '2024-07-26', N'Apple Pay', N'Оплачено'),
+(176, 176, '2024-07-27', N'Google Pay', N'Оплачено'),
+(177, 177, '2024-07-28', N'Післяплата', N'Оплачено'),
+(178, 178, '2024-07-29', N'Карта', N'Оплачено'),
+(179, 179, '2024-07-30', N'Переказ', N'Оплачено'),
+(180, 180, '2024-07-31', N'Apple Pay', N'Оплачено'),
+(181, 181, '2024-08-01', N'Google Pay', N'Оплачено'),
+(182, 182, '2024-08-02', N'Післяплата', N'Оплачено'),
+(183, 183, '2024-08-03', N'Карта', N'Оплачено'),
+(184, 184, '2024-08-04', N'Переказ', N'Оплачено'),
+(185, 185, '2024-08-05', N'Apple Pay', N'Оплачено'),
+(186, 186, '2024-08-06', N'Google Pay', N'Оплачено'),
+(187, 187, '2024-08-07', N'Післяплата', N'Оплачено'),
+(188, 188, '2024-08-08', N'Карта', N'Оплачено'),
+(189, 189, '2024-08-09', N'Переказ', N'Оплачено'),
+(190, 190, '2024-08-10', N'Apple Pay', N'Оплачено'),
+(191, 191, '2024-08-11', N'Google Pay', N'Оплачено'),
+(192, 192, '2024-08-12', N'Післяплата', N'Оплачено'),
+(193, 193, '2024-08-13', N'Карта', N'Оплачено'),
+(194, 194, '2024-08-14', N'Переказ', N'Оплачено'),
+(195, 195, '2024-08-15', N'Apple Pay', N'Оплачено'),
+(196, 196, '2024-08-16', N'Google Pay', N'Оплачено'),
+(197, 197, '2024-08-17', N'Післяплата', N'Оплачено'),
+(198, 198, '2024-08-18', N'Карта', N'Оплачено'),
+(199, 199, '2024-08-19', N'Переказ', N'Оплачено'),
+(200, 200, '2024-08-20', N'Apple Pay', N'Оплачено'),
+(201, 201, '2024-08-21', N'Google Pay', N'Оплачено'),
+(202, 202, '2024-08-22', N'Післяплата', N'Оплачено'),
+(203, 203, '2024-08-23', N'Карта', N'Оплачено'),
+(204, 204, '2024-08-24', N'Переказ', N'Оплачено'),
+(205, 205, '2024-08-25', N'Apple Pay', N'Оплачено'),
+(206, 206, '2024-08-26', N'Google Pay', N'Оплачено'),
+(207, 207, '2024-08-27', N'Післяплата', N'Оплачено'),
+(208, 208, '2024-08-28', N'Карта', N'Оплачено'),
+(209, 209, '2024-08-29', N'Переказ', N'Оплачено'),
+(210, 210, '2024-08-30', N'Apple Pay', N'Оплачено'),
+(211, 211, '2024-08-31', N'Google Pay', N'Оплачено'),
+(212, 212, '2024-09-01', N'Післяплата', N'Оплачено'),
+(213, 213, '2024-09-02', N'Карта', N'Оплачено');
+
+
+
+INSERT INTO Delivery (DeliveryID, OrderID, DeliveryAddress, DeliveryMethod, DeliveryStatus, DispatchDate, DeliveryDate) VALUES
+(1, 1, N'Київ, вул. Хрещатик, 10', N'Нова Пошта', N'Очікує відправлення', NULL, NULL),
+(2, 2, N'Київ, вул. Володимирська, 20', N'Нова Пошта', N'Доставлено', '2024-06-02', '2024-06-05'),
+(3, 3, N'Одеса, вул. Дерибасівська, 5', N'Кур''єр', N'Доставлено', '2024-06-03', '2024-06-06'),
+(4, 4, N'Львів, вул. Шевченка, 30', N'Укрпошта', N'Доставлено', '2024-06-04', '2024-06-07'),
+(5, 5, N'Харків, вул. Сумська, 25', N'Самовивіз', N'Доставлено', '2024-06-05', '2024-06-08'),
+(6, 6, N'Київ, вул. Льва Толстого, 15', N'Нова Пошта', N'Доставлено', '2024-06-06', '2024-06-09'),
+(7, 7, N'Одеса, вул. Пушкінська, 10', N'Кур''єр', N'Доставлено', '2024-06-07', '2024-06-10'),
+(8, 8, N'Львів, вул. Франка, 12', N'Укрпошта', N'Доставлено', '2024-06-08', '2024-06-11'),
+(9, 9, N'Харків, вул. Євгена Сверстюка, 18', N'Самовивіз', N'Доставлено', '2024-06-09', '2024-06-12'),
+(10, 10, N'Київ, вул. Михайлівська, 5', N'Нова Пошта', N'Доставлено', '2024-06-10', '2024-06-13'),
+(11, 11, N'Одеса, вул. Грецька, 3', N'Кур''єр', N'Доставлено', '2024-06-11', '2024-06-14'),
+(12, 12, N'Львів, вул. Коперника, 8', N'Укрпошта', N'Доставлено', '2024-06-12', '2024-06-15'),
+(13, 13, N'Харків, вул. Павлова, 40', N'Самовивіз', N'Доставлено', '2024-06-13', '2024-06-16'),
+(14, 14, N'Київ, вул. Хрещатик, 10', N'Нова Пошта', N'Доставлено', '2024-06-14', '2024-06-17'),
+(15, 15, N'Одеса, вул. Мала Арнаутська, 20', N'Кур''єр', N'Доставлено', '2024-06-15', '2024-06-18'),
+(16, 16, N'Львів, вул. Кульпарківська, 22', N'Укрпошта', N'Доставлено', '2024-06-16', '2024-06-19'),
+(17, 17, N'Харків, вул. Пушкінська, 16', N'Самовивіз', N'Доставлено', '2024-06-17', '2024-06-20'),
+(18, 18, N'Київ, вул. Героїв Сталінграда, 35', N'Нова Пошта', N'Доставлено', '2024-06-18', '2024-06-21'),
+(19, 19, N'Одеса, вул. Приморська, 14', N'Кур''єр', N'Доставлено', '2024-06-19', '2024-06-22'),
+(20, 20, N'Львів, вул. Словацька, 11', N'Укрпошта', N'Доставлено', '2024-06-20', '2024-06-23'),
+(21, 21, N'Харків, вул. Лермонтова, 5', N'Самовивіз', N'Доставлено', '2024-06-21', '2024-06-24'),
+(22, 22, N'Київ, вул. Андріївський узвіз, 8', N'Нова Пошта', N'Доставлено', '2024-06-22', '2024-06-25'),
+(23, 23, N'Одеса, вул. Старосінна, 12', N'Кур''єр', N'Доставлено', '2024-06-23', '2024-06-26'),
+(24, 24, N'Львів, вул. Лисенка, 9', N'Укрпошта', N'Доставлено', '2024-06-24', '2024-06-27'),
+(25, 25, N'Харків, вул. Іванова, 28', N'Самовивіз', N'Доставлено', '2024-06-25', '2024-06-28'),
+(26, 26, N'Київ, вул. Остромадська, 21', N'Нова Пошта', N'Доставлено', '2024-06-26', '2024-06-29'),
+(27, 27, N'Одеса, вул. Базарна, 6', N'Кур''єр', N'Доставлено', '2024-06-27', '2024-06-30'),
+(28, 28, N'Львів, вул. Винниченка, 16', N'Укрпошта', N'Доставлено', '2024-06-28', '2024-07-01'),
+(29, 29, N'Харків, вул. Салтівське шосе, 15', N'Самовивіз', N'Доставлено', '2024-06-29', '2024-07-02'),
+(30, 30, N'Київ, вул. Мазепи, 3', N'Нова Пошта', N'Доставлено', '2024-06-30', '2024-07-03'),
+(31, 31, N'Одеса, вул. Рішельєвська, 20', N'Кур''єр', N'Доставлено', '2024-07-01', '2024-07-04'),
+(32, 32, N'Львів, вул. Городоцька, 5', N'Укрпошта', N'Доставлено', '2024-07-02', '2024-07-05'),
+(33, 33, N'Харків, вул. Миколаївська, 22', N'Самовивіз', N'Доставлено', '2024-07-03', '2024-07-06'),
+(34, 34, N'Київ, вул. Кільцева дорога, 45', N'Нова Пошта', N'Доставлено', '2024-07-04', '2024-07-07'),
+(35, 35, N'Одеса, вул. Середньофонтанська, 12', N'Кур''єр', N'Доставлено', '2024-07-05', '2024-07-08'),
+(36, 36, N'Львів, вул. Підзамче, 8', N'Укрпошта', N'Доставлено', '2024-07-06', '2024-07-09'),
+(37, 37, N'Харків, вул. Тракторобудівників, 18', N'Самовивіз', N'Доставлено', '2024-07-07', '2024-07-10'),
+(38, 38, N'Київ, вул. Антоновича, 30', N'Нова Пошта', N'Доставлено', '2024-07-08', '2024-07-11'),
+(39, 39, N'Одеса, вул. Канатна, 4', N'Кур''єр', N'Доставлено', '2024-07-09', '2024-07-12'),
+(40, 40, N'Львів, вул. Наливайка, 7', N'Укрпошта', N'Доставлено', '2024-07-10', '2024-07-13'),
+(41, 41, N'Київ, вул. Ярославів Вал, 12', N'Нова Пошта', N'Доставлено', '2024-07-11', '2024-07-14'),
+(42, 42, N'Одеса, вул. Приморський бульвар, 25', N'Кур''єр', N'Доставлено', '2024-07-12', '2024-07-15'),
+(43, 43, N'Львів, вул. Вірменська, 10', N'Укрпошта', N'Доставлено', '2024-07-13', '2024-07-16'),
+(44, 44, N'Харків, вул. Бєлгородська, 17', N'Самовивіз', N'Доставлено', '2024-07-14', '2024-07-17'),
+(45, 45, N'Київ, вул. Олександрівська, 3', N'Нова Пошта', N'Доставлено', '2024-07-15', '2024-07-18'),
+(46, 46, N'Одеса, вул. Гоголя, 5', N'Кур''єр', N'Доставлено', '2024-07-16', '2024-07-19'),
+(47, 47, N'Львів, вул. Кульпарківська, 18', N'Укрпошта', N'Доставлено', '2024-07-17', '2024-07-20'),
+(48, 48, N'Харків, вул. Пушкінська, 45', N'Самовивіз', N'Доставлено', '2024-07-18', '2024-07-21'),
+(49, 49, N'Київ, вул. Лаврська, 6', N'Нова Пошта', N'Доставлено', '2024-07-19', '2024-07-22'),
+(50, 50, N'Одеса, вул. Ланжеронівська, 20', N'Кур''єр', N'Доставлено', '2024-07-20', '2024-07-23'),
+(51, 51, N'Львів, вул. Коперника, 24', N'Укрпошта', N'Доставлено', '2024-07-21', '2024-07-24'),
+(52, 52, N'Харків, вул. Південна, 32', N'Самовивіз', N'Доставлено', '2024-07-22', '2024-07-25'),
+(53, 53, N'Київ, вул. Московська, 8', N'Нова Пошта', N'Доставлено', '2024-07-23', '2024-07-26'),
+(54, 54, N'Одеса, вул. Базарна, 19', N'Кур''єр', N'Доставлено', '2024-07-24', '2024-07-27'),
+(55, 55, N'Львів, вул. Остромадська, 22', N'Укрпошта', N'Доставлено', '2024-07-25', '2024-07-28'),
+(56, 56, N'Харків, вул. Харківська, 11', N'Самовивіз', N'Доставлено', '2024-07-26', '2024-07-29'),
+(57, 57, N'Київ, вул. Червоноармійська, 15', N'Нова Пошта', N'Доставлено', '2024-07-27', '2024-07-30'),
+(58, 58, N'Одеса, вул. Затонська, 3', N'Кур''єр', N'Доставлено', '2024-07-28', '2024-07-31'),
+(59, 59, N'Львів, вул. Січових Стрільців, 7', N'Укрпошта', N'Доставлено', '2024-07-29', '2024-08-01'),
+(60, 60, N'Харків, вул. Сумська, 60', N'Самовивіз', N'Доставлено', '2024-07-30', '2024-08-02'),
+(61, 61, N'Київ, вул. Інститутська, 9', N'Нова Пошта', N'Доставлено', '2024-07-31', '2024-08-03'),
+(62, 62, N'Одеса, вул. Маршала Говорова, 4', N'Кур''єр', N'Доставлено', '2024-08-01', '2024-08-04'),
+(63, 63, N'Львів, вул. Льва Толстого, 8', N'Укрпошта', N'Доставлено', '2024-08-02', '2024-08-05'),
+(64, 64, N'Харків, вул. Римарська, 3', N'Самовивіз', N'Доставлено', '2024-08-03', '2024-08-06'),
+(65, 65, N'Київ, вул. Богдана Хмельницького, 25', N'Нова Пошта', N'Доставлено', '2024-08-04', '2024-08-07'),
+(66, 66, N'Одеса, вул. Золотий берег, 8', N'Кур''єр', N'Доставлено', '2024-08-05', '2024-08-08'),
+(67, 67, N'Львів, вул. Гнатюка, 16', N'Укрпошта', N'Доставлено', '2024-08-06', '2024-08-09'),
+(68, 68, N'Харків, вул. Троїцька, 14', N'Самовивіз', N'Доставлено', '2024-08-07', '2024-08-10'),
+(69, 69, N'Київ, вул. Ломоносова, 2', N'Нова Пошта', N'Доставлено', '2024-08-08', '2024-08-11'),
+(70, 70, N'Одеса, вул. Фонтанська, 5', N'Кур''єр', N'Доставлено', '2024-08-09', '2024-08-12'),
+(71, 71, N'Львів, вул. Джерельна, 2', N'Укрпошта', N'Доставлено', '2024-08-10', '2024-08-13'),
+(72, 72, N'Харків, вул. Тараса Шевченка, 40', N'Самовивіз', N'Доставлено', '2024-08-11', '2024-08-14'),
+(73, 73, N'Київ, вул. Кудрявська, 11', N'Нова Пошта', N'Доставлено', '2024-08-12', '2024-08-15'),
+(74, 74, N'Одеса, вул. Якова Гальчевського, 14', N'Кур''єр', N'Доставлено', '2024-08-13', '2024-08-16'),
+(75, 75, N'Львів, вул. Садова, 28', N'Укрпошта', N'Доставлено', '2024-08-14', '2024-08-17'),
+(76, 76, N'Харків, вул. Красіна, 21', N'Самовивіз', N'Доставлено', '2024-08-15', '2024-08-18'),
+(77, 77, N'Київ, вул. Ярославська, 5', N'Нова Пошта', N'Доставлено', '2024-08-16', '2024-08-19'),
+(78, 78, N'Одеса, вул. Аркадія, 18', N'Кур''єр', N'Доставлено', '2024-08-17', '2024-08-20'),
+(79, 79, N'Львів, вул. Тараса Бульби, 7', N'Укрпошта', N'Доставлено', '2024-08-18', '2024-08-21'),
+(80, 80, N'Харків, вул. Маяковського, 5', N'Самовивіз', N'Доставлено', '2024-08-19', '2024-08-22'),
+(81, 81, N'Київ, вул. Саксаганського, 8', N'Нова Пошта', N'Доставлено', '2024-08-20', '2024-08-23'),
+(82, 82, N'Одеса, вул. Приморський бульвар, 12', N'Кур''єр', N'Доставлено', '2024-08-21', '2024-08-24'),
+(83, 83, N'Львів, вул. Січових Стрільців, 9', N'Укрпошта', N'Доставлено', '2024-08-22', '2024-08-25'),
+(84, 84, N'Харків, вул. Гоголя, 12', N'Самовивіз', N'Доставлено', '2024-08-23', '2024-08-26'),
+(85, 85, N'Київ, вул. Ярославів Вал, 5', N'Нова Пошта', N'Доставлено', '2024-08-24', '2024-08-27'),
+(86, 86, N'Одеса, вул. Приморська, 4', N'Кур''єр', N'Доставлено', '2024-08-25', '2024-08-28'),
+(87, 87, N'Львів, вул. Сковороди, 2', N'Укрпошта', N'Доставлено', '2024-08-26', '2024-08-29'),
+(88, 88, N'Харків, вул. Миколаївська, 18', N'Самовивіз', N'Доставлено', '2024-08-27', '2024-08-30'),
+(89, 89, N'Київ, вул. Шевченка, 7', N'Нова Пошта', N'Доставлено', '2024-08-28', '2024-08-31'),
+(90, 90, N'Одеса, вул. Фонтанська дорога, 16', N'Кур''єр', N'Доставлено', '2024-08-29', '2024-09-01'),
+(91, 91, N'Львів, вул. Франка, 25', N'Укрпошта', N'Доставлено', '2024-08-30', '2024-09-02'),
+(92, 92, N'Харків, вул. Культури, 17', N'Самовивіз', N'Доставлено', '2024-09-01', '2024-09-04'),
+(93, 93, N'Київ, вул. Липська, 3', N'Нова Пошта', N'Доставлено', '2024-09-02', '2024-09-05'),
+(94, 94, N'Одеса, вул. Князя Володимира, 8', N'Кур''єр', N'Доставлено', '2024-09-03', '2024-09-06'),
+(95, 95, N'Львів, вул. Січових Стрільців, 14', N'Укрпошта', N'Доставлено', '2024-09-04', '2024-09-07'),
+(96, 96, N'Харків, вул. Гоголя, 22', N'Самовивіз', N'Доставлено', '2024-09-05', '2024-09-08'),
+(97, 97, N'Київ, вул. Михайлівська, 18', N'Нова Пошта', N'Доставлено', '2024-09-06', '2024-09-09'),
+(98, 98, N'Одеса, вул. Михайлівська, 12', N'Кур''єр', N'Доставлено', '2024-09-07', '2024-09-10'),
+(99, 99, N'Львів, вул. Коперника, 7', N'Укрпошта', N'Доставлено', '2024-09-08', '2024-09-11'),
+(100, 100, N'Харків, вул. Пушкінська, 17', N'Самовивіз', N'Доставлено', '2024-09-09', '2024-09-12'),
+(101, 101, N'Київ, вул. Чорновола, 11', N'Нова Пошта', N'Доставлено', '2024-09-10', '2024-09-13'),
+(102, 102, N'Одеса, вул. Лейтенанта Шмідта, 20', N'Кур''єр', N'Доставлено', '2024-09-11', '2024-09-14'),
+(103, 103, N'Львів, вул. Шевченка, 13', N'Укрпошта', N'Доставлено', '2024-09-12', '2024-09-15'),
+(104, 104, N'Харків, вул. Сумська, 28', N'Самовивіз', N'Доставлено', '2024-09-13', '2024-09-16'),
+(105, 105, N'Київ, вул. Інститутська, 15', N'Нова Пошта', N'Доставлено', '2024-09-14', '2024-09-17'),
+(106, 106, N'Одеса, вул. Канатна, 9', N'Кур''єр', N'Доставлено', '2024-09-15', '2024-09-18'),
+(107, 107, N'Львів, вул. Стрийська, 7', N'Укрпошта', N'Доставлено', '2024-09-16', '2024-09-19'),
+(108, 108, N'Харків, вул. Квітнева, 11', N'Самовивіз', N'Доставлено', '2024-09-17', '2024-09-20'),
+(109, 109, N'Київ, вул. Велика Васильківська, 10', N'Нова Пошта', N'Доставлено', '2024-09-18', '2024-09-21'),
+(110, 110, N'Одеса, вул. Пушкінська, 19', N'Кур''єр', N'Доставлено', '2024-09-19', '2024-09-22'),
+(111, 111, N'Львів, вул. Стороженка, 8', N'Укрпошта', N'Доставлено', '2024-09-20', '2024-09-23'),
+(112, 112, N'Харків, вул. Лермонтова, 13', N'Самовивіз', N'Доставлено', '2024-09-21', '2024-09-24'),
+(113, 113, N'Київ, вул. Політехнічна, 25', N'Нова Пошта', N'Доставлено', '2024-09-22', '2024-09-25'),
+(114, 114, N'Одеса, вул. Базарна, 10', N'Кур''єр', N'Доставлено', '2024-09-23', '2024-09-26'),
+(115, 115, N'Львів, вул. Підвальна, 6', N'Укрпошта', N'Доставлено', '2024-09-24', '2024-09-27'),
+(116, 116, N'Харків, вул. Шевченка, 21', N'Самовивіз', N'Доставлено', '2024-09-25', '2024-09-28'),
+(117, 117, N'Київ, вул. Борщагівська, 13', N'Нова Пошта', N'Доставлено', '2024-09-26', '2024-09-29'),
+(118, 118, N'Одеса, вул. Ланжеронівська, 15', N'Кур''єр', N'Доставлено', '2024-09-27', '2024-09-30'),
+(119, 119, N'Львів, вул. Літературна, 10', N'Укрпошта', N'Доставлено', '2024-09-28', '2024-10-01'),
+(120, 120, N'Харків, вул. Спортивна, 4', N'Самовивіз', N'Доставлено', '2024-09-29', '2024-10-02'),
+(121, 121, N'Київ, вул. Грушевського, 1', N'Нова Пошта', N'Доставлено', '2024-09-30', '2024-10-03'),
+(122, 122, N'Одеса, вул. Троїцька, 4', N'Кур''єр', N'Доставлено', '2024-10-01', '2024-10-05'),
+(123, 123, N'Львів, вул. Гнатюка, 6', N'Укрпошта', N'Доставлено', '2024-10-02', '2024-10-06'),
+(124, 124, N'Харків, вул. Полтавський шлях, 9', N'Самовивіз', N'Доставлено', '2024-10-03', '2024-10-07'),
+(125, 125, N'Київ, вул. Дарницька, 12', N'Нова Пошта', N'Доставлено', '2024-10-04', '2024-10-08'),
+(126, 126, N'Одеса, вул. Академіка Корольова, 19', N'Кур''єр', N'Доставлено', '2024-10-05', '2024-10-09'),
+(127, 127, N'Львів, вул. Франка, 15', N'Укрпошта', N'Доставлено', '2024-10-06', '2024-10-10'),
+(128, 128, N'Харків, вул. Мироносицька, 10', N'Самовивіз', N'Доставлено', '2024-10-07', '2024-10-11'),
+(129, 129, N'Київ, вул. Прорізна, 3', N'Нова Пошта', N'Доставлено', '2024-10-08', '2024-10-12'),
+(130, 130, N'Одеса, вул. Армійська, 16', N'Кур''єр', N'Доставлено', '2024-10-09', '2024-10-13'),
+(131, 131, N'Львів, вул. Вітовського, 22', N'Укрпошта', N'Доставлено', '2024-10-10', '2024-10-14'),
+(132, 132, N'Львів, вул. Вітовського, 22', N'Нова Пошта', N'Очікує відправлення', NULL, NULL),
+(133, 133, N'Київ, вул. Січових Стрільців, 5', N'Самовивіз', N'Доставлено', '2024-10-11', '2024-10-15'),
+(134, 134, N'Одеса, вул. Канатна, 3', N'Нова Пошта', N'Доставлено', '2024-10-12', '2024-10-16'),
+(135, 135, N'Львів, вул. Коперника, 17', N'Кур''єр', N'Доставлено', '2024-10-13', '2024-10-18'),
+(136, 136, N'Харків, вул. Пушкінська, 22', N'Укрпошта', N'Доставлено', '2024-10-14', '2024-10-18'),
+(137, 137, N'Київ, вул. Велика Васильківська, 45', N'Самовивіз', N'Доставлено', '2024-10-15', '2024-10-19'),
+(138, 138, N'Одеса, вул. Жуковського, 8', N'Нова Пошта', N'Доставлено', '2024-10-16', '2024-10-20'),
+(139, 139, N'Львів, вул. Шевченка, 33', N'Кур''єр', N'Доставлено', '2024-10-17', '2024-10-22'),
+(140, 140, N'Київ, вул. Січових Стрільців, 5', N'Нова Пошта', N'Очікує відправлення', NULL, NULL),
+(141, 141, N'Київ, вул. Богдана Хмельницького, 14', N'Укрпошта', N'Доставлено', '2024-10-18', '2024-10-22'),
+(142, 142, N'Одеса, вул. Єврейська, 12', N'Самовивіз', N'Доставлено', '2024-10-19', '2024-10-23'),
+(143, 143, N'Львів, вул. Личаківська, 8', N'Нова Пошта', N'Доставлено', '2024-10-20', '2024-10-24'),
+(144, 144, N'Харків, вул. Сумська, 35', N'Кур''єр', N'Доставлено', '2024-10-21', '2024-10-25'),
+(145, 145, N'Київ, вул. Інститутська, 20', N'Укрпошта', N'Доставлено', '2024-10-22', '2024-10-26'),
+(146, 146, N'Одеса, вул. Балківська, 18', N'Самовивіз', N'Доставлено', '2024-10-23', '2024-10-28'),
+(147, 147, N'Львів, вул. Зелена, 41', N'Нова Пошта', N'Доставлено', '2024-10-24', '2024-10-28'),
+(148, 148, N'Харків, вул. Академіка Павлова, 44', N'Кур''єр', N'Доставлено', '2024-10-25', '2024-10-30'),
+(149, 149, N'Київ, вул. Володимирська, 55', N'Укрпошта', N'Доставлено', '2024-10-26', '2024-10-30'),
+(150, 150, N'Одеса, вул. Фонтанська дорога, 23', N'Самовивіз', N'Доставлено', '2024-10-27', '2024-10-31'),
+(151, 151, N'Львів, вул. Пасічна, 62', N'Нова Пошта', N'Доставлено', '2024-10-28', '2024-11-01'),
+(152, 152, N'Харків, вул. Шевченка, 12', N'Кур''єр', N'Доставлено', '2024-10-29', '2024-11-02'),
+(153, 153, N'Київ, вул. Попудренка, 9', N'Укрпошта', N'Доставлено', '2024-10-30', '2024-11-03'),
+(154, 154, N'Одеса, вул. Дерибасівська, 7', N'Самовивіз', N'Доставлено', '2024-10-31', '2024-11-04'),
+(155, 155, N'Львів, вул. Героїв УПА, 73', N'Нова Пошта', N'Очікує відправлення', NULL, NULL),
+(156, 156, N'Харків, вул. Московський проспект, 199', N'Кур''єр', N'Доставлено', '2024-11-02', '2024-11-06'),
+(157, 157, N'Київ, вул. Лаврська, 9', N'Укрпошта', N'Доставлено', '2024-11-03', '2024-11-07'),
+(158, 158, N'Одеса, вул. Ільфа і Петрова, 4', N'Самовивіз', N'Доставлено', '2024-11-04', '2024-11-08'),
+(159, 159, N'Львів, вул. Наукова, 5', N'Нова Пошта', N'Доставлено', '2024-11-05', '2024-11-09'),
+(160, 160, N'Харків, вул. Гіршмана, 14', N'Кур''єр', N'Доставлено', '2024-11-06', '2024-11-10'),
+(161, 161, N'Київ, вул. Тарасівська, 6', N'Укрпошта', N'Доставлено', '2024-11-07', '2024-11-11'),
+(162, 162, N'Одеса, вул. Чорноморського козацтва, 3', N'Самовивіз', N'Доставлено', '2024-11-08', '2024-11-12'),
+(163, 163, N'Львів, вул. Богдана Хмельницького, 36', N'Нова Пошта', N'Доставлено', '2024-11-09', '2024-11-13'),
+(164, 164, N'Харків, вул. Клочківська, 99', N'Кур''єр', N'Доставлено', '2024-11-10', '2024-11-14'),
+(165, 165, N'Київ, вул. Мазепи, 1', N'Укрпошта', N'Доставлено', '2024-11-11', '2024-11-15'),
+(166, 166, N'Одеса, вул. Аеропортівська, 5', N'Самовивіз', N'Доставлено', '2024-11-12', '2024-11-16'),
+(167, 167, N'Львів, вул. Замарстинівська, 80', N'Нова Пошта', N'Доставлено', '2024-11-13', '2024-11-17'),
+(168, 168, N'Харків, вул. Дарвіна, 20', N'Кур''єр', N'Доставлено', '2024-11-14', '2024-11-18'),
+(169, 169, N'Київ, вул. Голосіївська, 9', N'Укрпошта', N'Доставлено', '2024-11-15', '2024-11-19'),
+(170, 170, N'Одеса, вул. Маршала Малиновського, 13', N'Самовивіз', N'Доставлено', '2024-11-16', '2024-11-20'),
+(171, 171, N'Київ, вул. Балківська, 18', N'Укрпошта', N'Доставлено', '2024-11-17', '2024-11-20'),
+(172, 172, N'Київ, вул. Балківська, 18', N'Укрпошта', N'Доставлено', '2024-11-18', '2024-11-21'),
+(173, 173, N'Харків, вул. Коперника, 17', N'Кур''єр', N'Доставлено', '2024-11-19', '2024-11-24'),
+(174, 174, N'Одеса, вул. Жуковського, 8', N'Нова Пошта', N'Доставлено', '2024-11-20', '2024-11-23'),
+(175, 175, N'Одеса, вул. Жуковського, 8', N'Кур''єр', N'Доставлено', '2024-11-21', '2024-11-24'),
+(176, 176, N'Львів, вул. Коперника, 17', N'Кур''єр', N'Доставлено', '2024-11-22', '2024-11-26'),
+(177, 177, N'Харків, вул. Грушевського, 12', N'Нова Пошта', N'Доставлено', '2024-11-23', '2024-11-28'),
+(178, 178, N'Харків, вул. Жуковського, 8', N'Укрпошта', N'Доставлено', '2024-11-24', '2024-11-29'),
+(179, 179, N'Харків, вул. Тарасівська, 6', N'Укрпошта', N'Очікує відправлення', NULL, NULL),
+(180, 180, N'Одеса, вул. Коперника, 17', N'Нова Пошта', N'Доставлено', '2024-11-26', '2024-11-29'),
+(181, 181, N'Київ, вул. Личаківська, 22', N'Самовивіз', N'Доставлено', '2024-11-27', '2024-11-30'),
+(182, 182, N'Львів, вул. Тарасівська, 6', N'Укрпошта', N'Доставлено', '2024-11-28', '2024-12-01'),
+(183, 183, N'Одеса, вул. Грушевського, 12', N'Нова Пошта', N'Доставлено', '2024-11-29', '2024-12-02'),
+(184, 184, N'Харків, вул. Попудренка, 9', N'Укрпошта', N'Доставлено', '2024-11-30', '2024-12-03'),
+(185, 185, N'Львів, вул. Личаківська, 22', N'Нова Пошта', N'Доставлено', '2024-12-01', '2024-12-04'),
+(186, 186, N'Київ, вул. Сумська, 35', N'Кур''єр', N'Доставлено', '2024-12-02', '2024-12-05'),
+(187, 187, N'Одеса, вул. Балківська, 18', N'Самовивіз', N'Доставлено', '2024-12-03', '2024-12-06'),
+(188, 188, N'Харків, вул. Попудренка, 9', N'Нова Пошта', N'Очікує відправлення', NULL, NULL),
+(189, 189, N'Одеса, вул. Хрещатик, 10', N'Кур''єр', N'Очікує відправлення', NULL, NULL),
+(190, 190, N'Львів, вул. Жуковського, 8', N'Нова Пошта', N'Очікує відправлення', NULL, NULL),
+(191, 191, N'Київ, вул. Канатна, 3', N'Самовивіз', N'Доставлено', '2024-12-07', '2024-12-10'),
+(192, 192, N'Харків, вул. Тарасівська, 6', N'Укрпошта', N'Доставлено', '2024-12-08', '2024-12-11'),
+(193, 193, N'Львів, вул. Коперника, 17', N'Нова Пошта', N'Доставлено', '2024-12-09', '2024-12-12'),
+(194, 194, N'Одеса, вул. Коперника, 17', N'Кур''єр', N'Доставлено', '2024-12-10', '2024-12-13'),
+(195, 195, N'Харків, вул. Балківська, 18', N'Нова Пошта', N'Доставлено', '2024-12-11', '2024-12-14'),
+(196, 196, N'Київ, вул. Попудренка, 9', N'Кур''єр', N'Доставлено', '2024-12-12', '2024-12-15'),
+(197, 197, N'Одеса, вул. Хрещатик, 10', N'Укрпошта', N'Доставлено', '2024-12-13', '2024-12-16'),
+(198, 198, N'Львів, вул. Тарасівська, 6', N'Кур''єр', N'Доставлено', '2024-12-14', '2024-12-17'),
+(199, 199, N'Київ, вул. Личаківська, 22', N'Самовивіз', N'Доставлено', '2024-12-15', '2024-12-18'),
+(200, 200, N'Харків, вул. Попудренка, 9', N'Укрпошта', N'Доставлено', '2024-12-16', '2024-12-19'),
+(201, 201, N'Одеса, вул. Сумська, 35', N'Нова Пошта', N'Доставлено', '2024-12-17', '2024-12-20'),
+(202, 202, N'Київ, вул. Грушевського, 12', N'Нова Пошта', N'Доставлено', '2024-12-18', '2024-12-21'),
+(203, 203, N'Львів, вул. Сумська, 35', N'Кур''єр', N'Доставлено', '2024-12-19', '2024-12-22'),
+(204, 204, N'Одеса, вул. Канатна, 3', N'Самовивіз', N'Доставлено', '2024-12-20', '2024-12-23'),
+(205, 205, N'Харків, вул. Хрещатик, 10', N'Укрпошта', N'Доставлено', '2024-12-21', '2024-12-24'),
+(206, 206, N'Львів, вул. Тарасівська, 6', N'Нова Пошта', N'Доставлено', '2024-12-22', '2024-12-25'),
+(207, 207, N'Київ, вул. Личаківська, 22', N'Самовивіз', N'Доставлено', '2024-12-23', '2024-12-26'),
+(208, 208, N'Одеса, вул. Грушевського, 12', N'Кур''єр', N'Доставлено', '2024-12-24', '2024-12-27'),
+(209, 209, N'Харків, вул. Балківська, 18', N'Нова Пошта', N'Доставлено', '2024-12-25', '2024-12-28'),
+(210, 210, N'Київ, вул. Жуковського, 8', N'Укрпошта', N'Доставлено', '2024-12-26', '2024-12-29'),
+(211, 211, N'Одеса, вул. Канатна, 3', N'Кур''єр', N'Доставлено', '2024-12-27', '2024-12-30'),
+(212, 212, N'Львів, вул. Тарасівська, 6', N'Самовивіз', N'Доставлено', '2024-12-28', '2024-12-31'),
+(213, 213, N'Харків, вул. Коперника, 17', N'Укрпошта', N'Доставлено', '2024-12-29', '2025-01-01');
+
 
 DECLARE @existingIndividuals TABLE (FullName NVARCHAR(100), Address NVARCHAR(200));
 DECLARE @existingEntities TABLE (CompanyName NVARCHAR(100), Address NVARCHAR(200));
@@ -2712,7 +3144,6 @@ WHILE @k <= 40000
 BEGIN
     DECLARE @cid INT = 1 + ABS(CHECKSUM(NEWID())) % 200000;
     DECLARE @orderDate DATE = DATEADD(DAY, -ABS(CHECKSUM(NEWID())) % 1000, GETDATE());
-    DECLARE @completed DATE = CASE WHEN RAND() < 0.7 THEN DATEADD(DAY, 1 + ABS(CHECKSUM(NEWID())) % 10, @orderDate) ELSE NULL END;
 
     DECLARE @phoneID INT, @phonePrice DECIMAL(10,2);
     SELECT TOP 1 @phoneID = PhoneID, @phonePrice = Price
@@ -2723,11 +3154,128 @@ BEGIN
     DECLARE @quantity INT = 1 + ABS(CHECKSUM(NEWID())) % 40;
     DECLARE @orderAmount DECIMAL(10,2) = @phonePrice * @quantity;
 
-    INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount)
-    VALUES (@k, @cid, @orderDate, @completed, @orderAmount);
+    INSERT INTO Orders (OrderID, ClientID, OrderDate, CompletionDate, OrderAmount, OrderStatus)
+    VALUES (@k, @cid, @orderDate, NULL, @orderAmount, N'Замовлення оформлено');
 
     INSERT INTO OrderLine (LineID, OrderID, PhoneID, Quantity)
     VALUES (@k, @k, @phoneID, @quantity);
 
     SET @k = @k + 1;
 END;
+
+
+
+DECLARE @paymentId INT = 214;
+WHILE @paymentId <= 40000
+BEGIN
+    DECLARE @orderId INT = @paymentId;
+    DECLARE @paymentMethods TABLE (Method NVARCHAR(50));
+    INSERT INTO @paymentMethods VALUES
+        (N'Карта'), (N'Переказ'), (N'Apple Pay'), (N'Google Pay'), (N'Післяплата');
+
+    DECLARE @method NVARCHAR(50) = (SELECT TOP 1 Method FROM @paymentMethods ORDER BY NEWID());
+
+    DECLARE @paymentDate DATE = NULL;
+    DECLARE @status NVARCHAR(50);
+
+    IF @method = N'Післяплата'
+        SET @status = N'Очікується оплата';
+    ELSE
+    BEGIN
+        SET @status = N'Оплачено';
+        SET @paymentDate = DATEADD(DAY, ABS(CHECKSUM(NEWID())) % 5, GETDATE());
+    END
+
+    INSERT INTO Payment (PaymentID, OrderID, PaymentMethod, PaymentDate, PaymentStatus)
+    VALUES (@paymentId, @orderId, @method, @paymentDate, @status);
+
+    SET @paymentId += 1;
+END;
+
+
+DECLARE @deliveryId INT = 214;
+WHILE @deliveryId <= 40000
+BEGIN
+    DECLARE @orderId INT = @deliveryId;
+    DECLARE @clientId INT = (SELECT ClientID FROM Orders WHERE OrderID = @orderId);
+
+    DECLARE @clientType NVARCHAR(20) = (SELECT Type FROM Client WHERE ClientID = @clientId);
+    DECLARE @address NVARCHAR(200) = NULL;
+
+    IF @clientType = N'Фізична особа'
+        SET @address = (SELECT Address FROM Individual WHERE ClientID = @clientId);
+    ELSE IF @clientType = N'Юридична особа'
+        SET @address = (SELECT Address FROM LegalEntity WHERE ClientID = @clientId);
+
+    IF @address IS NOT NULL
+    BEGIN
+        DECLARE @methods TABLE (Method NVARCHAR(50));
+        INSERT INTO @methods VALUES
+            (N'Укрпошта'), (N'Кур’єр'), (N'Самовивіз'), (N'Нова Пошта');
+
+        DECLARE @method NVARCHAR(50) = (SELECT TOP 1 Method FROM @methods ORDER BY NEWID());
+
+        DECLARE @status NVARCHAR(50);
+        DECLARE @dispatchDate DATE = NULL;
+        DECLARE @deliveryDate DATE = NULL;
+
+        IF RAND() < 0.7
+        BEGIN
+            SET @status = N'Доставлено';
+            SET @dispatchDate = DATEADD(DAY, 1 + ABS(CHECKSUM(NEWID())) % 3, GETDATE());
+            SET @deliveryDate = DATEADD(DAY, 1 + ABS(CHECKSUM(NEWID())) % 4, @dispatchDate);
+        END
+        ELSE
+        BEGIN
+            SET @status = CASE WHEN RAND() < 0.5 THEN N'В дорозі' ELSE N'Очікує відправлення' END;
+            SET @dispatchDate = CASE WHEN @status = N'В дорозі' THEN DATEADD(DAY, 1 + ABS(CHECKSUM(NEWID())) % 3, GETDATE()) ELSE NULL END;
+            SET @deliveryDate = NULL;
+        END
+
+        INSERT INTO Delivery (DeliveryID, OrderID, DeliveryAddress, DeliveryMethod, DeliveryStatus, DispatchDate, DeliveryDate)
+        VALUES (@deliveryId, @orderId, @address, @method, @status, @dispatchDate, @deliveryDate);
+    END
+
+    SET @deliveryId += 1;
+END;
+
+
+CREATE OR ALTER PROCEDURE UpdatePostPaymentStatus
+AS
+BEGIN
+    UPDATE p
+    SET 
+        p.PaymentStatus = N'Оплачено',
+        p.PaymentDate = d.DeliveryDate
+    FROM Payment p
+    JOIN Delivery d ON p.OrderID = d.OrderID
+    WHERE 
+        p.PaymentMethod = N'Післяплата'
+        AND p.PaymentStatus = N'Очікується оплата'
+        AND d.DeliveryStatus = N'Доставлено'
+        AND ABS(CHECKSUM(NEWID())) % 100 < 70;
+END;
+
+EXEC UpdatePostPaymentStatus;
+
+
+
+CREATE OR ALTER PROCEDURE UpdateOrderCompletionStatus
+AS
+BEGIN
+    UPDATE o
+    SET 
+        o.CompletionDate = CASE 
+                             WHEN d.DeliveryStatus = N'Доставлено' THEN d.DeliveryDate
+                             ELSE o.CompletionDate
+                           END,
+        o.OrderStatus = CASE 
+                            WHEN d.DeliveryStatus = N'Доставлено' THEN N'Завершено'
+                            ELSE d.DeliveryStatus
+                        END
+    FROM Orders o
+    JOIN Delivery d ON o.OrderID = d.OrderID
+END;
+
+
+EXEC UpdateOrderCompletionStatus;
