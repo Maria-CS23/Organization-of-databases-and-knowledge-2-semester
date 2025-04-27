@@ -167,3 +167,46 @@ END;
 GO
 
 EXEC UpdateOrderAndDeliveryStatus @OrderID = 1217, @NewOrderStatus = N'В дорозі', @NewDeliveryStatus = N'В дорозі';
+
+-- Завдання 10
+
+CREATE PROCEDURE InsertPhones
+    @NumberOfRows INT
+AS
+BEGIN
+    DECLARE @Counter INT = 1;
+    DECLARE @Manufacturer NVARCHAR(50);
+    DECLARE @Model NVARCHAR(50);
+    DECLARE @PhoneID INT;
+
+    DECLARE @Manufacturers TABLE (Manufacturer NVARCHAR(50));
+    INSERT INTO @Manufacturers (Manufacturer)
+    VALUES ('Apple'), ('Samsung'), ('Xiaomi'), ('OnePlus'), ('Google'), ('Huawei');
+
+    DECLARE @Models TABLE (Model NVARCHAR(50));
+    INSERT INTO @Models (Model)
+    VALUES ('iPhone 14'), ('Galaxy S23'), ('Mi 13'), ('OnePlus 11'), ('Pixel 7'), ('P60 Pro');
+
+    WHILE @Counter <= @NumberOfRows
+    BEGIN
+        SET @PhoneID = (SELECT ISNULL(MAX(PhoneID), 0) + 1 FROM Phone);
+        
+        SELECT @Manufacturer = Manufacturer FROM @Manufacturers ORDER BY NEWID();
+        SELECT @Model = Model FROM @Models ORDER BY NEWID();
+
+        INSERT INTO Phone (PhoneID, Manufacturer, Model, Specifications, Price, Availability)
+        VALUES (
+            @PhoneID,
+            @Manufacturer,
+            @Model,
+            '128GB, Phantom White',
+            ROUND(1500 + (RAND() * 30000), 2),
+            N'В наявності'
+        );
+
+        SET @Counter += 1;
+    END
+END;
+GO
+
+EXEC InsertPhones @NumberOfRows = 4;
