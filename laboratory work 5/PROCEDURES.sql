@@ -105,3 +105,65 @@ EXEC #UpdateOrderStatus
     @OrderID = 132,
     @NewStatus = 'В дорозі';
 
+
+-- Завдання 9
+
+CREATE PROCEDURE CreateNewOrder
+    @ClientID INT,
+    @OrderDate DATE,
+    @OrderAmount DECIMAL(10,2),
+    @OrderStatus NVARCHAR(50)
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRANSACTION;
+
+        INSERT INTO Orders (OrderID, ClientID, OrderDate, OrderAmount, OrderStatus)
+        VALUES (
+            (SELECT ISNULL(MAX(OrderID),0) + 1 FROM Orders),
+            @ClientID,
+            @OrderDate,
+            @OrderAmount,
+            @OrderStatus
+        );
+
+        COMMIT TRANSACTION;
+        PRINT 'Замовлення створено';
+    END TRY
+    BEGIN CATCH
+        ROLLBACK TRANSACTION;
+        PRINT 'Сталася помилка';
+    END CATCH
+END;
+GO
+
+EXEC CreateNewOrder @ClientID = 355, @OrderDate = '2025-04-28', @OrderAmount = 30000, @OrderStatus = N'В обробці';
+
+
+CREATE PROCEDURE UpdateOrderAndDeliveryStatus
+    @OrderID INT,
+    @NewOrderStatus NVARCHAR(50),
+    @NewDeliveryStatus NVARCHAR(50)
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRANSACTION;
+
+        UPDATE Orders
+        SET OrderStatus = @NewOrderStatus
+        WHERE OrderID = @OrderID;
+
+        UPDATE Delivery
+        SET DeliveryStatus = @NewDeliveryStatus
+        WHERE OrderID = @OrderID;
+
+        COMMIT TRANSACTION;
+    END TRY
+    BEGIN CATCH
+        ROLLBACK TRANSACTION;
+        THROW;
+    END CATCH
+END;
+GO
+
+EXEC UpdateOrderAndDeliveryStatus @OrderID = 1217, @NewOrderStatus = N'В дорозі', @NewDeliveryStatus = N'В дорозі';
