@@ -3062,7 +3062,7 @@ SELECT FullName, Address FROM Individual;
 INSERT INTO @existingEntities (CompanyName, Address)
 SELECT CompanyName, Address FROM LegalEntity;
 
-DECLARE @i INT = 452;
+DECLARE @i INT = 20001;
 DECLARE @fullName NVARCHAR(100);
 DECLARE @address NVARCHAR(200);
 DECLARE @email NVARCHAR(100);
@@ -3072,7 +3072,7 @@ DECLARE @taxId VARCHAR(20);
 DECLARE @companyName NVARCHAR(100);
 DECLARE @companyAddress NVARCHAR(200);
 
-WHILE @i <= 150000
+WHILE @i <= 21100
 BEGIN
     SELECT TOP 1 @fullName = FullName, @address = Address
     FROM @existingIndividuals
@@ -3091,9 +3091,9 @@ BEGIN
     SET @i = @i + 1;
 END;
 
-SET @i = 150001;
+SET @i = 21101;
 
-WHILE @i <= 200000
+WHILE @i <= 21102
 BEGIN
     SELECT TOP 1 @companyName = CompanyName, @companyAddress = Address
     FROM @existingEntities
@@ -3115,7 +3115,7 @@ END;
 
 
 
-DECLARE @j INT = 201;
+DECLARE @j INT = 1001;
 DECLARE @brands TABLE (BrandName NVARCHAR(50));
 INSERT INTO @brands (BrandName) VALUES
 ('Realme'), ('Vivo'), ('Asus'), ('Xiaomi'), ('Huawei'), ('Google'), ('Motorola'),
@@ -3139,10 +3139,10 @@ END;
 
 
 
-DECLARE @k INT = 214;
-WHILE @k <= 40000
+DECLARE @k INT = 5001;
+WHILE @k <= 10000
 BEGIN
-    DECLARE @cid INT = 1 + ABS(CHECKSUM(NEWID())) % 200000;
+    DECLARE @cid INT = 1 + ABS(CHECKSUM(NEWID())) % 1004;
     DECLARE @orderDate DATE = DATEADD(DAY, -ABS(CHECKSUM(NEWID())) % 1000, GETDATE());
 
     DECLARE @phoneID INT, @phonePrice DECIMAL(10,2);
@@ -3165,8 +3165,8 @@ END;
 
 
 
-DECLARE @paymentId INT = 214;
-WHILE @paymentId <= 40000
+DECLARE @paymentId INT = 5001;
+WHILE @paymentId <= 10000
 BEGIN
     DECLARE @orderId INT = @paymentId;
     DECLARE @paymentMethods TABLE (Method NVARCHAR(50));
@@ -3193,8 +3193,8 @@ BEGIN
 END;
 
 
-DECLARE @deliveryId INT = 214;
-WHILE @deliveryId <= 40000
+DECLARE @deliveryId INT = 1001;
+WHILE @deliveryId <= 10000
 BEGIN
     DECLARE @orderId INT = @deliveryId;
     DECLARE @clientId INT = (SELECT ClientID FROM Orders WHERE OrderID = @orderId);
