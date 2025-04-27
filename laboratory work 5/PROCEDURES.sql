@@ -210,3 +210,32 @@ END;
 GO
 
 EXEC InsertPhones @NumberOfRows = 4;
+
+-- Завдання 11
+CREATE SEQUENCE Seq_ClientID
+    START WITH 21104
+    INCREMENT BY 1;
+GO
+
+CREATE PROCEDURE InsertClient
+    @Type NVARCHAR(20),
+    @RegistrationDate DATE
+AS
+BEGIN
+    DECLARE @NewClientID INT;
+
+    BEGIN TRY
+        SET @NewClientID = NEXT VALUE FOR Seq_ClientID;
+
+        INSERT INTO Client (ClientID, Type, RegistrationDate)
+        VALUES (@NewClientID, @Type, @RegistrationDate);
+
+        SELECT @NewClientID AS NewClientID;
+    END TRY
+    BEGIN CATCH
+        SELECT NULL AS NewClientID;
+    END CATCH
+END;
+GO
+
+EXEC InsertClient @Type = N'Фізична особа', @RegistrationDate = '2025-04-29';
