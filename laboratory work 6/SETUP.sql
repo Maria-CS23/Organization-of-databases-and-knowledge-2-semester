@@ -19,7 +19,7 @@ CREATE TABLE Orders (
     OrderDate DATE NOT NULL,
     CompletionDate DATE NULL,
     OrderAmount INT NOT NULL,
-	OrderStatus NVARCHAR(50) NOT NULL,
+    OrderStatus NVARCHAR(50) NOT NULL,
     FOREIGN KEY (ClientID) REFERENCES Client(ClientID)
 );
 
@@ -27,7 +27,7 @@ CREATE TABLE OrderLine (
     OrderID INT NOT NULL,
     PhoneID INT NOT NULL,
     Quantity INT NOT NULL,
-	PRIMARY KEY (OrderID, PhoneID),
+    PRIMARY KEY (OrderID, PhoneID),
     FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
     FOREIGN KEY (PhoneID) REFERENCES Phone(PhoneID)
 );
@@ -55,7 +55,7 @@ CREATE TABLE Payment (
     PaymentDate DATE,
     PaymentMethod NVARCHAR(50) NOT NULL,
     PaymentStatus NVARCHAR(50) NOT NULL,
-	FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
+    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
 );
 
 CREATE TABLE Delivery (
@@ -66,7 +66,7 @@ CREATE TABLE Delivery (
     DeliveryStatus NVARCHAR(50) NOT NULL,
     DispatchDate DATE,
     DeliveryDate DATE,
-	FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
+    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
 );
 
 CREATE TABLE Inventory (
