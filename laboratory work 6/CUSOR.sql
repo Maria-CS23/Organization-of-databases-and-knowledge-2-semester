@@ -105,7 +105,7 @@ SELECT * FROM Inventory WHERE PhoneID = 138;
 
 
 -- Завдання 8
-SET STATISTICS TIME ON;
+DECLARE @StartTime DATETIME = GETDATE();
 
 SELECT 
     c.ClientID,
@@ -129,9 +129,218 @@ LEFT JOIN Payment pm ON o.OrderID = pm.OrderID
 LEFT JOIN Delivery d ON o.OrderID = d.OrderID
 WHERE 
     o.OrderDate >= DATEADD(MONTH, -3, GETDATE())
-    AND p.Price > 500
+    AND p.Price > 15000
+ORDER BY 
+    o.OrderDate DESC, p.Price DESC;
+
+DECLARE @EndTime DATETIME = GETDATE();
+PRINT 'Час виконання (без індексу): ' + CAST(DATEDIFF(MILLISECOND, @StartTime, @EndTime) AS NVARCHAR) + ' мс';
+
+
+-- Завдання 9
+CREATE NONCLUSTERED INDEX IX_Orders_OrderDate_ClientID ON Orders(OrderDate, ClientID);
+CREATE NONCLUSTERED INDEX IX_Phone_Price_PhoneID ON Phone(Price, PhoneID);
+CREATE NONCLUSTERED INDEX IX_OrderLine_OrderID_PhoneID ON OrderLine(OrderID, PhoneID);
+
+
+DECLARE @StartTime2 DATETIME = GETDATE();
+
+SELECT 
+    c.ClientID,
+    CASE 
+        WHEN c.Type = N'Фізична особа' THEN i.FullName
+        WHEN c.Type = N'Юридична особа' THEN le.CompanyName
+    END AS ClientName,
+    o.OrderID, o.OrderDate, o.OrderAmount, o.OrderStatus, 
+    p.Manufacturer, p.Model,
+    ol.Quantity, 
+    pm.PaymentMethod, pm.PaymentStatus, 
+    d.DeliveryMethod, d.DeliveryStatus
+FROM 
+    Client c
+LEFT JOIN Individual i ON c.ClientID = i.ClientID
+LEFT JOIN LegalEntity le ON c.ClientID = le.ClientID
+JOIN Orders o ON c.ClientID = o.ClientID
+JOIN OrderLine ol ON o.OrderID = ol.OrderID
+JOIN Phone p ON ol.PhoneID = p.PhoneID
+LEFT JOIN Payment pm ON o.OrderID = pm.OrderID
+LEFT JOIN Delivery d ON o.OrderID = d.OrderID
+WHERE 
+    o.OrderDate >= DATEADD(MONTH, -3, GETDATE())
+    AND p.Price > 15000
 ORDER BY 
     o.OrderDate DESC, p.Price DESC;
 
 
-SET STATISTICS TIME OFF;
+DECLARE @EndTime2 DATETIME = GETDATE();
+PRINT 'Час виконання (з індексом): ' + CAST(DATEDIFF(MILLISECOND, @StartTime2, @EndTime2) AS NVARCHAR) + ' мс';
+
+
+-- Завдання 10
+CREATE TABLE #TempResults (
+    ClientID INT,
+    ClientName NVARCHAR(100),
+    OrderID INT,
+    OrderDate DATE,
+    OrderAmount DECIMAL(10,2),
+    OrderStatus NVARCHAR(50),
+    Manufacturer NVARCHAR(50),
+    Model NVARCHAR(50),
+    Quantity INT,
+    PaymentMethod NVARCHAR(50),
+    PaymentStatus NVARCHAR(50),
+    DeliveryMethod NVARCHAR(50),
+    DeliveryStatus NVARCHAR(50)
+);
+
+
+
+DECLARE @ClientID INT, @ClientName NVARCHAR(100), @OrderID INT, @OrderDate DATE,
+        @OrderAmount DECIMAL(10,2), @OrderStatus NVARCHAR(50), @Manufacturer NVARCHAR(50),
+        @Model NVARCHAR(50), @Quantity INT, @PaymentMethod NVARCHAR(50),
+        @PaymentStatus NVARCHAR(50), @DeliveryMethod NVARCHAR(50), @DeliveryStatus NVARCHAR(50);
+
+
+DECLARE complex_cursor CURSOR FOR
+SELECT 
+    c.ClientID,
+    CASE 
+        WHEN c.Type = N'Фізична особа' THEN i.FullName
+        WHEN c.Type = N'Юридична особа' THEN le.CompanyName
+    END,
+    o.OrderID, o.OrderDate, o.OrderAmount, o.OrderStatus, 
+    p.Manufacturer, p.Model,
+    ol.Quantity, 
+    pm.PaymentMethod, pm.PaymentStatus, 
+    d.DeliveryMethod, d.DeliveryStatus
+FROM 
+    Client c
+LEFT JOIN Individual i ON c.ClientID = i.ClientID
+LEFT JOIN LegalEntity le ON c.ClientID = le.ClientID
+JOIN Orders o ON c.ClientID = o.ClientID
+JOIN OrderLine ol ON o.OrderID = ol.OrderID
+JOIN Phone p ON ol.PhoneID = p.PhoneID
+LEFT JOIN Payment pm ON o.OrderID = pm.OrderID
+LEFT JOIN Delivery d ON o.OrderID = d.OrderID
+WHERE 
+    o.OrderDate >= DATEADD(MONTH, -3, GETDATE())
+    AND p.Price > 15000
+ORDER BY 
+    o.OrderDate DESC, p.Price DESC;
+
+
+DECLARE @StartTime3 DATETIME = GETDATE();
+
+OPEN complex_cursor;
+FETCH NEXT FROM complex_cursor INTO @ClientID, @ClientName, @OrderID, @OrderDate, @OrderAmount, @OrderStatus,
+                                   @Manufacturer, @Model, @Quantity, @PaymentMethod, @PaymentStatus, @DeliveryMethod, @DeliveryStatus;
+
+WHILE @@FETCH_STATUS = 0
+BEGIN
+	INSERT INTO #TempResults VALUES (
+        @ClientID, @ClientName, @OrderID, @OrderDate, @OrderAmount, 
+        @OrderStatus, @Manufacturer, @Model, @Quantity, 
+        @PaymentMethod, @PaymentStatus, @DeliveryMethod, @DeliveryStatus
+    );
+
+    FETCH NEXT FROM complex_cursor INTO @ClientID, @ClientName, @OrderID, @OrderDate, @OrderAmount, @OrderStatus,
+                                       @Manufacturer, @Model, @Quantity, @PaymentMethod, @PaymentStatus, @DeliveryMethod, @DeliveryStatus;
+END
+
+CLOSE complex_cursor;
+DEALLOCATE complex_cursor;
+
+SELECT * FROM #TempResults;
+
+DECLARE @EndTime3 DATETIME = GETDATE();
+PRINT 'Час виконання (Cursor1): ' + CAST(DATEDIFF(MILLISECOND, @StartTime3, @EndTime3) AS NVARCHAR) + ' мс';
+
+
+TRUNCATE TABLE #TempResults;
+
+
+
+-- Завдання 11
+
+DECLARE @ClientID INT, @ClientName NVARCHAR(100), @OrderID INT, @OrderDate DATE,
+        @OrderAmount DECIMAL(10,2), @OrderStatus NVARCHAR(50), @Manufacturer NVARCHAR(50),
+        @Model NVARCHAR(50), @Quantity INT, @PaymentMethod NVARCHAR(50),
+        @PaymentStatus NVARCHAR(50), @DeliveryMethod NVARCHAR(50), @DeliveryStatus NVARCHAR(50);
+
+DECLARE complex_cursor CURSOR FOR
+SELECT 
+    c.ClientID,
+    CASE 
+        WHEN c.Type = N'Фізична особа' THEN i.FullName
+        WHEN c.Type = N'Юридична особа' THEN le.CompanyName
+    END,
+    o.OrderID, o.OrderDate, o.OrderAmount, o.OrderStatus, 
+    p.Manufacturer, p.Model,
+    ol.Quantity, 
+    pm.PaymentMethod, pm.PaymentStatus, 
+    d.DeliveryMethod, d.DeliveryStatus
+FROM 
+    Client c
+LEFT JOIN Individual i ON c.ClientID = i.ClientID
+LEFT JOIN LegalEntity le ON c.ClientID = le.ClientID
+JOIN Orders o ON c.ClientID = o.ClientID
+JOIN OrderLine ol ON o.OrderID = ol.OrderID
+JOIN Phone p ON ol.PhoneID = p.PhoneID
+LEFT JOIN Payment pm ON o.OrderID = pm.OrderID
+LEFT JOIN Delivery d ON o.OrderID = d.OrderID
+WHERE 
+    o.OrderDate >= DATEADD(MONTH, -3, GETDATE())
+    AND p.Price > 15000
+ORDER BY 
+    o.OrderDate DESC, p.Price DESC;
+
+DECLARE @StartTime4 DATETIME = GETDATE();
+
+OPEN complex_cursor;
+FETCH NEXT FROM complex_cursor INTO @ClientID, @ClientName, @OrderID, @OrderDate, @OrderAmount, @OrderStatus,
+                                   @Manufacturer, @Model, @Quantity, @PaymentMethod, @PaymentStatus, @DeliveryMethod, @DeliveryStatus;
+WHILE @@FETCH_STATUS = 0
+BEGIN
+	INSERT INTO #TempResults VALUES (
+        @ClientID, @ClientName, @OrderID, @OrderDate, @OrderAmount, 
+        @OrderStatus, @Manufacturer, @Model, @Quantity, 
+        @PaymentMethod, @PaymentStatus, @DeliveryMethod, @DeliveryStatus
+    );
+
+    FETCH NEXT FROM complex_cursor INTO @ClientID, @ClientName, @OrderID, @OrderDate, @OrderAmount, @OrderStatus,
+                                       @Manufacturer, @Model, @Quantity, @PaymentMethod, @PaymentStatus, @DeliveryMethod, @DeliveryStatus;
+END
+CLOSE complex_cursor;
+
+SELECT * FROM #TempResults;
+
+DECLARE @EndTime4 DATETIME = GETDATE();
+PRINT 'Час виконання (Cursor2 запуск 1): ' + CAST(DATEDIFF(MILLISECOND, @StartTime4, @EndTime4) AS NVARCHAR) + ' мс';
+
+TRUNCATE TABLE #TempResults;
+
+DECLARE @StartTime5 DATETIME = GETDATE();
+
+OPEN complex_cursor;
+FETCH NEXT FROM complex_cursor INTO @ClientID, @ClientName, @OrderID, @OrderDate, @OrderAmount, @OrderStatus,
+                                   @Manufacturer, @Model, @Quantity, @PaymentMethod, @PaymentStatus, @DeliveryMethod, @DeliveryStatus;
+WHILE @@FETCH_STATUS = 0
+BEGIN
+	INSERT INTO #TempResults VALUES (
+        @ClientID, @ClientName, @OrderID, @OrderDate, @OrderAmount, 
+        @OrderStatus, @Manufacturer, @Model, @Quantity, 
+        @PaymentMethod, @PaymentStatus, @DeliveryMethod, @DeliveryStatus
+    );
+
+    FETCH NEXT FROM complex_cursor INTO @ClientID, @ClientName, @OrderID, @OrderDate, @OrderAmount, @OrderStatus,
+                                       @Manufacturer, @Model, @Quantity, @PaymentMethod, @PaymentStatus, @DeliveryMethod, @DeliveryStatus;
+END
+CLOSE complex_cursor;
+DEALLOCATE complex_cursor;
+
+SELECT * FROM #TempResults;
+
+DECLARE @EndTime5 DATETIME = GETDATE();
+PRINT 'Час виконання (Cursor2 запуск 2): ' + CAST(DATEDIFF(MILLISECOND, @StartTime5, @EndTime5) AS NVARCHAR) + ' мс';
+
+DROP TABLE #TempResults;
