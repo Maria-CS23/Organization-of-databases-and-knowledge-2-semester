@@ -41,3 +41,15 @@ COMMIT;
 
 
 -- Завдання 7
+
+-- Обмеження домену
+ALTER TABLE Phone ADD CONSTRAINT CHK_Phone_Price_Domain CHECK (Price >= 0 AND Price <= 700000);
+
+-- Обмеження атрибута
+ALTER TABLE LegalEntity ADD CONSTRAINT UQ_LegalEntity_PhoneNumber UNIQUE (PhoneNumber);
+
+-- Обмеження кортежу
+ALTER TABLE Orders ADD CONSTRAINT CHK_Orders_Dates CHECK (CompletionDate IS NULL OR CompletionDate >= OrderDate);
+
+-- Обмеження відношення
+ALTER TABLE OrderLine ADD CONSTRAINT PK_OrderLine PRIMARY KEY (OrderID, PhoneID);
