@@ -124,6 +124,8 @@ BEGIN
     PRINT 'Зміна структури бази даних зафіксована у журналі';
 END;
 
+
+
 -- Завдання 5
 
 CREATE TABLE UserLoginLog (
@@ -164,3 +166,133 @@ BEGIN
 END;
 
 SELECT * FROM UserLoginLog;
+
+
+
+-- Завдання 6
+
+CREATE TRIGGER TR_UpdateOrderAmount
+ON OrderLine
+AFTER INSERT, UPDATE, DELETE
+AS
+BEGIN
+    DECLARE @affectedOrders TABLE (OrderID INT);
+    
+    INSERT INTO @affectedOrders(OrderID)
+    SELECT DISTINCT OrderID FROM inserted
+    UNION
+    SELECT DISTINCT OrderID FROM deleted;
+    
+    UPDATE O
+    SET OrderAmount = (
+        SELECT SUM(OL.Quantity * P.Price)
+        FROM OrderLine OL
+        JOIN Phone P ON OL.PhoneID = P.PhoneID
+        WHERE OL.OrderID = O.OrderID
+    )
+    FROM Orders O
+    JOIN @affectedOrders A ON O.OrderID = A.OrderID;
+END;
+
+
+
+
+
+CREATE TRIGGER TR_CheckDeliveryAddress
+ON Delivery
+INSTEAD OF INSERT
+AS
+BEGIN
+    IF EXISTS (
+        SELECT 1 FROM inserted WHERE LEN(DeliveryAddress) < 10
+    )
+    BEGIN
+        RAISERROR('Адреса доставки повинна містити не менше 10 символів', 16, 1);
+        ROLLBACK;
+        RETURN;
+    END
+
+    INSERT INTO Delivery (
+        DeliveryID, OrderID, DeliveryAddress,
+        DeliveryMethod, DeliveryStatus,
+        DispatchDate, DeliveryDate
+    )
+    SELECT
+        DeliveryID, OrderID, DeliveryAddress,
+        DeliveryMethod, DeliveryStatus,
+        DispatchDate, DeliveryDate
+    FROM inserted;
+END;
+
+
+
+
+
+CREATE TRIGGER TR_RestoreInventory_OnCancel
+ON Orders
+AFTER UPDATE
+AS
+BEGIN
+    IF EXISTS (
+        SELECT 1
+        FROM inserted i
+        JOIN deleted d ON i.OrderID = d.OrderID
+        WHERE i.OrderStatus = N'Скасовано' AND d.OrderStatus <> N'Скасовано'
+    )
+    BEGIN
+        UPDATE inv
+        SET StockQuantity = inv.StockQuantity + ol.Quantity
+        FROM Inventory inv
+        JOIN OrderLine ol ON inv.PhoneID = ol.PhoneID
+        JOIN inserted i ON ol.OrderID = i.OrderID
+        WHERE i.OrderStatus = N'Скасовано';
+    END
+END;
+
+
+
+
+
+CREATE TRIGGER TR_ValidateContactInfo_Individual
+ON Individual
+AFTER INSERT, UPDATE
+AS
+BEGIN
+    IF EXISTS (
+        SELECT 1 FROM inserted
+        WHERE 
+            (PhoneNumber NOT LIKE '+380%' AND PhoneNumber NOT LIKE '0%') OR
+            (Email IS NOT NULL AND Email NOT LIKE '%_@__%.__%')
+    )
+    BEGIN
+        RAISERROR(N'Невірний формат номеру телефону або email (Individual)', 16, 1);
+        ROLLBACK TRANSACTION;
+    END
+END;
+
+CREATE TRIGGER TR_ValidateContactInfo_LegalEntity
+ON LegalEntity
+AFTER INSERT, UPDATE
+AS
+BEGIN
+    IF EXISTS (
+        SELECT 1 FROM inserted
+        WHERE 
+            (PhoneNumber NOT LIKE '+380%' AND PhoneNumber NOT LIKE '0%') OR
+            (Email IS NOT NULL AND Email NOT LIKE '%_@__%.__%')
+    )
+    BEGIN
+        RAISERROR(N'Невірний формат номеру телефону або email (LegalEntity)', 16, 1);
+        ROLLBACK TRANSACTION;
+    END
+END;
+
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (4, 'Фізична особа', GETDATE());
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email)
+VALUES (4, N'Сергієнко Дмитро Сергійович', N'Львів', '123456', 'wrongmail');
+
+INSERT INTO Client (ClientID, Type, RegistrationDate) VALUES (5, 'Фізична особа', GETDATE());
+INSERT INTO Individual (ClientID, FullName, Address, PhoneNumber, Email)
+VALUES (5, N'Руденко Марина Олегівна', N'Львів, вул. Франка, 5', '+380501112233', 'marina.rudenko314@example.com');
+
+SELECT * FROM Individual;
