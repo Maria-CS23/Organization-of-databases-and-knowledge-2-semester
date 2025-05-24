@@ -162,6 +162,26 @@ VALUES (11, 'Xiaomi', 'Redmi 10', '64GB, Carbon Gray', 600, N'В наявності');
 
 -- Завдання 15
 
+CREATE VIEW vEncryptedPhoneList
+WITH ENCRYPTION
+AS
+SELECT PhoneID, Manufacturer, Model, Price
+FROM Phone;
+
+
+SELECT * FROM vEncryptedPhoneList;
+
+sp_helptext 'vEncryptedPhoneList';
+
+
 -- Завдання 16
 
--- Завдання 17
+CREATE VIEW vRestrictedOrders AS
+SELECT 
+    OrderID, 
+    OrderDate,
+    OrderStatus
+FROM Orders;
+
+
+GRANT SELECT ON vRestrictedOrders TO ReadOnlyUser;
