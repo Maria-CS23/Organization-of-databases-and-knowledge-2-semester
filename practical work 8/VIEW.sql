@@ -1,20 +1,13 @@
 -- Завдання 3
 CREATE VIEW vClientNames AS
 SELECT 
-    i.ClientID,
-    i.FullName AS Name
-FROM Individual i
-
-UNION
-
-SELECT 
-    l.ClientID,
-    l.CompanyName AS Name
-FROM LegalEntity l;
+    ClientID, 
+    FullName
+FROM Individual;
 
 
 -- Завдання 4
-SELECT ClientID, Name FROM vClientNames;
+SELECT ClientID, FullName FROM vClientNames;
 
 
 -- Завдання 5
