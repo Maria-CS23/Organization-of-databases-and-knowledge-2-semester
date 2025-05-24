@@ -169,12 +169,12 @@ sp_helptext 'vEncryptedPhoneList';
 
 -- Завдання 16
 
-CREATE VIEW vRestrictedOrders AS
+CREATE VIEW vRestrictedPayments AS
 SELECT 
-    OrderID, 
-    OrderDate,
-    OrderStatus
-FROM Orders;
+    PaymentID,
+    PaymentDate,
+    PaymentStatus
+FROM Payment;
 
 
-GRANT SELECT ON vRestrictedOrders TO ReadOnlyUser;
+GRANT SELECT ON vRestrictedPayments TO ReadOnlyUser;
