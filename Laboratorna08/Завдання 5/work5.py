@@ -1,7 +1,32 @@
 import sys
+import configparser
+import os
+import pyodbc
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QPushButton,
                              QTableWidget, QTableWidgetItem, QMessageBox, QDialog, QFormLayout,
                              QLineEdit, QComboBox, QDoubleSpinBox)
+
+class ConfigManager:
+    @staticmethod
+    def create_config():
+        config = configparser.ConfigParser()
+
+        if not os.path.exists('app.config'):
+            config['ConnectionStrings'] = {
+                'PhoneShopDB': 'DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost;DATABASE=Phone;UID=sa;PWD=Ktq0j1wmb;'
+            }
+
+            with open('app.config', 'w') as configfile:
+                config.write(configfile)
+
+        return ConfigManager.get_connection_string()
+
+    @staticmethod
+    def get_connection_string():
+        config = configparser.ConfigParser()
+        config.read('app.config')
+
+        return config['ConnectionStrings']['PhoneShopDB']
 
 class PhoneDialog(QDialog):
     def __init__(self, parent=None, phone_data=None):
@@ -74,8 +99,13 @@ class PhoneDialog(QDialog):
 class PhoneShopApp(QMainWindow):
     def __init__(self):
         super().__init__()
+        self.connection_string = ConfigManager.create_config()
         self.setup_ui()
-        self.load_sample_data()
+
+        if not self.test_connection():
+            self.load_sample_data()
+        else:
+            self.load_data()
 
     def setup_ui(self):
         self.setWindowTitle("Магазин телефонів")
@@ -114,7 +144,17 @@ class PhoneShopApp(QMainWindow):
         central_widget.setLayout(main_layout)
         self.setCentralWidget(central_widget)
 
+        self.btn_config = QPushButton("Показати конфігурацію")
+        self.btn_config.clicked.connect(self.show_connection_info)
+        button_layout.addWidget(self.btn_config)
+
+        self.btn_test_db = QPushButton("Тест підключення")
+        self.btn_test_db.clicked.connect(self.test_connection)
+        button_layout.addWidget(self.btn_test_db)
+
     def load_sample_data(self):
+        QMessageBox.information(self, "Тестові дані", "Завантажено тестові дані. БД недоступна")
+
         sample_data = [
             ["1", "Apple", "iPhone 14", "128GB, Blue", "30799.00", "В наявності"],
             ["2", "Samsung", "Galaxy S23", "256GB, Black", "12699.00", "В наявності"],
@@ -133,8 +173,26 @@ class PhoneShopApp(QMainWindow):
                 self.table.setItem(row_idx, col_idx, item)
 
     def load_data(self):
-        QMessageBox.information(self, "Завантаження даних", "Дані завантажені із зразків")
-        self.load_sample_data()
+        try:
+            conn = pyodbc.connect(self.connection_string)
+            cursor = conn.cursor()
+            cursor.execute("SELECT * FROM Phone")
+
+            rows = cursor.fetchall()
+
+            self.table.setRowCount(0)
+            for row_idx, row_data in enumerate(rows):
+                self.table.insertRow(row_idx)
+                for col_idx, col_data in enumerate(row_data):
+                    item = QTableWidgetItem(str(col_data))
+                    self.table.setItem(row_idx, col_idx, item)
+
+            conn.close()
+            QMessageBox.information(self, "Успіх", "Дані успішно завантажені з бази даних!")
+
+        except Exception as e:
+            QMessageBox.critical(self, "Помилка", f"Неможливо завантажити дані: {str(e)}")
+            self.load_sample_data()
 
     def add_phone(self):
         dialog = PhoneDialog(self)
@@ -198,6 +256,22 @@ class PhoneShopApp(QMainWindow):
         if confirm == QMessageBox.Yes:
             self.table.removeRow(selected_row)
             QMessageBox.information(self, "Успіх", "Телефон успішно видалений!")
+
+    def show_connection_info(self):
+        QMessageBox.information(self, "Рядок підключення", f"Connection String:\n{self.connection_string}")
+
+    def test_connection(self):
+        try:
+            conn = pyodbc.connect(self.connection_string)
+            cursor = conn.cursor()
+            cursor.execute("SELECT 1")
+            conn.close()
+            QMessageBox.information(self, "Підключення", "Підключення до бази даних успішно!")
+            return True
+        except Exception as e:
+            QMessageBox.warning(self, "Помилка підключення",
+                                f"Не вдалося підключитися до БД:\n{str(e)}\n\nПрацюємо з тестовими даними")
+            return False
 
 
 if __name__ == "__main__":

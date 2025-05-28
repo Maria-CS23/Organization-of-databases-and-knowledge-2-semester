@@ -28,7 +28,6 @@ class ConfigManager:
         return config['ConnectionStrings']['PhoneShopDB']
 
 class PhoneDialog(QDialog):
-
     def __init__(self, parent=None, phone_data=None):
         super().__init__(parent)
         self.phone_data = phone_data
@@ -97,7 +96,6 @@ class PhoneDialog(QDialog):
 
 
 class PhoneShopApp(QMainWindow):
-
     def __init__(self):
         super().__init__()
         self.connection_string = ConfigManager.create_config()
